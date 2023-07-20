@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example11" class="code">
+<pre><code><span style="color: #000096;">&lt;encodingDesc</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>The source PDF file was processed with OCR. The software used
+  was ABBYY Finereader 12 Professional, with Spanish as
+  recognition language. The result of the OCR process was
+  checked, but due to temporal restrictions, corrections were
+  only made in a rough manner and remaining errors cannot be
+  excluded.<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>The spelling was checked and corrected where appropriate.<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>The following phenomena were marked up: front matter (where
+  available, e.g. title page, dedication, preface,
+  introduction), part and chapter divisions, headings,
+  paragraphs, inserted texts (e.g. letters or newspaper
+  articles), direct speech or thought, verse lines, dramatic
+  text, quotations (e.g. epigraphs), notes by the author, and
+  gaps.<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;/encodingDesc&gt;</span></code></pre>
+<figcaption>Example 11: Encoding description of the novel “Adoración”.</figcaption>
+</figure>

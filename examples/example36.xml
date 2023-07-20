@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example36" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>No. No podía ser un contemporáneo, porque sintetizaba demasiado.
+  Uno de mis camaradas hubiera entrado en mayores detalles, no
+  hubiera visto las cosas a bulto, hubiera cometido menos errores.
+  Vean ustedes: aquí tengo el recorte, con su título y todo:<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;writing</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"newspaper"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;floatingText</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;body</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;div</span><span style="color: #000096;">&gt;</span>
+        <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"capital"</span><span style="color: #000096;">&gt;</span>Divertidas aventuras del
+          nieto de Juan Moreira<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/head&gt;</span>
+        <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>«Tan ignorante y tan dominador como el abuelo, nació
+          en un rincón de provincia, y creció en él sin
+          aprender otra cosa que el amor de su persona y la
+          adoración de sus propios vicios.<span style="color: #000096;">&lt;/p&gt;</span> 
+        [...]
+      <span style="color: #000096;">&lt;/div&gt;</span>
+    <span style="color: #000096;">&lt;/body&gt;</span>
+  <span style="color: #000096;">&lt;/floatingText&gt;</span>
+<span style="color: #000096;">&lt;/writing&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Y seguía una larga serie de anécdotas, casi todas falsas —entre
+  ellas el <span style="color: #000096;">&lt;q</span><span style="color: #000096;">&gt;</span>'envenenamiento'<span style="color: #000096;">&lt;/q&gt;</span> de Camino—, pero tras de cuyas
+  líneas se transparentaba claramente mi persona, para terminar
+  diciendo:<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;writing</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"newspaper"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;floatingText</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;body</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;div</span><span style="color: #000096;">&gt;</span>
+        <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>»El que esto escribe no quiere mal al nieto de Juan
+          Moreira, ni a don Mauricio Gómez Herrera, ni a...
+          ¡tantos otros! [...]<span style="color: #000096;">&lt;/p&gt;</span>
+        <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>»¡Que el nieto de Juan Moreira nos represente en
+          Europa! [...]<span style="color: #000096;">&lt;/p&gt;</span>
+      <span style="color: #000096;">&lt;/div&gt;</span>
+    <span style="color: #000096;">&lt;/body&gt;</span>
+  <span style="color: #000096;">&lt;/floatingText&gt;</span>
+<span style="color: #000096;">&lt;/writing&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Y firmaba <span style="color: #000096;">&lt;writing</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"newspaper"</span><span style="color: #000096;">&gt;</span>«Mauricio Rivas»<span style="color: #000096;">&lt;/writing&gt;</span>.<span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 36: Encoding of an embedded newspaper article in the novel “Divertidas aventuras del nieto de Juan Moreira”.</figcaption>
+</figure>

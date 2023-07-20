@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example43" class="code"><pre><code>analyze -f es.cfg --server on --port 50005 --workers 1 --outlv tagged 
+--sense ukb --nec --output xml &amp; analyzer_client 50005 
+&lt; /home/ulrike/Git/conha19/txt/nh0001_d1.txt 
+&gt; /home/ulrike/Git/conha19/tei_annotated/nh0001.xml</code>
+</pre><figcaption>Example 43: Command line call of the FreeLing analyzer program.</figcaption>
+</figure>

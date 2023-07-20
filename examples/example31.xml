@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example31" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>—¿Duermes, bella Cheherazada?<span style="color: #000096;">&lt;/said&gt;</span> —dije a Laura cuando
+  le hube contado seis horas de sueño—. <span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>Pues si estás
+  despierta, refiéreme, te ruego, esa interesante
+  historia.<span style="color: #000096;">&lt;/said&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>«De cómo Laura moribunda
+  recobró la salud y la hermosura por la ciencia maravillosa de
+  un médico homeópata».<span style="color: #000096;">&lt;/said&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span> <span style="color: #f5844c">ana=</span><span style="color: #993300;">"#narration"</span><span style="color: #000096;">&gt;</span>Un día, uno de los peores de mi dolencia, en
+  su interminable charla sobre las excelencias de la
+  homeopatía, recordó la insigne calaverada de un joven cliente
+  suyo, tísico en tercer grado, que apartándose del método por
+  él prescrito, impuso a su arruinado pulmón la fatiga de
+  interminables viajes.<span style="color: #000096;">&lt;/said&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span> <span style="color: #f5844c">ana=</span><span style="color: #993300;">"#narration"</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>—Y, extraña aberración de la
+  naturaleza<span style="color: #000096;">&lt;/said&gt;</span> —añadió—, <span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>aquel prolongado
+  sacudimiento, aquel largo cansancio, lo salvaron; sanó...
+  Pero son esos, casos aislados, excepcionales, que no
+  pueden reproducirse. Aplíquese el tal remedio aquí, donde
+  ya no hay sujeto; y en la primera etapa todo habrá
+  acabado.<span style="color: #000096;">&lt;/said&gt;</span><span style="color: #000096;">&lt;/said&gt;</span> [...]<span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 31: Encoding of direct speech in the novel “Peregrinaciones de un alma triste”.</figcaption>
+</figure>

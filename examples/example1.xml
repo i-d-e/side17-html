@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example1" class="code">
+<pre><code><span style="color: #000096;">&lt;person</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"A367"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;persName</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;surname</span><span style="color: #000096;">&gt;</span>Iglesia<span style="color: #000096;">&lt;/surname&gt;</span>
+    <span style="color: #000096;">&lt;forename</span><span style="color: #000096;">&gt;</span>Álvaro de la<span style="color: #000096;">&lt;/forename&gt;</span>
+    <span style="color: #000096;">&lt;addName</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"pseudonym"</span><span style="color: #000096;">&gt;</span>Pedro Madruga<span style="color: #000096;">&lt;/addName&gt;</span>
+    <span style="color: #000096;">&lt;addName</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"pseudonym"</span><span style="color: #000096;">&gt;</span>Eligio Aldao y Varela<span style="color: #000096;">&lt;/addName&gt;</span>
+    <span style="color: #000096;">&lt;addName</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"pseudonym"</span><span style="color: #000096;">&gt;</span>Artemio<span style="color: #000096;">&lt;/addName&gt;</span>
+    <span style="color: #000096;">&lt;addName</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"pseudonym"</span><span style="color: #000096;">&gt;</span>A. L. Baró<span style="color: #000096;">&lt;/addName&gt;</span>
+    <span style="color: #000096;">&lt;addName</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"pseudonym"</span><span style="color: #000096;">&gt;</span>Vetusto<span style="color: #000096;">&lt;/addName&gt;</span>
+  <span style="color: #000096;">&lt;/persName&gt;</span>
+  <span style="color: #000096;">&lt;birth</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;date</span> <span style="color: #f5844c">when=</span><span style="color: #993300;">"1859-04-03"</span><span style="color: #000096;">&gt;</span>3 de abril de 1859<span style="color: #000096;">&lt;/date&gt;</span>
+    <span style="color: #000096;">&lt;placeName</span><span style="color: #000096;">&gt;</span>La Coruña<span style="color: #000096;">&lt;/placeName&gt;</span>
+    <span style="color: #000096;">&lt;placeName</span><span style="color: #000096;">&gt;</span>España<span style="color: #000096;">&lt;/placeName&gt;</span>
+  <span style="color: #000096;">&lt;/birth&gt;</span>
+  <span style="color: #000096;">&lt;death</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;date</span> <span style="color: #f5844c">when=</span><span style="color: #993300;">"1940"</span><span style="color: #000096;">&gt;</span>1940<span style="color: #000096;">&lt;/date&gt;</span>
+    <span style="color: #000096;">&lt;placeName</span><span style="color: #000096;">&gt;</span>La Habana<span style="color: #000096;">&lt;/placeName&gt;</span>
+    <span style="color: #000096;">&lt;placeName</span><span style="color: #000096;">&gt;</span>Cuba<span style="color: #000096;">&lt;/placeName&gt;</span>
+  <span style="color: #000096;">&lt;/death&gt;</span>
+  <span style="color: #000096;">&lt;sex</span><span style="color: #000096;">&gt;</span>masculino<span style="color: #000096;">&lt;/sex&gt;</span>
+  <span style="color: #000096;">&lt;nationality</span><span style="color: #000096;">&gt;</span>cubana/o<span style="color: #000096;">&lt;/nationality&gt;</span>
+  <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"viaf"</span><span style="color: #000096;">&gt;</span>120788045<span style="color: #000096;">&lt;/idno&gt;</span>
+  <span style="color: #000096;">&lt;note</span> <span style="color: #f5844c">source=</span><span style="color: #993300;">"#DLC_1999"</span><span style="color: #000096;">&gt;</span>Llegó a Cuba en 1874. Se estableció en Matanzas.<span style="color: #000096;">&lt;/note&gt;</span>
+  <span style="color: #000096;">&lt;note</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"country"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;country</span><span style="color: #000096;">&gt;</span>Cuba<span style="color: #000096;">&lt;/country&gt;</span>
+  <span style="color: #000096;">&lt;/note&gt;</span>
+<span style="color: #000096;">&lt;/person&gt;</span></code></pre>
+<figcaption>Example 1: An entry from authors.xml.</figcaption>
+</figure>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example40" class="code">
+<pre><code><span style="color: #000096;">&lt;text</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;front</span><span style="color: #000096;">&gt;</span> 
+    [...] 
+    <span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"introduction"</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>Introducción<span style="color: #000096;">&lt;/head&gt;</span>
+      <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>El por qué de este libro y su propósito<span style="color: #000096;">&lt;/head&gt;</span> [...]
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>¿Qué somos los americanos del sud para una gran parte de
+        los europeos que nos juzgan?<span style="color: #000096;">&lt;/p&gt;</span> 
+      [...] 
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Unidos por vínculos
+        de raza y por sentimientos naturales de confraternidad,
+        forman nuestras colonias sud-americanas en Europa una familia
+        numerosa y compuesta en su mayor parte de gente conspicua y
+        respetable, que se esfuerza, con patriótico empeño, en
+        exhibir allí las prendas y cualidades que más tiendan a hacer
+        estimables en el extranjero nuestros hábitos, nuestra manera
+        de ser y nuestras condiciones de sociabilidad y cultura. Pero
+        sucede a veces que dichas personas tropiezan con el
+        inconveniente de tener que luchar en el sentido de destruir o
+        borrar el mal efecto producido por las debilidades, los
+        candores, las inconveniencias de otros determinados
+        compatriotas, salidos de algún rincón cualquiera de esta
+        América lejana, y convertidos, allá en el Viejo Mundo, por
+        virtud de la expatriación y por las ventajas que les
+        proporcionan la independencia y la libertad con que viven, en
+        personajes de valía, en pseudo-notabilidades de su
+        tierra.<span style="color: #000096;">&lt;/p&gt;</span> 
+        [...] 
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>¿Se prestará, por ventura, el examen de
+        las costumbres y modos de ser de esas gentes a conclusiones
+        tan claras y precisas que alcancen a darnos tema para un
+        estudio de crítica social tan completo como el que
+        desearíamos ofrecer a nuestros lectores?...<span style="color: #000096;">&lt;/p&gt;</span>
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>He aquí las preguntas que nos hicimos cuando se nos ocurrió,
+        por vez primera, la idea de emprender la composición de este
+        volumen.<span style="color: #000096;">&lt;/p&gt;</span>
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>La tarea, sobre ser de suyo ardua, se nos presentaba, por
+        entonces, como escabrosa y compromitente. Todo lo que se
+        parezca a alusión personal directa, nos decíamos, debe ser
+        rechazado en absoluto por el escritor de costumbres, llamado
+        únicamente a censurar lo que crea censurable, a la manera del
+        pintor de cuadros de circunstancias, que, al hacer el dibujo
+        de las siluetas que juzga conveniente explotar, se cuida,
+        ante todo, de no reproducir satíricamente en su lela la
+        fisonomía de algún prójimo viviente determinado.<span style="color: #000096;">&lt;/p&gt;</span> 
+        [...]
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Al intentar llevar a cabo el estudio de las costumbres de
+        una mínima fracción de ese inmenso todo que se llama la
+        sociedad — conjunto que tan magistralmente trató,
+        observándolo en detalle, analizándolo y definiéndolo con
+        criterio sin igual el ilustre Balzac — hemos pensado que
+        debíamos seguir, por nuestra parte, las doctrinas del
+        maestro, y buscar, a nuestra vez, el tema, el medio ambiente
+        y los personajes de nuestra fábula dentro del gran escenario
+        del mundo, dentro de la misma vida real, aunque
+        manteniéndonos forzosamente en una esfera estrecha, que nos
+        obligaba a no salir de los casos concretos y de las
+        colectividades sueltas; ya que en el orden social
+        particularísimo a que estos apuntes se refieren, la verdadera
+        especie, tal como Balzac la comprendió en su inmortal Comedia
+        Humana, no existe todavía entre nosotros.<span style="color: #000096;">&lt;/p&gt;</span> 
+        [...] 
+    <span style="color: #000096;">&lt;/div&gt;</span>
+  <span style="color: #000096;">&lt;/front&gt;</span>
+<span style="color: #000096;">&lt;/text&gt;</span></code></pre>
+<figcaption>Example 40: Excerpts from the introduction to the novel “Rastaquouère”.</figcaption>
+</figure>

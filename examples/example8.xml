@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example8" class="code">
+<pre><code><span style="color: #000096;">&lt;extent</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;measure</span> <span style="color: #f5844c">unit=</span><span style="color: #993300;">"words"</span><span style="color: #000096;">&gt;</span>44670<span style="color: #000096;">&lt;/measure&gt;</span>
+<span style="color: #000096;">&lt;/extent&gt;</span>
+<span style="color: #000096;">&lt;publicationStmt</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;publisher</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;ref</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"http://cligs.hypotheses.org/"</span><span style="color: #000096;">&gt;</span>CLiGS<span style="color: #000096;">&lt;/ref&gt;</span>
+  <span style="color: #000096;">&lt;/publisher&gt;</span>
+  <span style="color: #000096;">&lt;availability</span> <span style="color: #f5844c">status=</span><span style="color: #993300;">"free"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>This work is in the public domain. It is provided here with the 
+      <span style="color: #000096;">&lt;ref</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"https://creativecommons.org/publicdomain/mark/1.0/deed.de"</span><span style="color: #000096;">&gt;</span>Public 
+      Domain Mark Declaration<span style="color: #000096;">&lt;/ref&gt;</span> and can be re-used without restrictions. 
+      The XML-TEI markup is also considered to be free of any copyright and 
+      is provided with the same declaration.<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;/availability&gt;</span>
+  <span style="color: #000096;">&lt;date</span><span style="color: #000096;">&gt;</span>2020<span style="color: #000096;">&lt;/date&gt;</span>
+  <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"cligs"</span><span style="color: #000096;">&gt;</span>nh0018<span style="color: #000096;">&lt;/idno&gt;</span>
+  <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"url"</span><span style="color: #000096;">&gt;</span>https://github.com/cligs/conha19/blob/master/tei/nh0018.xml<span style="color: #000096;">&lt;/idno&gt;</span>
+<span style="color: #000096;">&lt;/publicationStmt&gt;</span></code></pre>
+<figcaption>Example 8: Extent and publication statement of the novel “Adoración”.</figcaption>
+</figure>

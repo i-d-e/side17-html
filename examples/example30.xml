@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example30" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Y en esto llegó una carta de la capital para Lía, y Lía la
+  guardó sin abrirla, trémula, leyendo con los ojos del alma los
+  garrapatos del niño adorado: <span style="color: #000096;">&lt;writing</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"letter"</span><span style="color: #000096;">&gt;</span>«Ven,
+  Ginesita; ¡si no vienes, me muero! ¡no puedo más! cruel,
+  perversa, ingrata...»<span style="color: #000096;">&lt;/writing&gt;</span> Llegó otra y también la
+  guardó sin abrirla, pero adivinando cuanto decía: 
+  <span style="color: #000096;">&lt;writing</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"letter"</span><span style="color: #000096;">&gt;</span>«Si no vienes, creeré que te has marchado con
+  otro y que eso de haberte refugiado en Las Piedras, al lado
+  de tu madre, es una papa...»<span style="color: #000096;">&lt;/writing&gt;</span> Y tres más, cuyos
+  sobres dejó intactos, aunque figurábaselas cariñosas, coléricas,
+  o desesperadas; pero, cuando a la visita matinal del cartero
+  sucedió la del telegrafista y Cándido la entregó, con ligera
+  sonrisa irónica, el feo sobre color de ladrillo, diciéndole al
+  oído: <span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>«¿Será del hijo del patrón, que se
+  impacienta?...»<span style="color: #000096;">&lt;/said&gt;</span> no hubo más remedio que enterarse del
+  despacho y que el niño dispuesto estaba <span style="color: #000096;">&lt;q</span><span style="color: #000096;">&gt;</span>«a venir, si ella no
+  iba»<span style="color: #000096;">&lt;/q&gt;</span>. Tal susto llevó, que la fiebrecilla, que remitido
+  había días atrás, la retentó nuevamente.<span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 30: Encoding of direct speech in the novel “La Ginesa”.</figcaption>
+</figure>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example23" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Boca-lobo guardó su moneda.<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>El jefe se levantó de su asiento, y los demás le siguieron.<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Al retirarse, el jefe, para demostrar su complacencia, se puso a
+cantar en voz baja:<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;lg</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>"El que pasa una noche<span style="color: #000096;">&lt;/l&gt;</span>
+    <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>en rumbantela,<span style="color: #000096;">&lt;/l&gt;</span>
+    <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>si está triste se alegra<span style="color: #000096;">&lt;/l&gt;</span>
+    <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>y se consuela;<span style="color: #000096;">&lt;/l&gt;</span>
+    <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>que está probado<span style="color: #000096;">&lt;/l&gt;</span>
+    <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>que, el que de rumba anda<span style="color: #000096;">&lt;/l&gt;</span>
+    <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>nunca está <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>triste<span style="color: #000096;">&lt;/seg&gt;</span>."<span style="color: #000096;">&lt;/l&gt;</span>
+  <span style="color: #000096;">&lt;/lg&gt;</span>
+<span style="color: #000096;">&lt;/said&gt;</span></code></pre>
+<figcaption>Example 23: Encoding of verse lines in the novel “Los Hermanos del Silencio”.</figcaption>
+</figure>

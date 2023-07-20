@@ -1,0 +1,1775 @@
+<!DOCTYPE HTML><html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830–1910)</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/w3.css">
+      <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
+      <link rel="stylesheet" href="css/w3-colors-signal.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <style>
+                html {
+                scroll-padding-top: 118px;
+                }
+                html,body {font-size: 20px;}
+                html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", serif;}
+                h1 {font-size: 32px;}
+                h2 {font-size: 30px;}
+                h3, h4, h5 {font-size: 28px;}
+                .header-image {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -1;
+                }
+                .custom-logo {
+                position: absolute;
+                top: 20px;
+                left: 7px;
+                }
+                #toc a {
+                text-decoration: none;
+                }
+                sup.w3-btn {
+                font-size: small;
+                padding: 7px 5px;
+                }
+                .w3-top a {
+                text-decoration: none;
+                }
+                .w3-sidebar {
+                z-index: 3;
+                width: 450px;
+                top: 86px;
+                bottom: 0;
+                height: inherit;
+                }
+                .w3-sidebar button.w3-button {
+                white-space: normal;
+                }
+                .w3-sidebar.w3-bar-block .w3-bar-item {
+                /*line-height: 1.0;*/
+                padding-right: 20px;
+                }
+                .w3-sidebar .w3-bar {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .w3-tooltip .w3-text {
+                line-height: 1.0;
+                min-width: 300px;
+                }
+                .paracount a {
+                display: inline-block;
+                padding: 0px 5px;
+                text-decoration: none;
+                font-size: 0.8em;
+                font-weight: bold;
+                }
+                .w3-responsive .w3-table {
+                width: auto;
+                max-width: 100%;
+                margin: 0 auto 0 auto;
+                }
+                table.w3-border, table.w3-border th, table.w3-border td {
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                border-spacing: 0px;
+                }
+                table.center th, table.center td {
+                text-align: center;
+                }
+                table th, table td {
+                font-size: 0.9em;
+                }
+                table th {
+                background-color: #dddddd;
+                }
+                caption {
+                margin-top: 5px;
+                }
+                blockquote {
+                font-size: 0.95em;
+                }
+                code {
+                font-size: 0.8em;
+                }
+                figure.code {
+                overflow: scroll;
+                }
+                figure.code pre {
+                padding: 10px;
+                border: 1px solid grey;
+                margin-bottom: 0px;
+                overflow: scroll;
+                }
+                figcaption {
+                font-size: 0.9em;
+                text-align: center;
+                }
+                
+            </style>
+   </head>
+   <body>
+      <div class="w3-top">
+         <div class="w3-bar w3-theme w3-top w3-center w3-large"><a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a><img src="img/side.jpg" class="header-image" alt="Institut für Dokumentologie und Editorik" width="100%" height="15"><h1 class="w3-center" style="margin-top: 27px; padding-left: 175px; font-size:calc(8pt + 1.2vw);"><a href="index.html">Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830–1910)</a></h1><a href="https://www.i-d-e.de/"><img src="img/ide-logo.png" class="custom-logo w3-image" alt="Institut für Dokumentologie und Editorik" style="width:172px;height:auto;"></a></div>
+      </div>
+      <nav class="w3-sidebar w3-padding-32 w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar"><a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu"><i class="fa fa-remove"></i></a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="index.html">Home</a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="acknowledgements.html">Acknowledgements</a><button class="w3-button w3-block w3-left-align w3-hover-blue-grey " onclick="myAccFunc('menuAcc1')">Summary <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc1" class="w3-bar-block w3-hide w3-white w3-card-4"><a href="summary.html#Summary" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Summary</a><a href="summary.html#Resumen" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Resumen</a><a href="summary.html#Zusammenfassung" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Zusammenfassung</a></div><a class="w3-bar-item w3-button w3-hover-blue-grey " href="toc.html">Table of Contents</a><div class="w3-bar w3-border w3-dark-grey"></div><a id="menuch1" class="w3-bar-item w3-button w3-hover-blue-grey  " href="ch1.html#ch1">1 Introduction</a><span id="menuch2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch2.html#ch2" style="text-decoration: none;">2 Concepts</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2')"></i></span><div id="menuAccch2" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1" style="text-decoration: none;">2.1 Literary Genres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1')"></i></span><div id="menuAccch2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.1">2.1.1 Disciplinary Locations of Genre Studies</a><span id="menuch2.1.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.2" style="text-decoration: none;">2.1.2 Ontological Status and Relevance of Genres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.2')"></i></span><div id="menuAccch2.1.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.2.1">2.1.2.1 Semiotic Models of Genres</a><a id="menuch2.1.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.2.2">2.1.2.2 Genres and Digital Genre Stylistics: The Roles of Corpora, Genre Labels,
+                     Features, and Text Style</a></div><span id="menuch2.1.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.3" style="text-decoration: none;">2.1.3 System and History</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.3')"></i></span><div id="menuAccch2.1.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.1">2.1.3.1 A Conceptual Proposal for Digital Genre Stylistics: Literary Text Types,
+                     Conventional Literary Genres, and Textual Literary Genres</a><a id="menuch2.1.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.2">2.1.3.2 Text Types, Conventional Genres, and Textual Genres in Semiotic Models of
+                     Generic Terms</a><a id="menuch2.1.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.3">2.1.3.3 Literary Currents, Schools, and Movements</a><a id="menuch2.1.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.4">2.1.3.4 Genre Systems and Hierarchies</a><a id="menuch2.1.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.5">2.1.3.5 Genre Identity and Variability</a></div><span id="menuch2.1.4" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.4" style="text-decoration: none;">2.1.4 Categorization</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.4')"></i></span><div id="menuAccch2.1.4" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.4.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.1">2.1.4.1 Logical Classes</a><a id="menuch2.1.4.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.2">2.1.4.2 Prototype Categories</a><a id="menuch2.1.4.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.3">2.1.4.3 Family Resemblance Networks</a></div>
+            </div><a id="menuch2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.2">2.2 Style</a><span id="menuch2.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3" style="text-decoration: none;">2.3 Subgenres of the Nineteenth-Century Spanish-American Novel</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3')"></i></span><div id="menuAccch2.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch2.3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3.1" style="text-decoration: none;">2.3.1 Thematic Subgenres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3.1')"></i></span><div id="menuAccch2.3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.3.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.1">2.3.1.1 <em>Novela histórica</em></a><a id="menuch2.3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.2">2.3.1.2 <em>Novela de costumbres</em></a><a id="menuch2.3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.3">2.3.1.3 <em>Novela sentimental</em></a></div><span id="menuch2.3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3.2" style="text-decoration: none;">2.3.2 Subgenres Related to Literary Currents</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3.2')"></i></span><div id="menuAccch2.3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.1">2.3.2.1 <em>Novela romántica</em></a><a id="menuch2.3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.2">2.3.2.2 <em>Novela realista</em></a><a id="menuch2.3.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.3">2.3.2.3 <em>Novela naturalista</em></a></div>
+            </div>
+         </div><span id="menuch3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch3.html#ch3" style="text-decoration: none;">3 Corpus</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3')"></i></span><div id="menuAccch3" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.1" style="text-decoration: none;">3.1 Selection Criteria</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.1')"></i></span><div id="menuAccch3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch3.1.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.1.1" style="text-decoration: none;">3.1.1 Boundaries of the Novel</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.1.1')"></i></span><div id="menuAccch3.1.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.1.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.1">3.1.1.1 Fictionality</a><a id="menuch3.1.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.2">3.1.1.2 Narrativity</a><a id="menuch3.1.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.3">3.1.1.3 Prose</a><a id="menuch3.1.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.4">3.1.1.4 Length</a><a id="menuch3.1.1.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.5">3.1.1.5 Independent Publication</a><a id="menuch3.1.1.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.6">3.1.1.6 Additional Criteria</a><a id="menuch3.1.1.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.7">3.1.1.7 A Working Definition of the Novel</a></div><a id="menuch3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.2">3.1.2 Borders of Argentina, Cuba, and Mexico</a><a id="menuch3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.3">3.1.3 Limits of the Nineteenth Century</a></div><span id="menuch3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.2" style="text-decoration: none;">3.2 Bibliographical Database</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.2')"></i></span><div id="menuAccch3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.1">3.2.1 Sources</a><a id="menuch3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.2">3.2.2 Data Model and Text Encoding</a><span id="menuch3.2.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.2.3" style="text-decoration: none;">3.2.3 Assignment of Subgenre Labels</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.2.3')"></i></span><div id="menuAccch3.2.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.2.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.1">3.2.3.1 An Example</a><a id="menuch3.2.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.2">3.2.3.2 Levels of Subgenre Terms</a><a id="menuch3.2.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.3">3.2.3.3 Explicit and Implicit Subgenre Signals</a><a id="menuch3.2.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.4">3.2.3.4 Interpretive Subgenre Labels</a><a id="menuch3.2.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.5">3.2.3.5 Literary-Historical Subgenre Labels</a><a id="menuch3.2.3.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.6">3.2.3.6 A Discursive Model of Generic Terms</a></div>
+            </div><span id="menuch3.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3" style="text-decoration: none;">3.3 Text Corpus</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3')"></i></span><div id="menuAccch3.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.1">3.3.1 Selection of Novels and Sources</a><a id="menuch3.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.2">3.3.2 Text Treatment</a><span id="menuch3.3.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3" style="text-decoration: none;">3.3.3 Metadata and Text Encoding</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3')"></i></span><div id="menuAccch3.3.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch3.3.3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3.1" style="text-decoration: none;">3.3.3.1 TEI Header</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3.1')"></i></span><div id="menuAccch3.3.3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.3.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.1">3.3.3.1.1 Title and Publication Statements</a><a id="menuch3.3.3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.2">3.3.3.1.2 Declaration of Rights</a><a id="menuch3.3.3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.3">3.3.3.1.3 Source Description</a><a id="menuch3.3.3.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.4">3.3.3.1.4 Encoding Description</a><a id="menuch3.3.3.1.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.5">3.3.3.1.5 Abstracts</a><a id="menuch3.3.3.1.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.6">3.3.3.1.6 Text Classification with Keywords</a><a id="menuch3.3.3.1.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.7">3.3.3.1.7 Revision Description</a></div><span id="menuch3.3.3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3.2" style="text-decoration: none;">3.3.3.2 TEI Body</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3.2')"></i></span><div id="menuAccch3.3.3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.1">3.3.3.2.1 Typographically Marked Subdivisions of the Text</a><a id="menuch3.3.3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.2">3.3.3.2.2 Typographically Highlighted Words or Phrases</a><a id="menuch3.3.3.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.3">3.3.3.2.3 Gaps</a><a id="menuch3.3.3.2.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.4">3.3.3.2.4 Verse Lines</a><a id="menuch3.3.3.2.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.5">3.3.3.2.5 Dramatic Text</a><a id="menuch3.3.3.2.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.6">3.3.3.2.6 Representations of Written Text</a><a id="menuch3.3.3.2.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.7">3.3.3.2.7 Quotations</a><a id="menuch3.3.3.2.8" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.8">3.3.3.2.8 Direct Speech and Thought</a><a id="menuch3.3.3.2.9" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.9">3.3.3.2.9 Embedded Texts</a></div><a id="menuch3.3.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.3">3.3.3.3 TEI Schema</a></div><a id="menuch3.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.4">3.3.4 Assignment of Subgenre Labels</a><a id="menuch3.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.5">3.3.5 Derivative Formats and Publication</a></div>
+         </div><span id="menuch4" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch4.html#ch4" style="text-decoration: none;">4 Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4')"></i></span><div id="menuAccch4" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch4.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1" style="text-decoration: none;">4.1 Metadata Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1')"></i></span><div id="menuAccch4.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.1">4.1.1 On Representativeness</a><a id="menuch4.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.2">4.1.2 Authors</a><span id="menuch4.1.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.3" style="text-decoration: none;">4.1.3 Works</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.3')"></i></span><div id="menuAccch4.1.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.3.1">4.1.3.1 Comparison of Bib-ACMé and Conha19</a><a id="menuch4.1.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.3.2">4.1.3.2 Corpus-specific Overviews</a></div><a id="menuch4.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.4">4.1.4 Editions</a><span id="menuch4.1.5" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5" style="text-decoration: none;">4.1.5 Subgenres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5')"></i></span><div id="menuAccch4.1.5" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.1">4.1.5.1 Explicit Signals, Implicit Signals, and Literary-Historical Labels</a><span id="menuch4.1.5.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5.2" style="text-decoration: none;">4.1.5.2 Discursive Levels of Subgenre Labels</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5.2')"></i></span><div id="menuAccch4.1.5.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.1">4.1.5.2.1 Theme</a><a id="menuch4.1.5.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.2">4.1.5.2.2 Literary Currents</a><a id="menuch4.1.5.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.3">4.1.5.2.3 Mode of Representation</a><a id="menuch4.1.5.2.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.4">4.1.5.2.4 Mode of Reality</a><a id="menuch4.1.5.2.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.5">4.1.5.2.5 Identity</a><a id="menuch4.1.5.2.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.6">4.1.5.2.6 Medium</a><a id="menuch4.1.5.2.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.7">4.1.5.2.7 Attitude</a><a id="menuch4.1.5.2.8" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.8">4.1.5.2.8 Intention</a></div><span id="menuch4.1.5.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5.3" style="text-decoration: none;">4.1.5.3 Subgenre Labels Selected for Text Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5.3')"></i></span><div id="menuAccch4.1.5.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.3.1">4.1.5.3.1 Primary Thematic Labels</a><a id="menuch4.1.5.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.3.2">4.1.5.3.2 Primary Literary Currents</a></div>
+               </div>
+            </div><span id="menuch4.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2" style="text-decoration: none;">4.2 Text Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2')"></i></span><div id="menuAccch4.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch4.2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.1" style="text-decoration: none;">4.2.1 Features</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.1')"></i></span><div id="menuAccch4.2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.1.1">4.2.1.1 General Features: MFW</a><a id="menuch4.2.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.1.2">4.2.1.2 Semantic Features: Topics</a></div><span id="menuch4.2.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2" style="text-decoration: none;">4.2.2 Categorization</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2')"></i></span><div id="menuAccch4.2.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch4.2.2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2.1" style="text-decoration: none;">4.2.2.1 Classification</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2.1')"></i></span><div id="menuAccch4.2.2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.1.1">4.2.2.1.1 Thematic Subgenres</a><a id="menuch4.2.2.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.1.2">4.2.2.1.2 Literary Currents</a></div><span id="menuch4.2.2.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2.2" style="text-decoration: none;">4.2.2.2 Family Resemblance: Network Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2.2')"></i></span><div id="menuAccch4.2.2.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.2.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.1">4.2.2.2.1 Method</a><a id="menuch4.2.2.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.2">4.2.2.2.2 Data</a><a id="menuch4.2.2.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.3">4.2.2.2.3 Results</a></div>
+               </div>
+            </div>
+         </div><a id="menuch5" class="w3-bar-item w3-button w3-hover-blue-grey  " href="ch5.html#ch5">5 Conclusion</a><div class="w3-bar w3-border w3-dark-grey"></div><a class="w3-bar-item w3-button w3-hover-blue-grey " href="notes.html">Notes</a><a class="w3-bar-item w3-button w3-hover-blue-grey w3-blue-grey" href="references.html">References</a><button class="w3-button w3-block w3-left-align w3-hover-blue-grey" onclick="myAccFunc('menuAcc3')">Appendix <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc3" class="w3-bar-block w3-hide w3-white w3-card-4 "><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="corpus-sources.html">Sources of the Novels in the Corpus</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="appendix-figures.html">Appendix of Figures</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-figures.html">Index of Figures</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-tables.html">Index of Tables</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-examples.html">Index of Examples</a></div><button class="w3-button w3-hover-blue-grey w3-block w3-left-align" onclick="myAccFunc('menuAcc2')">Data and Scripts <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc2" class="w3-bar-block w3-hide w3-white w3-card-4"><a href="https://github.com/cligs/bibacme" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Bibliography (Bib-ACMé)</a><a href="https://github.com/cligs/conha19" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Corpus (Conha19)</a><a href="https://github.com/cligs/scripts-nh/" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Analysis Scripts (Scripts-nh)</a><a href="https://github.com/cligs/data-nh/" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Analysis Data (Data-nh)</a><a href="tei/Henny-Krahmer_2023_Genre-Analysis-Corpus-Design.xml" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">TEI (Dissertation)</a></div>
+      </nav>
+      <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+      <div class="w3-main" style="margin-left:450px;margin-top:85px;">
+         <div class="w3-row w3-padding-32">
+            <div class="w3-col" style="width: 7%;">&nbsp;</div>
+            <div class="w3-col l8 m10 s10" id="References">
+               <h1>References</h1>
+               
+               <p>Adamzik, Kirsten, ed. 2001. <em>Kontrastive Textologie:
+                     Untersuchungen zur deutschen und französischen Sprach- und
+                     Literaturwissenschaft.</em> Tübingen: Stauffenburg-Verlag.</p>
+               
+               <p>AG Digital Humanities Theorie. 2023. Digital
+                  Humanities Theorie. Theorie und Theoriebildung in den digitalen
+                  Geisteswissenschaften. <a href="https://web.archive.org/web/20230208165032/https://dhtheorien.hypotheses.org/">https://web.archive.org/web/20230208165032/https://dhtheorien.hypotheses.org/</a>.</p>
+               
+               <p>Álamo Felices, Francisco. 2011. <em>Los
+                     subgéneros novelescos. Teoría y modalidades narrativas.</em> Almería:
+                  Universidad Almería.</p>
+               
+               <p>Alburquerque-García, Luis. 2015. “Poética de
+                  la literatura de viaje.” In <em>Cartografía de la literatura de viaje en
+                     Hispanoamérica</em>, edited by Daniar Chávez and Marco Urdapilleta, 19–34.
+                  México: Universidad Autónoma del Estado de México.</p>
+               
+               <p>Alegría, Fernando. 1959. <em>Breve historia de la
+                     novela hispanoamericana.</em> México: Ed. de Andrea.</p>
+               
+               <p>Alpaydin, Ethem. 2016. <em>Machine Learning: The New
+                     AI.</em> Cambridge, Mass.: The MIT Press.</p>
+               
+               <p>Altamirano, Ignacio Manuel. 1868. <em>Revistas
+                     literarias de México.</em> México: T. F. Neve.</p>
+               
+               <p>Anderson Imbert, Enrique. 1954. <em>Historia de
+                     la literatura hispanoamericana.</em> México: Fondo de Cultura
+                  Económica.</p>
+               
+               <p>Anderson Imbert, Enrique. 1995. <em>Historia de
+                     la literatura hispanoamericana.</em> Vol. 1: La colonia. Cien años de
+                  república. 2nd ed. México: Fondo de Cultura Económica.</p>
+               
+               <p>Andresen, Melanie, and Heike Zinsmeister.
+                  2019. <em>Korpuslinguistik.</em> Tübingen: Narr Francke Attempto.</p>
+               
+               <p>Anz, Thomas. 2007. “Inhaltsanalyse.” In <em>Handbuch
+                     Literaturwissenschaft. Gegenstände – Konzepte – Institutionen</em>, edited by
+                  Thomas Anz, vol. 2, <em>Methoden und Theorien</em>, 55–69. Stuttgart, Weimar:
+                  J.B. Metzler.</p>
+               
+               <p>Ardao, Arturo. 1980. <em>Genesis de la idea y el nombre
+                     de América Latina.</em> Caracas: Centro de Estudios Latinoamericanos Rómulo
+                  Gallegos.</p>
+               
+               <p>Armas, Emilio de. 1997. “Cuba. 19th- and 20th-Century Prose
+                  and Poetry.” In <em>Encyclopedia of Latin American Literature</em>, edited by
+                  Verity Smith, 235–242. London/Chicago: Fitzroy Dearborn Publishers.</p>
+               
+               <p>Arora, Sanjeev, Rong Ge, and Ankur Moitra. 2012.
+                  “Learning Topic Models – Going beyond SVD.” In <em>Proceedings of the 2012 IEEE
+                     53rd Annual Symposium on Foundations of Computer Science</em>, 1–10.
+                  Washington D.C.: IEEE Computer Society. <a href="https://doi.ieeecomputersociety.org/10.1109/FOCS.2012.49">https://doi.ieeecomputersociety.org/10.1109/FOCS.2012.49</a>.</p>
+               
+               <p>Avellaneda, Gertrudis Gómez de. (1871) 2008.
+                  <em>La Baronesa de Joux: leyenda fundada en una tradición francesa (en
+                     formato HTML).</em> Alicante: Biblioteca Virtual Miguel de Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmcng4q2 ">https://www.cervantesvirtual.com/nd/ark:/59851/bmcng4q2 </a>.</p>
+               
+               <p>Barth, Florian, and Gabriel Viehhauser. 2017.
+                  “Digitale Modellierung literarischen Raums.” In <em>DHd2017.
+                     Konferenzabstracts.</em>
+                  <a href="https://doi.org/10.5281/zenodo.4622732">https://doi.org/10.5281/zenodo.4622732</a>.</p>
+               
+               <p>Barthes, Roland. (1953) 2002. <em>Le Degré zero de
+                     l’écriture.</em> Reprint, Paris: Seuil.</p>
+               
+               <p>Bawarshi, Anis S., and Mary Jo Reiff. 2010.
+                  <em>Genre: An Introduction to History, Theory, Research, and Pedagogy.</em>
+                  West Lafayette: Parlor Press and the WAC Clearinghouse. <a href="https://web.archive.org/web/20230210055352/https://wac.colostate.edu/docs/books/bawarshi_reiff/genre.pdf">https://web.archive.org/web/20230210055352/https://wac.colostate.edu/docs/books/bawarshi_reiff/genre.pdf</a>.</p>
+               
+               <p>Behnel, Stefan. 2022. “Validation with lxml.” lxml – XML
+                  and HTML with Python. <a href="https://web.archive.org/web/20230611112928/https://lxml.de/validation.html">https://web.archive.org/web/20230611112928/https://lxml.de/validation.html</a>.</p>
+               
+               <p>Behrens, Irene. 1940. <em>Die Lehre von der Einteilung
+                     der Dichtkunst. Vornehmlich vom 16. bis 19. Jahrhundert.</em> Halle/Saale:
+                  Max Niemeyer Verlag.</p>
+               
+               <p>Bei, Yu. 2008. “An Evaluation of Text Classification Methods
+                  for Literary Study.” <em>Literary and Linguistic Computing</em> 23: 327–343.
+                  <a href="https://doi.org/10.1093/llc/fqn015">https://doi.org/10.1093/llc/fqn015</a>.</p>
+               
+               <p>Berlin-Brandenburgische Akademie der Wissenschaften, ed.
+                  2022. “Deutsches Textarchiv. Grundlage für ein Referenzkorpus der neuhochdeutschen
+                  Sprache.” DTA. Accessed November 6, 2022. <a href="https://web.archive.org/web/20221106163539/https://www.deutschestextarchiv.de/">https://web.archive.org/web/20221106163539/https://www.deutschestextarchiv.de/</a>.</p>
+               
+               <p>Bernecker, Walter L., ed. 1992. <em>Handbuch der
+                     Geschichte Lateinamerikas.</em> Vol. 2: Lateinamerika von 1760 bis 1900.
+                  Stuttgart: Klett-Cotta.</p>
+               
+               <p>Betz, Katrin, Ulrike Henny-Krahmer, Christian Pölitz,
+                  Christof Schöch, and Albin Zehe. 2017. “The ‘topic modeling workflow (tmw)’.” Talk
+                  presented at the workshop ‘Let’s Develop an Infrastructure for Historical Research
+                  Tools’ at the conference DH2017, Montreal, Canada. Accessed November 14, 2020.
+                  <a href="https://christofs.github.io/tmw-dh/#/">https://christofs.github.io/tmw-dh/#/</a>.</p>
+               
+               <p>Biber, Douglas. 1992. “The multi-dimensional approach to
+                  linguistic analyses of genre variation: An overview of methodology and findings.”
+                  <em>Computers and the Humanities</em> 26 (5–6): 331–345. <a href="https://doi.org/10.1007/BF00136979">https://doi.org/10.1007/BF00136979</a>.</p>
+               
+               <p>Biber, Douglas. 1993a. “Representativeness in Corpus
+                  Design.” <em>Literary and Linguistic Computing</em> 8 (4): 243–257. <a href="https://web.archive.org/web/20230128095417/http://otipl.philol.msu.ru/media/biber930.pdf">https://web.archive.org/web/20230128095417/http://otipl.philol.msu.ru/media/biber930.pdf</a>.</p>
+               
+               <p>Biber, Douglas. 1993b. “The Multi-Dimensional Approach to
+                  Linguistic Analyses of Genre Variation: An Overview of Methodology and Findings.”
+                  <em>Computers in the Humanities</em> 26 (5–6): 331–345. <a href="https://doi.org/10.1007/BF00136979">https://doi.org/10.1007/BF00136979</a>.</p>
+               
+               <p>Biblioteca Nacional de Cuba José Martí.
+                  2011. “Bibliografía Nacional Cubana.” <a href="https://web.archive.org/web/20190702105833/http://bdigital.bnjm.cu/?secc=bibliografias">https://web.archive.org/web/20190702105833/http://bdigital.bnjm.cu/?secc=bibliografias</a>.</p>
+               
+               <p>Biblioteca Nacional de España. 2023. “Biblioteca Digital
+                  Hispánica.” <a href="https://web.archive.org/web/20230603173847/http://bdh.bne.es/bnesearch/Inicio.do">https://web.archive.org/web/20230603173847/http://bdh.bne.es/bnesearch/Inicio.do</a>.</p>
+               
+               <p>Binongo, José Nilo G., and M. W. A. Smith. 1999. “A
+                  Bridge Between Statistics and Literature: The Graphs of Oscar Wilde’s Literary
+                  Genres.” <em>Journal of Applied Statistics</em> 26 (7): 781–787. <a href="https://doi.org/10.1080/02664769922025">https://doi.org/10.1080/02664769922025</a>.</p>
+               
+               <p>Blei, David M. 2012. “Probabilistic Topic Models.”
+                  <em>Communications of the ACM</em> 55 (4): 77–84. <a href="https://doi.org/10.1145/2133806.2133826">https://doi.org/10.1145/2133806.2133826</a>.</p>
+               
+               <p>Blei, David M., and John D. Lafferty. 2006.
+                  “Dynamic topic models.” In <em>Proceedings of the 23rd International conference
+                     on Machine learning (ICML)</em>, 113–120. <a href="https://doi.org/10.1145/1143844.1143859">https://doi.org/10.1145/1143844.1143859</a>.</p>
+               
+               <p>Blei, David M., Andrew Y. Ng, and Michael I.
+                  Jordan. 2003. “Latent dirichlet allocation.” <em>Journal of Machine Learning
+                     Research</em> 3: 993–1022. <a href="https://web.archive.org/web/20230310095853/https://dl.acm.org/doi/pdf/10.5555/944919.944937">https://web.archive.org/web/20230310095853/https://dl.acm.org/doi/pdf/10.5555/944919.944937</a>.</p>
+               
+               <p>Blondel, Vincent D., Jean-Loup Guillaume, Renaud
+                  Lambiotte, and Etienne Lefebvre. 2008. “Fast unfolding of communities in large
+                  networks.” <em>Journal of Statistical Mechanics: Theory and Experiment</em>
+                  10: 155–168. <a href="https://10.1088/1742-5468/2008/10/P10008">https://10.1088/1742-5468/2008/10/P10008</a>.</p>
+               
+               <p>Bonheim, Helmut. 1992. “The Cladistic Method of
+                  Classifying Genres.” <em>Yearbook of Research in English and American Literature
+                     (REAL)</em> 8: 1–32.</p>
+               
+               <p>Botrel, Jean-François. 2001. “La novela, género editorial
+                  (España, 1830–1930).” In <em>La novela en España en los siglos XIX y XX.
+                     Historia, sociedad, búsqueda identitaria</em>, edited by Paul Aubert, 35–51.
+                  Madrid: Casa de Velázquez. <a href="https://web.archive.org/web/20230606180953/https://books.openedition.org/cvz/2631">https://web.archive.org/web/20230606180953/https://books.openedition.org/cvz/2631</a>.</p>
+               
+               <p>Branco, Paula, Luís Torgo, and Rita P.
+                  Ribeiro. 2015. “A Survey of Predictive Modelling under Imbalanced Distributions.”
+                  <em>ACM Computing Surveys</em> 49 (2): 1–50. <a href="https://doi.org/10.1145/2907070">https://doi.org/10.1145/2907070</a>.</p>
+               
+               <p>Brinker, Klaus. 1992. <em>Textlinguistik.</em>
+                  Heidelberg: Groos.</p>
+               
+               <p>Brinker, Klaus, Hermann Cölfen, and Steffen
+                  Pappert. 2014. <em>Linguististische Textanalyse. Eine Einführung in
+                     Grundbegriffe und Methoden.</em> 8th ed. Berlin: Erich Schmidt Verlag.</p>
+               
+               <p>Brunner, Annelen. 2013. “Automatic recognition of speech,
+                  thought, and writing representation in German narrative texts.” <em>Literary and
+                     Linguistic Computing</em>. <a href="https://doi.org/10.1093/llc/fqt024">https://doi.org/10.1093/llc/fqt024</a>.</p>
+               
+               <p>Brunner, Annelen. 2015. <em>Automatische Erkennung von
+                     Redewiedergabe: ein Beitrag zur quantitativen Narratologie.</em>
+                  Narratologia: contibutions to narrative theory. Vol. 47. Berlin, Boston: De
+                  Gruyter.</p>
+               
+               <p>Brushwood, John S. 1966. <em>Mexico in its Novel. A
+                     Nation’s Search for Identity.</em> Austin: University of Texas Press.</p>
+               
+               <p>Bundesamt für Justiz. n.d.a “Gesetz über
+                  Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz). § 64 Allgemeines.”
+                  Gesetze im Internet. <a href="https://web.archive.org/web/20230423112139/https://www.gesetze-im-internet.de/urhg/__64.html">https://web.archive.org/web/20230423112139/https://www.gesetze-im-internet.de/urhg/__64.html</a>.</p>
+               
+               <p>Bundesamt für Justiz. n.d.b “Gesetz über
+                  Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz). § 66 Anonyme und
+                  pseudonyme Werke.” Gesetze im Internet.<a href="https://web.archive.org/web/20230423112720/https://www.gesetze-im-internet.de/urhg/__66.html">https://web.archive.org/web/20230423112720/https://www.gesetze-im-internet.de/urhg/__66.html</a>.</p>
+               
+               <p>Bundesamt für Justiz. n.d.c “Gesetz über
+                  Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz). § 70
+                  Wissenschaftliche Ausgaben.” Gesetze im Internet.<a href="https://web.archive.org/web/20230423113034/https://www.gesetze-im-internet.de/urhg/__70.html">https://web.archive.org/web/20230423113034/https://www.gesetze-im-internet.de/urhg/__70.html</a>.</p>
+               
+               <p>Burnard, Lou. 2014. <em>What is the text encoding
+                     initative? How to add intelligent markup to digital resources.</em>
+                  Encyclopédie numérique 3. Marseille: OpenEdition Press. <a href="https://doi.org/10.4000/books.oep.426">https://doi.org/10.4000/books.oep.426</a>.</p>
+               
+               <p>Burrows, John. 2002. “‘Delta’: a Measure of Stylistic
+                  Difference and a Guide to Likely Authorship.” <em>Literary and Linguistic
+                     Computing</em> 17 (3): 267–287. <a href="https://doi.org/10.1093/llc/17.3.267">https://doi.org/10.1093/llc/17.3.267</a>.</p>
+               
+               <p>Burrows, John. 2007. “All the Way Through: Testing for
+                  Authorship in Different Frequency Strata.” <em>Literary and Linguistic
+                     Computing</em> 22 (1): 27–47. <a href="https://doi.org/10.1093/llc/fqi067">https://doi.org/10.1093/llc/fqi067</a>.</p>
+               
+               <p>Burton, Matt. 2013. “The Joy of Topic Modeling.” May 21,
+                  2013. <a href="https://web.archive.org/web/20211012091043/http://mcburton.net/blog/joy-of-tm/">https://web.archive.org/web/20211012091043/http://mcburton.net/blog/joy-of-tm/</a>.</p>
+               
+               <p>Byszuk, Joanna, Michal Woźniak, Mike Kestemont,
+                  Albert Leśniak, Wojciech Łukasik, Artjoms Šeļa, and Maciej Eder. 2020. “Detecting
+                  Direct Speech in Multilingual Collection of 19th-century Novels.” In
+                  <em>Proceedings of LT4HALA 2020 – 1st Workshop on Language Technologies for
+                     Historical and Ancient Languages</em>, 100–104. Marseille: European Language
+                  Resources Association (ELRA). <a href="https://web.archive.org/web/20230611135104/https://aclanthology.org/2020.lt4hala-1.15.pdf">https://web.archive.org/web/20230611135104/https://aclanthology.org/2020.lt4hala-1.15.pdf</a></p>
+               
+               <p>Calderón, Mario. 2005. “La novela costumbrista
+                  mexicana.” In <em>La república de las letras. Asomos a la cultura escrita del
+                     México decimonónico</em>, edited by Belem Clark de Lara and Elisa Speckman
+                  Guerra, 315–324. Vol. 1: Ambientes, asociaciones y grupos. Movimientos, temas y
+                  géneros literarios. México: Universidad Nacional Autónoma de México.</p>
+               
+               <p>Calvo Tello, José. 2018. “Genre Classification in
+                  Novels: A Hard Task for Humans and Machines?” In <em>EADH 2018: Data in Digital
+                     Humanities. Conference Abstracts.</em> Galway: National University of
+                  Ireland. <a href="https://web.archive.org/web/20230304103733/https://eadh2018.exordo.com/files/papers/46/final_draft/20181205_genre_classification_human_vs_machines.pdf">https://web.archive.org/web/20230304103733/https://eadh2018.exordo.com/files/papers/46/final_draft/20181205_genre_classification_human_vs_machines.pdf</a>.</p>
+               
+               <p>Calvo Tello, José, ed. 2021a. “Corpus of Novels of
+                  the Spanish Silver Age (CoNSSA).” Version 1.0.0. GitHub.com. Accessed December 9,
+                  2022. <a href="https://github.com/cligs/conssa">https://github.com/cligs/conssa</a>.</p>
+               
+               <p>Calvo Tello, José. 2021b. <em>The Novel in the
+                     Spanish Silver Age. A Digital Analysis of Genre Using Machine Learning.</em>
+                  Digital Humanities Research, vol. 4. Bielefeld: Bielefeld University Press. <a href="https://doi.org/10.14361/9783839459256">https://doi.org/10.14361/9783839459256</a>.</p>
+               
+               <p>Calvo Tello, José, Ulrike
+                  Henny-Krahmer, and Christof Schöch. 2018. “Textbox. Análisis del léxico mediante
+                  corpus literarios.” In <em>Historia del léxico español y Humanidades
+                     Digitales</em>, edited by Dolores Corbella, Alejandro Fajardo, and Jutta
+                  Langenbacher, 225–253. Berlin: Peter Lang.</p>
+               
+               <p>Calvo Tello, José, Daniel Schlör, Ulrike Henny,
+                  and Christof Schöch. 2017. “Neutralizing the Authorial Signal in Delta by
+                  Penalization: Stylometric Clustering of Genre in Spanish Novels.” In <em>Digital
+                     Humanities 2017. Conference Abstracts, Montréal, Canada, August 8–11,
+                     2017</em>, 181–184. Montreal: McGill University &amp; Université de Montréal.
+                  <a href="https://web.archive.org/web/20230212053238/https://dh2017.adho.org/abstracts/037/037.pdf">https://web.archive.org/web/20230212053238/https://dh2017.adho.org/abstracts/037/037.pdf</a>.</p>
+               
+               <p>Cambaceres, Eugenio. (1885) 2000. <em>Sin rumbo
+                     (en formato HTML).</em> Alicante: Biblioteca Virtual Miguel de Cervantes.
+                  <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmc1v5d1">https://www.cervantesvirtual.com/nd/ark:/59851/bmc1v5d1</a>.</p>
+               
+               <p>Cambaceres, Eugenio. 2008. “Sin rumbo.” Wikisource.
+                  <a href="https://web.archive.org/web/20230422143111/https://es.wikisource.org/wiki/Sin_rumbo">https://web.archive.org/web/20230422143111/https://es.wikisource.org/wiki/Sin_rumbo</a>.</p>
+               
+               <p>Campo y Valle, Ángel de. 2009. <em>La Rumba.</em>
+                  Colección Autores del Siglo XIX. México: Instituto Latinoamericano de la
+                  Comunicación Educativa. <a href="http://web.archive.org/web/20160615221017/http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/Rumba.pdf">http://web.archive.org/web/20160615221017/http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/Rumba.pdf</a>.</p>
+               
+               <p>Cárabes, Celia Miranda, and Jorge A. Ruedas
+                  de la Serna. 1998. <em>La novela corta en el primer romanticismo
+                     mexicano.</em> 2nd ed. Mexico: Universidad Nacional Autónoma de
+                  México.</p>
+               
+               <p>Cárrega, Hemilce. 1986. <em>Las novelas argentinas de
+                     Carlos María Ocantos.</em> Buenos Aires: Febra Editores.</p>
+               
+               <p>Centre National de Ressources Textuelles et Lexicales
+                  (CNRTL). 2012. “RASTAQUOUÈRE.” Portail lexical. <a href="https://web.archive.org/web/20230611105723/https://www.cnrtl.fr/etymologie/rastaquou%C3%A8re">https://web.archive.org/web/20230611105723/https://www.cnrtl.fr/etymologie/rastaquou%C3%A8re</a>.</p>
+               
+               <p>Centro Biblioteca Virtual Miguel de Cervantes. 2023.
+                  “Biblioteca Virtual Miguel de Cervantes.” Accessed March 28, 2023. <a href="http://www.cervantesvirtual.com/">http://www.cervantesvirtual.com/</a>.</p>
+               
+               <p>Chaves, José Ricardo. 2011. “Huellas y enigmas de la
+                  novela corta en el siglo XIX.” In <em>Una selva infinita. La novela corta en
+                     México (1872–2011)</em>, edited by Gustavo Jiménez Aguirre, Gabriel M.
+                  Enríquez Hernández, Esther Martínez Luna, Salvador Tovar Mendoza, and Raquel
+                  Velasco, 109–127. México: Fundación para las Letras Mexicanas.</p>
+               
+               <p>Chávez, Daniar, and Marco Urdapilleta. 2015.
+                  “Prólogo.” In <em>Cartografía de la literatura de viaje en
+                     Hispanoamérica</em>, edited by Daniar Chávez and Marco Urdapilleta, 9–17.
+                  México: Universidad Autónoma del Estado de México.</p>
+               
+               <p>CLiGS. n.d. “Call for Papers: Digital Stylistics in Romance
+                  Studies and beyond.” CLiGS – Computergestützte literarische Gattungsstilistik.
+                  Accessed October 23, 2022. <a href="http://web.archive.org/web/20221023113851/https://cligs.hypotheses.org/digital-stylistics-in-romance-studies-and-beyond/call-for-papers">http://web.archive.org/web/20221023113851/https://cligs.hypotheses.org/digital-stylistics-in-romance-studies-and-beyond/call-for-papers</a>.</p>
+               
+               <p>Computational Stylistics Group.
+                  2023. “Resources.” <a href="https://web.archive.org/web/20230423092924/https://computationalstylistics.github.io/resources/">https://web.archive.org/web/20230423092924/https://computationalstylistics.github.io/resources/</a>.</p>
+               
+               <p>Cranenburgh, Andreas van, and Corina Koolen.
+                  2015. “Identifying Literary Texts with Bigrams.” In <em>Proceedings of the
+                     Fourth Workshop on Computational Linguistics for Literature</em>, 58–67.
+                  Denver, Colorado: Association for Computational Linguistics. <a href="http://dx.doi.org/10.3115/v1/W15-0707">http://dx.doi.org/10.3115/v1/W15-0707</a>.</p>
+               
+               <p>Creative Commons. n.d. “Public Domain Mark 1.0.”
+                  <a href="https://web.archive.org/web/20230610120916/https://creativecommons.org/publicdomain/mark/1.0/deed.en">https://web.archive.org/web/20230610120916/https://creativecommons.org/publicdomain/mark/1.0/deed.en</a>.</p>
+               
+               <p>Croce, Benedetto. 1905. <em>Aesthetik als Wissenschaft
+                     des Ausdrucks und allgemeine Linguistik. Theorie und Geschichte.</em>
+                  Leipzig: E.A. Seemann.</p>
+               
+               <p>Cuéllar, José Tomás de. 1890. “Prólogo.” In
+                  <em>Ensalada de pollos. Novela de estos tiempos que corren (1871) tomada del
+                     carnet de Facundo (José T. de Cuéllar).</em> Vol. 1 of <em>La linterna
+                     mágica. Segunda época.</em> Barcelona: Tipo-Litografía de Hermenegildo
+                  Miralles. <a href="http://web.archive.org/web/20230128094558/http://cdigital.dgb.uanl.mx/la/1080046422_C/1080046436_T2/1080046436_01.pdf">http://web.archive.org/web/20230128094558/http://cdigital.dgb.uanl.mx/la/1080046422_C/1080046436_T2/1080046436_01.pdf</a>.</p>
+               
+               <p>Daireaux, Godofredo. (1945) 2001. <em>Los dioses
+                     de la Pampa (en formato HTML).</em> Alicante: Biblioteca Virtual Miguel de
+                  Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmcp55j4 ">https://www.cervantesvirtual.com/nd/ark:/59851/bmcp55j4 </a>.</p>
+               
+               <p>Daireaux, Godofredo. 2006. “Los dioses de la Pampa.”
+                  Wikisource. <a href="https://web.archive.org/web/20230328202403/https://es.wikisource.org/wiki/Los_dioses_de_la_Pampa_%28Versi%C3%B3n_para_imprimir%29">https://web.archive.org/web/20230328202403/https://es.wikisource.org/wiki/Los_dioses_de_la_Pampa_%28Versi%C3%B3n_para_imprimir%29</a>.</p>
+               
+               <p>Danneberg, Lutz, and Jürg Niederhauser,
+                  eds. 1998. <em>Darstellungsformen der Wissenschaften im Kontrast: Aspekte der
+                     Methodik, Theorie und Empirie.</em> Tübingen: Narr.</p>
+               
+               <p>Derrida, Jacques. 1980. “The Law of Genre.” Translated by
+                  Avital Ronell. <em>Critical Inquiry</em> 7 (1): 55–81.</p>
+               
+               <p>Díaz Covarrubias, Juan. n.d. <em>El diablo en
+                     México.</em> Obras clásicas de siempre. Biblioteca Digital del ILCE. <a href="https://web.archive.org/web/20230423115244/http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/El_diablo_en_Mexico-Juan_Diaz_Covarrubias.pdf">https://web.archive.org/web/20230423115244/http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/El_diablo_en_Mexico-Juan_Diaz_Covarrubias.pdf</a>.</p>
+               
+               <p>Dill, Hans-Otto. 1999. <em>Geschichte der
+                     lateinamerikanischen Literatur im Überblick.</em> Stuttgart: Reclam.</p>
+               
+               <p>Du, Keli. 2019. “A Survey on LDA Topic Modeling in Digital
+                  Humanities.” In <em>Proceedings of DH2019: ‘Complexities’.</em> Utrecht:
+                  Utrecht University. <a href="https://web.archive.org/web/20220121042220/https://dev.clariah.nl/files/dh2019/boa/0326.html">https://web.archive.org/web/20220121042220/https://dev.clariah.nl/files/dh2019/boa/0326.html</a>.</p>
+               
+               <p>Dubrow, Heather. (1982) 2014. <em>Genre.</em>
+                  Reprint, London: Routledge.</p>
+               
+               <p>Duff, David, ed. 2010. <em>Modern Genre Theory.</em>
+                  Harlow: Longman.</p>
+               
+               <p>Eder, Maciej. 2017. “Visualization in stylometry: Cluster
+                  analysis using networks.” <em>Digital Scholarship in the Humanities</em> 32
+                  (1): 50–64. <a href="https://doi.org/10.1093/llc/fqv061">https://doi.org/10.1093/llc/fqv061</a>.</p>
+               
+               <p>Elkafrawy, Passent, Amr Mausad, and Heba
+                  Esmail. 2015. “Experimental Comparison of Methods for Multi-Label Classification
+                  in Different Application Domains.” <em>International Journal of Computer
+                     Applications</em> 114 (19): 1–9. <a href="http://web.archive.org/web/20230513205320/https://research.ijcaonline.org/volume114/number19/pxc3901666.pdf">http://web.archive.org/web/20230513205320/https://research.ijcaonline.org/volume114/number19/pxc3901666.pdf</a>.</p>
+               
+               <p>Eroms, Hans-Werner. 2008. <em>Stil und Stilistik: eine
+                     Einführung.</em> Berlin: Schmidt.</p>
+               
+               <p>Ertler, Klaus-Dieter. 2002. <em>Kleine Geschichte des
+                     lateinamerikanischen Romans: Strömungen – Autoren – Werke.</em> Tübingen:
+                  Gunter Narr.</p>
+               
+               <p>Escalona Rios, Lina. 2006. “El trabajo
+                  bibliográfico en México.” In <em>Recursos bibliográficos y de
+                     información</em>, edited by Hugo Alberto Figueroa Alcántara and César Augusto
+                  Ramírez Velázquez, 185–215. México: Universidad Nacional Autónoma de México. <a href="http://hdl.handle.net/10391/4727">http://hdl.handle.net/10391/4727</a>.</p>
+               
+               <p>Estrada, Santiago. 1866. <em>La flor de las
+                     tumbas.</em> Buenos Aires: Imprenta del Siglo.</p>
+               
+               <p>Evert, Stefan, Thomas Proisl, Fotis Jannidis,
+                  Isabella Reger, Steffen Pielström, Christof Schöch, and Thorsten Vitt. 2017.
+                  “Understanding and explaining Delta measures for authorship attribution.”
+                  <em>Digital Scholarship in the Humanities</em> 32 (Supplement 2): ii4–ii16.
+                  <a href="https://doi.org/10.1093/llc/fqx023">https://doi.org/10.1093/llc/fqx023</a>.</p>
+               
+               <p>Expert Advisory Group on Language Engineering Standards
+                  (EAGLES). 1996. “EAGLES. Recommendations for the Morphosyntactic Annotation of
+                  Corpora.” <a href="https://web.archive.org/web/20230610174614/https://home.uni-leipzig.de/burr/Verb/htm/LinkedDocuments/annotate.pdf">https://web.archive.org/web/20230610174614/https://home.uni-leipzig.de/burr/Verb/htm/LinkedDocuments/annotate.pdf</a>.</p>
+               
+               <p>Fellbaum, Christiane, ed. 1998. <em>WordNet: An
+                     Electronic Lexical Database.</em> Cambridge, MA: MIT Press.</p>
+               
+               <p> Fernández-Arias Campoamor, José. 1952.
+                  <em>Novelistas de Mejico: esquema de la historia de la novela mejicana (de
+                     Lizardi al 1950).</em> Madrid: Ediciones Cultura Hispánica. </p>
+               
+               <p>Fernández Prieto, Celia. 1996. “Poética de la
+                  novela histórica como género literario.” <em>Signa. Revista de la Asociación
+                     Española de Semiótica</em> 5: 185–202. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmc7p9c7">https://www.cervantesvirtual.com/nd/ark:/59851/bmc7p9c7</a>.</p>
+               
+               <p>Ferrer, José Luis. 2018. <em>La invención de Cuba:
+                     Novela y nación (1837–1846).</em> Madrid: Editorial Verbum.</p>
+               
+               <p>Fièvre, Paul, ed. 2007–2022. “Théâtre Classique.” Accessed
+                  December 10, 2022. <a href="https://www.theatre-classique.fr">https://www.theatre-classique.fr</a>.</p>
+               
+               <p>Firth, John Rupert. 1968. “A synopsis of linguistic theory
+                  1930–1955.” In <em>Selected Papers of J. R. Firth 1952–1959</em>, edited by F.
+                  R. Palmer, 168–205. Bloomington, London: Indiana University Press.</p>
+               
+               <p>Fischer, Frank, Ingo Börner, Mathias Göbel,
+                  Angelika Hechtl, Christopher Kittel, Carsten Milling, and Peer Trilcke. 2019.
+                  “Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on
+                  European Drama.” In <em>Proceedings of DH2019: ‘Complexities’.</em> Utrecht:
+                  Utrecht University. <a href="http://web.archive.org/web/20220303001044/https://dev.clariah.nl/files/dh2019/boa/0268.html">http://web.archive.org/web/20220303001044/https://dev.clariah.nl/files/dh2019/boa/0268.html</a>.</p>
+               
+               <p>Fischer, Frank, and Jannik Strötgen. 2017.
+                  “Corpus of German-Language Fiction (txt).” figshare. <a href="https://doi.org/10.6084/m9.figshare.4524680.v1">https://doi.org/10.6084/m9.figshare.4524680.v1</a>.</p>
+               
+               <p>Fischer, Frank, Peer Trilcke, Julia Jennifer Beine,
+                  and Boris Orekhov, eds. n.d. “Drama Corpora Project.” Accessed December 6, 2022.
+                  <a href="https://dracor.org/">https://dracor.org/</a>.</p>
+               
+               <p>Fishelov, David. 1993. <em>Metaphors of genre: the
+                     role of analogies in genre theory.</em> University Park, PA: Pennsylvania
+                  State Univ. Press.</p>
+               
+               <p>Fix, Ulla, Andreas Gardt, and Joachim Knape, eds.
+                  2008. <em>Rhetoric and Stylistics. An International Handbook of Historical and
+                     Systematic Research.</em> 2 vols. Berlin, New York: De Gruyter.</p>
+               
+               <p>Fludernik, Monika. 2009. “Roman.” In <em>Handbuch der
+                     literarischen Gattungen</em>, edited by Dieter Lamping and Sandra Poppe,
+                  627–645. Stuttgart: Kröner.</p>
+               
+               <p>Foote, Jonathan. 2000. “Automatic Audio Segmentation Using
+                  A Measure of Audio Novelty.” In <em>2000 IEEE International Conference on
+                     Multimedia and Expo. ICME2000. Proceedings. Latest Advances in the Fast
+                     Changing World of Multimedia</em>, 452–455. Vol. 1. New York: IEEE. <a href="https://doi.org/10.1109/ICME.2000.869637">https://doi.org/10.1109/ICME.2000.869637</a>.</p>
+               
+               <p>Forster, E. M. 1927. <em>Aspects of the novel.</em>
+                  New York: Harcourt, Brace &amp; Company.</p>
+               
+               <p>Fowler, Alastair. 1982. <em>Kinds of Literature. An
+                     Introduction to the Theory of Genres and Modes.</em> Oxford: Clarendon
+                  Press.</p>
+               
+               <p>Frech, Susana. 1998–2017. “Países, sus capitales y
+                  gentilicios* correspondientes Es &lt; En.” Susana Frech. Traducciones
+                  Profesionales. <a href="https://web.archive.org/web/20210615063220/http://www.susana-translations.de/paises.htm">https://web.archive.org/web/20210615063220/http://www.susana-translations.de/paises.htm</a>.</p>
+               
+               <p>Fricke, Harald. 1981. <em>Norm und Abweichung. Eine
+                     Philosophie der Literatur.</em> München: Beck.</p>
+               
+               <p>Fricke, Harald. 2010. “Definitionen und Begriffsformen.”
+                  In <em>Handbuch Gattungstheorie</em>, edited by Rüdiger Zymner, 7–10.
+                  Stuttgart, Weimar: J.B. Metzler.</p>
+               
+               <p>Frow, John. 2015. <em>Genre. The New Critical
+                     Idiom.</em> 2nd ed. London: Routledge.</p>
+               
+               <p>Fubini, Mario. 1971. <em>Entstehung und Geschichte der
+                     literarischen Gattungen.</em> Tübingen: Max Niemeyer Verlag.</p>
+               
+               <p>Fundación para las Letras Mexicanas
+                  A.C. 2018. “Enciclopedia de la literatura en México.” <a href="https://web.archive.org/web/20230603174401/http://www.elem.mx/">https://web.archive.org/web/20230603174401/http://www.elem.mx/</a>.</p>
+               
+               <p>Gálvez, Marina. 1990. <em>La novela hispanoamericana
+                     (hasta 1940).</em> Madrid: Taurus.</p>
+               
+               <p>Gansel, Christina. 2011.
+                  <em>Textsortenlinguistik.</em> Göttingen: Vandenhoeck &amp;
+                  Ruprecht.</p>
+               
+               <p>García, Germán. 1952. <em>La novela argentina: Un
+                     itinerario.</em> Buenos Aires: Editorial Sudamericana.</p>
+               
+               <p>García Berrio, Antonio, and Javier
+                  Huerta Calvo. 2009. <em>Los géneros literarios: sistema e historia. Una
+                     introducción.</em> 5th ed. Madrid: Cátedra.</p>
+               
+               <p>Gemeinböck, Iris. 2016. “Representativeness in corpora
+                  of literary texts: introducing the C18P project.” <em>MATLIT: Materialidades da
+                     Literatura</em> 4 (2): 29–48. <a href="https://doi.org/10.14195/2182-8830_4-2_2">https://doi.org/10.14195/2182-8830_4-2_2</a>.</p>
+               
+               <p>Genette, Gérard. 1987. <em>Seuils.</em> Paris:
+                  Seuil.</p>
+               
+               <p>Genette, Gérard. 2014. “The Architext.” In <em>Modern
+                     Genre Theory</em>, edited by David Duff, 210–218. New York: Routledge.</p>
+               
+               <p>Gerlach, Martin, Tiago P. Peixoto, and
+                  Eduardo G. Altmann. 2018. “A network approach to topic models.” <em>Science
+                     Advances</em> 4 (7): 1–11. <a href="https://dx.doi.org/10.1126/sciadv.aaq1360">https://dx.doi.org/10.1126/sciadv.aaq1360</a>.</p>
+               
+               <p>Ghiano, Juan Carlos. 1957. “La novela gauchesca.” <em>La
+                     Biblioteca</em>, Época 2, 9 (1): 17–38.</p>
+               
+               <p>Gianitsos, Efthimios Tim, Thomas J. Bolt, Pramit
+                  Chaudhuri, and Joseph P. Dexter. 2019. “Stylometric Classification of Ancient
+                  Greek Literary Texts by Genre.” In <em>Proceedings of the 3rd Joint SIGHUM
+                     Workshop on Computational Linguistics for Cultural Heritage, Social Sciences,
+                     Humanities and Literature, Minneapolis, MN, USA, June 7, 2019</em>, 52–60.
+                  Minneapolis: Association for Computational Linguistics. <a href="http://dx.doi.org/10.18653/v1/W19-2507">http://dx.doi.org/10.18653/v1/W19-2507</a>. </p>
+               
+               <p>Gius, Evelyn, Katharina Krüger, and Carla
+                  Sökefeld. 2019. “Korpuserstellung als literaturwissenschaftliche Aufgabe.” In
+                  <em>DHd2019. Digital Humanities: multimedial &amp; multimodal.
+                     Konferenzabstracts, Universitäten zu Mainz und Frankfurt, 25. bis 29. März
+                     2019</em>, edited by Patrick Sahle, 164–166. Frankfurt &amp; Mainz: Verband
+                  Digital Humanities im deutschsprachigen Raum e.V. <a href="https://doi.org/10.5281/zenodo.2596095">https://doi.org/10.5281/zenodo.2596095</a>. </p>
+               
+               <p>Gius, Evelyn, Christof Schöch, and Peer
+                  Trilcke, eds. 2022–2023. Journal of Computational Literary Studies (JCLS).
+                  Darmstadt: Universitäts- und Landesbibliothek Darmstadt. <a href="https://web.archive.org/web/20230210112118/https://jcls.io/">https://web.archive.org/web/20230210112118/https://jcls.io/</a>.</p>
+               
+               <p>Gnutzmann, Claus. 1990. <em>Kontrastive
+                     Linguistik.</em> Frankfurt am Main: Lang.</p>
+               
+               <p>Gnutzmann, Rita. 1998. <em>La novela naturalista en
+                     Argentina (1880–1900).</em> Amsterdam, Atlanta: Rodopi.</p>
+               
+               <p>Goić, Cedomil. 1980. <em>Historia de la novela
+                     hispanoamericana.</em> 2nd ed. Valparaiso: Ed. Univ. de Valparaiso.</p>
+               
+               <p>Goić, Cedomil. 2009. <em>Brevísima relación de la historia
+                     de la novela hispanoamericana.</em> Madrid: Biblioteca Nueva.</p>
+               
+               <p>González, Joaquín Víctor. (1905) 2001. <em>Mis
+                     montañas (en formato HTML).</em> Alicante: Biblioteca Virtual Miguel de
+                  Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmcw37r4">https://www.cervantesvirtual.com/nd/ark:/59851/bmcw37r4</a>.</p>
+               
+               <p>Gopnik, Alison, Andrew Meltzoff, and Patricia Kuhl.
+                  2009. <em>The Scientist in the Crib. What Early Learning Tells Us About the
+                     Mind.</em> New York: HarperCollins. First published 1999.</p>
+               
+               <p>Gorriti, Juana Manuela. (1889) 2001. <em>La tierra
+                     natal (en formato HTML).</em> Alicante: Biblioteca Virtual Miguel de
+                  Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmc222t4">https://www.cervantesvirtual.com/nd/ark:/59851/bmc222t4</a>.</p>
+               
+               <p>Gülich, Elisabeth, and Wolfgang Raible. 1872.
+                  <em>Textsorten. Differenzierungskriterien aus linguistischer Sicht.</em>
+                  Frankfurt am Main: Athenäum-Verlag.</p>
+               
+               <p>Gutiérrez, Eduardo. (1880) 2016a. <em>El
+                     Jorobado.</em> Wikimedia Commons. <a href="https://web.archive.org/web/20230325193326/https://upload.wikimedia.org/wikipedia/commons/c/c3/El_Jorobado_-_Eduardo_Gutierrez.pdf">https://web.archive.org/web/20230325193326/https://upload.wikimedia.org/wikipedia/commons/c/c3/El_Jorobado_-_Eduardo_Gutierrez.pdf</a>.</p>
+               
+               <p>Gutiérrez, Eduardo. (1880) 2016b. <em>Juan
+                     Moreira.</em> Wikimedia Commons. <a href="https://web.archive.org/web/20230325193551/https://upload.wikimedia.org/wikipedia/commons/2/21/Juan_Moreira_-_Eduardo_Gutierrez.pdf">https://web.archive.org/web/20230325193551/https://upload.wikimedia.org/wikipedia/commons/2/21/Juan_Moreira_-_Eduardo_Gutierrez.pdf</a>.</p>
+               
+               <p>Gutiérrez, Eduardo. (1893) 2016. <em>Carlo
+                     Lanza. Episodios curiosos.</em> Wikimedia Commons. <a href="https://web.archive.org/web/20230325192637/https://upload.wikimedia.org/wikipedia/commons/e/e0/Carlo_Lanza_-_Eduardo_Gutierrez.pdf">https://web.archive.org/web/20230325192637/https://upload.wikimedia.org/wikipedia/commons/e/e0/Carlo_Lanza_-_Eduardo_Gutierrez.pdf</a>.</p>
+               
+               <p>Gutiérrez, Eduardo, and Bartolomé R.
+                  Aprile. (1944) 2015. <em>Juan Cuello. Novela histórica de Eduardo Gutiérrez,
+                     versificada por Bartolomé R. Aprile.</em> Berlin: Ibero-Amerikanisches
+                  Institut – Preußischer Kulturbesitz. <a href="http://resolver.iai.spk-berlin.de/IAI00005CB300000000">http://resolver.iai.spk-berlin.de/IAI00005CB300000000</a>.</p>
+               
+               <p>Gutiérrez, Eduardo, and Silverio Manco.
+                  (1948) 2015. <em>El rastreador. Novela histórica de Eduardo Gutiérrez,
+                     versificada por Silverio Manco.</em> Berlin: Ibero-Amerikanisches Institut –
+                  Preußischer Kulturbesitz. <a href="http://resolver.iai.spk-berlin.de/IAI00005C9700000000">http://resolver.iai.spk-berlin.de/IAI00005C9700000000</a>.</p>
+               
+               <p>Gutiérrez, Eduardo, and Apolinario Sierra.
+                  (1944) 2015. <em>Aparicio Saravia. Novela histórica por Eduardo Gutiérrez,
+                     versificada por Apolinario Sierra.</em> Berlin: Ibero-Amerikanisches Institut
+                  – Preußischer Kulturbesitz. <a href="http://resolver.iai.spk-berlin.de/IAI00005CB200000000">http://resolver.iai.spk-berlin.de/IAI00005CB200000000</a>.</p>
+               
+               <p>Gymnich, Marion, and Birgit Neumann. 2007.
+                  “Vorschläge für eine Relationierung verschiedener Aspekte und Dimensionen des
+                  Gattungskonzepts: Der Kompaktbegriff Gattung.” In <em>Gattungstheorie und
+                     Gattungsgeschichte</em>, edited by Marion Gymnich, Birgit Neumann, and Ansgar
+                  Nünning, 31–52. Trier: WVT.</p>
+               
+               <p>Gymnich, Marion, Birgit Neumann, and
+                  Ansgar Nünning, eds. 2007. <em>Gattungstheorie und Gattungsgeschichte.</em>
+                  Trier: WVT.</p>
+               
+               <p>HathiTrust. 2008–2023. “HathiTrust Digital
+                  Library.” <a href="https://www.hathitrust.org/">https://www.hathitrust.org/</a>. Accessed March 28, 2023.</p>
+               
+               <p>Hempfer, Klaus W. 1973. <em>Gattungstheorie.
+                     Information und Synthese.</em> München: Fink.</p>
+               
+               <p>Hempfer, Klaus W. 2014. “Some Aspects of a Theory of
+                  Genre.” In <em>Linguistics and Literary Studies/Linguistik und
+                     Literaturwissenschaft. Interfaces, Encounters, Transfers/Begegnungen,
+                     Interferenzen und Kooperationen</em>, edited by Monika Fludernik and Daniel
+                  Jacob, 405–422. Berlin: De Gruyter.</p>
+               
+               <p>Henny, Ulrike, and Frederike Neuber. 2017. “Criteria
+                  for Reviewing Digital Text Collections, version 1.0.” Institut für Dokumentologie
+                  und Editorik. <a href="https://web.archive.org/web/20230418162046/https://www.i-d-e.de/publikationen/weitereschriften/criteria-text-collections-version-1-0/">https://web.archive.org/web/20230418162046/https://www.i-d-e.de/publikationen/weitereschriften/criteria-text-collections-version-1-0/</a>. </p>
+               
+               <p>Henny-Krahmer, Ulrike. 2017. “Bib-ACMé:
+                  Bibliografía digital de novelas argentinas, cubanas y mexicanas (1810–1930).” In
+                  <em>III Congreso de la Sociedad Internacional Humanidades Digitales
+                     Hispánicas. Sociedades, políticas, saberes (Libro de resúmenes)</em>, edited
+                  by Nuria Rodríguez Ortega, 99–104. Málaga: Universidad de Málaga. <a href="https://web.archive.org/web/20200514082600/https://humanidadesdigitaleshispanicas.es/wp-content/uploads/2020/03/Actas-HDH2017.pdf">https://web.archive.org/web/20200514082600/https://humanidadesdigitaleshispanicas.es/wp-content/uploads/2020/03/Actas-HDH2017.pdf</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike, ed. 2017–2021.
+                  “Bib-ACMé. Bibliografía digital de novelas argentinas, cubanas y mexicanas
+                  (1830–1910).” Version 1.2. Zenodo. <a href="https://doi.org/10.5281/zenodo.4453491">https://doi.org/10.5281/zenodo.4453491</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike. 2018. “Exploration of
+                  Sentiments and Genre in Spanish American Novels.” In <em>Digital Humanities
+                     2018. Puentes–Bridges. Book of Abstracts. Mexico City, 26–29 June 2018</em>,
+                  399–403. Mexico City: Red de Humanidades Digitales. <a href="https://web.archive.org/web/20200702225303/https://dh2018.adho.org/exploration-of-sentiments-and-genre-in-spanish-american-novels/">https://web.archive.org/web/20200702225303/https://dh2018.adho.org/exploration-of-sentiments-and-genre-in-spanish-american-novels/</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike, ed. 2021a. “Corpus de
+                  novelas hispanoamericanas del siglo XIX (conha19).” Version 1.0.1. Zenodo. <a href="https://doi.org/10.5281/zenodo.4766987">https://doi.org/10.5281/zenodo.4766987</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike. 2021b. “Data accompanying
+                  the dissertation ʻGenre analysis and corpus design: 19th century Spanish American
+                  novels (1830–1910)ʼ.” Version 1.0.0. Zenodo. <a href="http://doi.org/10.5281/zenodo.4451928">http://doi.org/10.5281/zenodo.4451928</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike. 2021c. “Features for the
+                  classification of Spanish American 19th century novels by subgenre.” Version
+                  1.0.0. Zenodo. <a href="http://doi.org/10.5281/zenodo.4449494">http://doi.org/10.5281/zenodo.4449494</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike. 2021d. “Scripts
+                  accompanying the dissertation ʻGenre analysis and corpus design: 19th century
+                  Spanish American novels (1830–1910)ʼ.” Version 1.0.0. Zenodo. <a href="https://doi.org/10.5281/zenodo.4445877">https://doi.org/10.5281/zenodo.4445877</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike. 2022. “Novelas originales y
+                  americanas. A Digital Analysis of References to Identity in Subtitles of Spanish
+                  American 19th Century Novels.” <em>apropos [Perspektiven auf die Romania]</em>
+                  9: 14–36. <a href="https://doi.org/10.15460/apropos.9.1893">https://doi.org/10.15460/apropos.9.1893</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike, Katrin Betz, Daniel
+                  Schlör, and Andreas Hotho. 2018. “Alternative Gattungstheorien. Das
+                  Prototypenmodell am Beispiel hispanoamerikanischer Romane.” In <em>DHd 2018.
+                     Kritik der digitalen Vernunft. Konferenzabstracts, Köln, 26.2.-2.3.2018</em>,
+                  edited by Georg Vogeler, 105–112. Köln: Universität zu Köln. <a href="https://doi.org/10.5281/zenodo.4622412">https://doi.org/10.5281/zenodo.4622412</a>.</p>
+               
+               <p>Henny-Krahmer, Ulrike, and Christof Schöch.
+                  2016. “How good are our texts, really? Quality assurance for literary texts from
+                  various sources.” CLiGS – Computergestützte literarische Gattungsstilistik. <a href="https://web.archive.org/web/20230422152455/https://cligs.hypotheses.org/371">https://web.archive.org/web/20230422152455/https://cligs.hypotheses.org/371</a>.</p>
+               
+               <p>Herrmann, J. Berenike, Christof Schöch, and Karina
+                  van Dalen-Oskam. 2015. “Revisiting Style, a Key Concept in Literary Studies.”
+                  <em>Journal of Literary Theory</em> 9 (1): 25–52. <a href="https://doi.org/10.1515/jlt-2015-0003">https://doi.org/10.1515/jlt-2015-0003</a>.</p>
+               
+               <p>Hesselbach, Robert, José Calvo Tello,
+                  Ulrike Henny-Krahmer, Christof Schöch, and Daniel Schlör, eds. Forthcoming.
+                  <em>Digital Stylistics in Romance Studies and Beyond.</em> Heidelberg:
+                  Heidelberg University Publishing.</p>
+               
+               <p> Hettinger, Lena, Martin Becker, Isabella Reger,
+                  Fotis Jannidis, and Andreas Hotho. 2015. “Genre Classification on German Novels.”
+                  In <em>Proceedings of the 26th International Workshop on Database and Expert
+                     Systems Applications (DEXA)</em>, 249–253. Valencia. <a href="https://doi.org/10.1109/DEXA.2015.62">https://doi.org/10.1109/DEXA.2015.62</a>.</p>
+               
+               <p> Hettinger, Lena, Isabella Reger, Fotis Jannidis,
+                  and Andreas Hotho. 2016. “Classification of Literary Subgenres.” In <em>DHd2016.
+                     Modellierung – Vernetzung – Visualisierung. Die Digital Humanities als
+                     fächerübergreifendes Forschungsparadigma. Konferenzabstracts. Universität
+                     Leipzig 7. bis 12. März 2016</em>, 160–164. Duisburg: nisaba verlag. <a href="https://doi.org/10.5281/zenodo.4645368">https://doi.org/10.5281/zenodo.4645368</a>.</p>
+               
+               <p>Holmes, David I. 1998. “The Evolution of Stylometry in
+                  Humanities Scholarship.” <em>Literary and Linguistic Computing</em> 13 (3):
+                  111–117. <a href="https://doi.org/10.1093/llc/13.3.111">https://doi.org/10.1093/llc/13.3.111</a>.</p>
+               
+               <p>Hoover, David L., Jonathan Culpeper,
+                  and Kieran O’Halloran. 2014. <em>Digital Literary Studies: Corpus Approaches to
+                     Poetry, Prose and Drama.</em> New York, London: Routledge.</p>
+               
+               <p>Horstmann, Jan. 2018. “Topic Modeling.” forTEXT.
+                  Literatur digital erforschen. <a href="https://web.archive.org/web/20230316111225/https://fortext.net/routinen/methoden/topic-modeling">https://web.archive.org/web/20230316111225/https://fortext.net/routinen/methoden/topic-modeling</a>. </p>
+               
+               <p>Ianes, Raúl. 2018. “La ficción de la lengua en las Novelas
+                  argentinas de Carlos María Ocantos: una lectura histórica.”
+                  <em>Decimonónica</em> 15 (2): 14–28. <a href="https://web.archive.org/web/20230328191041/https://www.decimononica.org/wp-content/uploads/2018/07/Ianes_15.2.pdf">https://web.archive.org/web/20230328191041/https://www.decimononica.org/wp-content/uploads/2018/07/Ianes_15.2.pdf</a>.</p>
+               
+               <p>Iguiniz, Juan Bautista. 1926. <em>Bibliografía de
+                     novelistas mexicanos: ensayo biográfico, bibliográfico y crítico.</em>
+                  México: Imprenta de la Secretaria de relaciones exteriores.</p>
+               
+               <p>Íñigo Madrigal, Luis, Manuel Alvar, and
+                  Fernando Aínsa, eds. 1982. <em>Historia de la literatura
+                     hispanoamericana.</em> 3 vols. Madrid: Cátedra.</p>
+               
+               <p>Instituto de Investigaciones
+                  Bibliográficas. n.d. “Módulo de búsqueda.” Bibliografía Mexicana Siglo XIX. <a href="https://web.archive.org/web/20230603165352/http://bd.iib.unam.mx/iib/proyectos/sigloxix/modulo.html">https://web.archive.org/web/20230603165352/http://bd.iib.unam.mx/iib/proyectos/sigloxix/modulo.html</a>.</p>
+               
+               <p>Instituto de Literatura y Lingüística
+                  de la Academia de Ciencias de Cuba. 1999. <em>Diccionario de la literatura
+                     cubana (en formato HTML).</em> Alicante: Biblioteca Virtual Miguel de
+                  Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmckh0j1">https://www.cervantesvirtual.com/nd/ark:/59851/bmckh0j1</a>.</p>
+               
+               <p>International Federation of Library Associations and
+                  Institutions (IFLA). 2009. <em>Functional Requirements for Bibliographic
+                     Records. Final report.</em>
+                  <a href="https://repository.ifla.org/handle/123456789/811">https://repository.ifla.org/handle/123456789/811</a>.</p>
+               
+               <p>Internet Archive. n.d. “Internet Archive.” <a href="https://web.archive.org/web/20230603161417/https://archive.org/">https://web.archive.org/web/20230603161417/https://archive.org/</a>.</p>
+               
+               <p>Jacobs, Jürgen. 1986. “Bildungsroman und Pikaroroman.
+                  Versuch einer Abgrenzung.” In <em>Der moderne deutsche Schelmenroman.
+                     Interpretationen</em>, edited by Gerhart Hoffmeister, 9–18. Amsterdamer
+                  Beiträge zur neueren Germanistik, vol. 20. Amsterdam: Rodopi.</p>
+               
+               <p>Janik, Dieter. 2008. <em>Hispanoamerikanische
+                     Literaturen. Von der Unabhängigkeit bis zu den Avantgarden (1810–1930).</em>
+                  Tübingen: Narr Francke Attempto.</p>
+               
+               <p>Jannidis, Fotis. 2007. “Computerphilologie.” In
+                  <em>Handbuch Literaturwissenschaft. Gegenstände – Konzepte –
+                     Institutionen</em>, edited by Thomas Anz, vol. 2, <em>Methoden und
+                     Theorien</em>, 27–40. Stuttgart, Weimar: J.B. Metzler.</p>
+               
+               <p>Jannidis, Fotis. 2010. “Methoden der computergestützten
+                  Textanalyse.” In <em>Methoden der literatur- und kulturwissenschaftlichen
+                     Textanalyse</em>, edited by Ansgar Nünning and Vera Nünning, 109–132.
+                  Stuttgart, Weimar: J.B. Metzler.</p>
+               
+               <p>Jannidis, Fotis. 2016. “Quantitative Analyse
+                  literarischer Texte am Beispiel des Topic Modeling.” <em>Der
+                     Deutschunterricht</em> 68 (5): 24–35.</p>
+               
+               <p>Jannidis, Fotis, Leonard Konle, and Peter
+                  Leinen. 2019. “Makroanalytische Untersuchung von Heftromanen.” In <em>DHd2019.
+                     Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts,
+                     Universitäten zu Mainz und Frankfurt, 25. bis 29. März 2019</em>, edited by
+                  Patrick Sahle, 167–173. Frankfurt &amp; Mainz: Verband Digital Humanities im
+                  deutschsprachigen Raum e.V. <a href="https://doi.org/10.5281/zenodo.4622093">https://doi.org/10.5281/zenodo.4622093</a>.</p>
+               
+               <p>Jannidis, Fotis, Leonard Konle, Albin Zehe,
+                  Andreas Hotho, and Markus Krug. 2018. “Analysing Direct Speech in German Novels.”
+                  In DHd 2018. <em>Kritik der digitalen Vernunft. Konferenzabstracts, Köln,
+                     26.2.-2.3.2018</em>, edited by Georg Vogeler, 114–118. Köln: Universität zu
+                  Köln. <a href="https://doi.org/10.5281/zenodo.4622454">https://doi.org/10.5281/zenodo.4622454</a>.</p>
+               
+               <p>Jannidis, Fotis, Markus Krug, Martin Toepfer,
+                  Frank Puppe, Isabella Reger, and Lukas Weimer. 2015. “Automatische Erkennung von
+                  Figuren in deutschsprachigen Romanen.” In <em>DHd2015.
+                     Konferenzabstracts.</em>
+                  <a href="https://doi.org/10.5281/zenodo.4623273">https://doi.org/10.5281/zenodo.4623273</a>.</p>
+               
+               <p>Jauß, Hans Robert. 2014. “Theory of Genres and Medieval
+                  Literature.” In <em>Modern Genre Theory</em>, edited by David Duff, 127–147.
+                  New York: Routledge.</p>
+               
+               <p>Javed, Muhammad Aqib, Muhammad Shahzad Younis,
+                  Siddique Latif, Junaid Qadir, and Adeel Baig. 2018. “Community detection in
+                  networks: A multidisciplinary review.” <em>Journal of Network and Computer
+                     Applications</em> 108: 87–111. <a href="https://doi.org/10.1016/j.jnca.2018.02.011">https://doi.org/10.1016/j.jnca.2018.02.011</a>.</p>
+               
+               <p>Jeffries, Lesley, and Daniel McIntyre. 2010.
+                  <em>Stylistics.</em> Cambridge: Cambridge University Press.</p>
+               
+               <p>Jockers, Matthew L. 2013. <em>Macroanalysis. Digital
+                     Methods &amp; Literary History.</em> Topics in the Digital Humanities.
+                  Urbana, Chicago, and Springfield: University of Illinois Press.</p>
+               
+               <p>Juola, Patrick. 2006. <em>Authorship Attribution.</em>
+                  Boston, Mass.: Now Publishers.</p>
+               
+               <p>Kahle, Günther. 1993. <em>Lateinamerika Ploetz. Die
+                     Geschichte der lateinamerikanischen Länder zum Nachschlagen.</em> 2nd ed.
+                  Freiburg/Würzburg: Ploetz.</p>
+               
+               <p>Kaiser, Dorothee. 2002. <em>Wege zum wissenschaftlichen
+                     Schreiben. Eine kontrastive Untersuchung zu studentischen Texten aus Venezuela
+                     und Deutschland.</em> Tübingen: Stauffenburg-Verlag.</p>
+               
+               <p>Kaiser, Dorothee. 2008. “Ensayo o artículo científico? Una
+                  comparación de tradiciones discursivas en Alemania y Latinoamérica.” In <em>Le
+                     style, c’est l’homme: unité et pluralité du discours scientifique dans les
+                     langues romanes</em>, edited by Ursula Reutner, 285–304. Frankfurt am Main:
+                  Lang.</p>
+               
+               <p>Keckeis, Paul, and Werner Michler. 2020.
+                  “Einleitung: Gattungen und Gattungstheorie.” In <em>Gattungstheorie</em>,
+                  edited by Paul Keckeis and Werner Michler, 7–48. Berlin: Suhrkamp.</p>
+               
+               <p>Kessler, Brett, Geoffrey Numberg, and Hinrich
+                  Schütze. 1997. “Automatic detection of text genre.” In <em>ACL '98/EACL '98:
+                     Proceedings of the 35th Annual Meeting of the Association for Computational
+                     Linguistics and Eighth Conference of the European Chapter of the Association
+                     for Computational Linguistics</em>, 32–38. Stroudsburg, PA, USA: Association
+                  for Computational Linguistics. <a href="http://dx.doi.org/10.3115/976909.979622">http://dx.doi.org/10.3115/976909.979622</a>.</p>
+               
+               <p>Kim, Evgeny, Sebastian Padó, and Roman Klinger.
+                  2017. “Prototypical Emotion Developments in Literary Genres.” <em>DH2017.
+                     Conference Abstracts.</em> Montréal: McGill University &amp; Université de
+                  Montréal. <a href="https://web.archive.org/web/20230211105146/https://dh2017.adho.org/abstracts/203/203.pdf">https://web.archive.org/web/20230211105146/https://dh2017.adho.org/abstracts/203/203.pdf</a>.</p>
+               
+               <p>Klauk, Tobias, and Tilmann Köppe. 2014. “Bausteine
+                  einer Theorie der Fiktionalität.” In <em>Fiktionalität. Ein interdisziplinäres
+                     Handbuch</em>, edited by Tobias Klauk and Tilmann Köppe, 3–31. Berlin,
+                  Boston: De Gruyter.</p>
+               
+               <p>Klausnitzer, Ralf, and Guido Naschert. 2007.
+                  “Gattungstheoretische Kontroversen? Konstellationen der Diskussion von
+                  Textordnungen im 20. Jahrhundert.” In <em>Kontroversen in der Literaturtheorie –
+                     Literaturtheorie in der Kontroverse</em>, edited by Ralf Klausnitzer and
+                  Carlos Spoerhase, 369–412. Bern: Peter Lang.</p>
+               
+               <p>Kleinschmidt, Erich. 2003. “Prosa.” In
+                  <em>Reallexikon der deutschen Literaturwissenschaft</em>, edited by Klaus
+                  Weimar, Harald Fricke, and Jan-Dirk Müller, 168–172. Berlin, New York: De
+                  Gruyter.</p>
+               
+               <p>Kohut, Karl. 2016. <em>Kurze Einführung in Theorie und
+                     Geschichte der lateinamerikanischen Literatur (1492–1920).</em> Berlin: Lit
+                  Verlag.</p>
+               
+               <p>Kompetenzzentrum – Trier Center for Digital Humanities.
+                  2023. “Computational Literary Studies. A Bird's Eye View of Literature.” <a href="https://web.archive.org/web/20230210111714/https://tcdh.uni-trier.de/en/thema/computational-literary-studies">https://web.archive.org/web/20230210111714/https://tcdh.uni-trier.de/en/thema/computational-literary-studies</a>. </p>
+               
+               <p>Konle, Leonard. 2019. “Word Embeddings für literarische
+                  Texte.” Master’s thesis, Würzburg: Julius-Maximilians-Universität Würzburg. <a href="https://web.archive.org/web/20230305090725/https://lekonard.github.io/blog/Konle_Thesis.pdf">https://web.archive.org/web/20230305090725/https://lekonard.github.io/blog/Konle_Thesis.pdf</a>.</p>
+               
+               <p>Köppe, Tilmann. 2014. “Die Institution Fiktionalität.” In
+                  <em>Fiktionalität. Ein interdisziplinäres Handbuch</em>, edited by Tobias
+                  Klauk and Tilmann Köppe, 35–49. Berlin, Boston: De Gruyter.</p>
+               
+               <p>Krieg-Holz, Ulrike, and Lars Bülow. 2016.
+                  <em>Linguististische Stil- und Textanalyse: eine Einführung.</em> Tübingen:
+                  Narr Francke Attempto.</p>
+               
+               <p>Lacey, Nick. 2000. <em>Narrative and Genre: Key Concepts
+                     in Media Studies.</em> Basingstoke: Macmillan.</p>
+               
+               <p>Lamping, Dieter, ed. 1990. <em>Gattungstheorie und
+                     Gattungsgeschichte: ein Symposium.</em> Wuppertal: Bergische Universität,
+                  Gesamthochschule Wuppertal.</p>
+               
+               <p>Lamping, Dieter. 2010. “Komparatistische
+                  Gattungsforschung.” In <em>Handbuch Gattungstheorie</em>, edited by Rüdiger
+                  Zymner, 270–273. Stuttgart, Weimar: J.B. Metzler.</p>
+               
+               <p>Landauer, Thomas K., and Susan T. Dumais. 1997.
+                  “A solution to Plato’s problem: the Latent Semantic Analysis theory of
+                  acquisition, induction, and representation of knowledge.” <em>Psychological
+                     Review</em> 104: 211–240. <a href="https://psycnet.apa.org/doi/10.1037/0033-295X.104.2.211">https://psycnet.apa.org/doi/10.1037/0033-295X.104.2.211</a>.</p>
+               
+               <p>Landauer, Thomas K., Peter W. Foltz, and
+                  Darrell Laham. 1998. “Introduction to latent semantic analysis.” <em>Discourse
+                     Processes</em> 25: 259–284. <a href="https://doi.org/10.1080/01638539809545028">https://doi.org/10.1080/01638539809545028</a>.</p>
+               
+               <p>Lawrence, John, and Chris Reed. 2017. “Mining
+                  Argumentative Structure from Natural Language text using Automatically Generated
+                  Premise-Conclusion Topic Models.” In <em>Proceedings of the 4th Workshop on
+                     Argument Mining</em>, 39–48. Copenhagen: Association for Computational
+                  Linguistics (ACL). <a href="http://dx.doi.org/10.18653/v1/W17-5105">http://dx.doi.org/10.18653/v1/W17-5105</a>.</p>
+               
+               <p>Leech, Geoffrey, and Mick Short. 2007. <em>Style in
+                     Fiction. A Linguistic Introduction to English Fictional Prose.</em> 2nd ed.
+                  Harlow, England: Pearson Education Limited.</p>
+               
+               <p>Lefere, Robin. 2013. <em>La novela histórica:
+                     (re)definición, caracterización, tipología.</em> Madrid: Visor Libros.</p>
+               
+               <p>Lichtblau, Myron I. 1959. <em>The Argentine Novel in
+                     the Nineteenth Century.</em> New York: Hispanic Institute in the United
+                  States.</p>
+               
+               <p>Lichtblau, Myron. 1997. <em>The Argentine novel: an
+                     annotated bibliography.</em> Lanham, Maryland: Scarecrow.</p>
+               
+               <p>Lindstrom, Naomi. 2004. <em>Early Spanish American
+                     Narrative.</em> Austin: University of Texas Press.</p>
+               
+               <p>Löfquist, Eva. 1995. <em>La novela histórica chilena
+                     dentro del marco de la novelística chilena. 1843–1879.</em> Göteborg: Acta
+                  Universitatis Gothoburgensis.</p>
+               
+               <p>Lüdeling, Anke, and Merja Kytö, eds. 2008.
+                  <em>Corpus Linguistics: An International Handbook.</em> 2 vols. Handbooks
+                  of Linguistics and Communication Science (HSK). Berlin, Boston: De Gruyter.</p>
+               
+               <p>Lukács, Georg. 1955. <em>Der Historische Roman.</em>
+                  Berlin: Aufbau-Verlag.</p>
+               
+               <p>Madjarov, Gjorji, Dragi Kocev, Dejan Gjorgjevikj,
+                  and Sašo Džeroski. 2012. “An extensive experimental comparison of methods for
+                  multi-label learning.” <em>Pattern Recognition</em> 45 (9): 3084–3104. <a href="https://doi.org/10.1016/j.patcog.2012.03.004">https://doi.org/10.1016/j.patcog.2012.03.004</a>.</p>
+               
+               <p>Manning, Christopher D., and Hinrich Schütze.
+                  1999. <em>Foundations of Statistical Natural Language Processing.</em>
+                  Cambridge, Mass: The MIT Press.</p>
+               
+               <p>Mansilla, Lucio Victorio. (1870) 2001. <em>Una
+                     excursión a los indios ranqueles. Tomo Primero (en formato HTML).</em>
+                  Alicante: Biblioteca Virtual Miguel de Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmcn8760">https://www.cervantesvirtual.com/nd/ark:/59851/bmcn8760</a>.</p>
+               
+               <p>Martínez Cantón, Clara Isabel. 2008. “El
+                  indigenismo en la obra de Vargas Llosa.” <em>Espéculo. Revista de estudios
+                     literarios</em> 38. <a href="https://web.archive.org/web/20210226164843/https://webs.ucm.es/info/especulo/numero38/vllindig.html">https://web.archive.org/web/20210226164843/https://webs.ucm.es/info/especulo/numero38/vllindig.html</a>.</p>
+               
+               <p>Mata, Óscar. 1999. <em>La novela corta mexicana en el
+                     siglo XIX.</em> México: Universidad Nacional Autónoma de México.</p>
+               
+               <p>Maxwell, Richard. 2009. <em>The Historical Novel in
+                     Europe, 1650–1950.</em> Cambridge: Cambridge University Press.</p>
+               
+               <p>McCallum, Andrew. 2002. “MALLET: A Machine Learning for
+                  Language Toolkit.” Accessed November 13, 2020. <a href="http://mallet.cs.umass.edu">http://mallet.cs.umass.edu</a>.</p>
+               
+               <p>McCallum, Andrew. 2018a. “Topic model diagnostics.”
+                  <em>MALLET: A Machine Learning for Language Toolkit.</em>
+                  <a href="https://web.archive.org/web/20200221035417/https://mallet.cs.umass.edu/diagnostics.php">https://web.archive.org/web/20200221035417/https://mallet.cs.umass.edu/diagnostics.php</a>.</p>
+               
+               <p>McCallum, Andrew. 2018b. “Topic modeling.”
+                  <em>MALLET: A Machine Learning for Language Toolkit.</em>
+                  <a href="https://web.archive.org/web/20201112052435/http://mallet.cs.umass.edu/topics.php">https://web.archive.org/web/20201112052435/http://mallet.cs.umass.edu/topics.php</a>.</p>
+               
+               <p>Meléndez, Concha. 1961. <em>La novela indianista en
+                     Hispanoamerica (1832–1889).</em> Rio Piedras: Universidad de Puerto
+                  Rico.</p>
+               
+               <p>Meyer-Minnemann, Klaus. 1979. <em>Der
+                     spanischamerikanische Roman des Fin de siècle.</em> Tübingen:
+                  Niemeyer.</p>
+               
+               <p>Miller, George A. 1995. “WordNet: A Lexical Database for
+                  English.” <em>Communications of the ACM</em> 38 (11): 39–41. <a href="https://doi.org/10.1145/219717.219748">https://doi.org/10.1145/219717.219748</a>.</p>
+               
+               <p>Milling, Carsten, Frank Fischer, and Mathias Göbel,
+                  eds. 2021. “French Drama Corpus (FreDraCor): A TEI P5 Version of Paul Fièvre's
+                  ʻThéâtre Classiqueʼ Corpus.” GitHub.com. Accessed December 9, 2022. <a href="https://github.com/dracor-org/fredracor">https://github.com/dracor-org/fredracor</a>.</p>
+               
+               <p>Mitjans, Aurelio. (1918) 2010. <em>Historia de la
+                     Literatura cubana (en formato HTML).</em> Biblioteca Virtual Miguel de
+                  Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmc1g0w8">https://www.cervantesvirtual.com/nd/ark:/59851/bmc1g0w8</a>.</p>
+               
+               <p>Molina, Hebe Beatriz. 2011. <em>Como crecen los hongos.
+                     La novela argentina entre 1838 y 1872.</em> Buenos Aires: Teseo.</p>
+               
+               <p>Molina, Sintia. 2001. <em>El Naturalismo en la novela
+                     cubana.</em> Lanham, Maryland: University Press of America.</p>
+               
+               <p>Moody, Christopher E. 2016. “Mixing Dirichlet Topic Models
+                  and Word Embeddings to Make lda2vec.” arXiv.org. <a href="https://doi.org/10.48550/arXiv.1605.02019">https://doi.org/10.48550/arXiv.1605.02019</a>.</p>
+               
+               <p>Moretti, Franco. 2008. “The Novel: History and Theory.”
+                  <em>New Left Review</em> 52: 111–124. Accessed January 28, 2023. <a href="https://newleftreview.org/issues/ii52/articles/franco-moretti-the-novel-history-and-theory">https://newleftreview.org/issues/ii52/articles/franco-moretti-the-novel-history-and-theory</a>.</p>
+               
+               <p>Müller, Ralph. 2010. “Kategorisieren.” In <em>Handbuch
+                     Gattungstheorie</em>, edited by Rüdiger Zymner, 21–23. Stuttgart, Weimar:
+                  J.B. Metzler.</p>
+               
+               <p>Müller, Andreas C., and Sarah Guido. 2016.
+                  <em>Introduction to Machine Learning with Python: a Guide for Data
+                     Scientists.</em> Sebastopol, CA: O’Reilly.</p>
+               
+               <p>Murata, Makoto. 2014. “RELAX NG home page.” <a href="https://web.archive.org/web/20230604105524/https://relaxng.org/">https://web.archive.org/web/20230604105524/https://relaxng.org/</a>.</p>
+               
+               <p>National Science Board, ed. 2005.
+                  “Long-Lived Digital Data Collections Enabling Research and Education in the 21st
+                  Century.” National Science Foundation. <a href="https://web.archive.org/web/20230207100814/https://www.nsf.gov/pubs/2005/nsb0540/nsb0540.pdf">https://web.archive.org/web/20230207100814/https://www.nsf.gov/pubs/2005/nsb0540/nsb0540.pdf</a>. </p>
+               
+               <p>Navarro, Joaquina. 1955. <em>La novela realista
+                     mexicana.</em> México: Compañía General de Ediciones.</p>
+               
+               <p>Navarro-Colorado, Borja, ed. 2020. “Corpus of
+                  Spanish Golden-Age Sonnets.” Version 1.0.0. GitHub.com. Accessed December 6, 2022.
+                  <a href="https://github.com/bncolorado/CorpusSonetosSigloDeOro">https://github.com/bncolorado/CorpusSonetosSigloDeOro</a>.</p>
+               
+               <p>Navarro-Colorado, Borja, María Ribes
+                  Lafoz, and Noelia Sánchez. 2016. “Metrical annotation of a large corpus of Spanish
+                  sonnets: representation, scansion and evaluation.” In <em>Proceedings of the
+                     Tenth International Conference on Language Resources and Evaluation
+                     (LREC’16)</em>, 4360–4364. Portorož, Slovenia: European Language Resources
+                  Association (ELRA). <a href="http://web.archive.org/web/20220315081224/https://aclanthology.org/L16-1691.pdf">http://web.archive.org/web/20220315081224/https://aclanthology.org/L16-1691.pdf</a>.</p>
+               
+               <p>Neumann, Birgit, and Ansgar Nünning. 2007.
+                  “Einleitung: Probleme, Aufgaben und Perspektiven der Gattungstheorie und
+                  Gattungsgeschichte.” In <em>Gattungstheorie und Gattungsgeschichte</em>,
+                  edited by Marion Gymnich, Birgit Neumann, and Ansgar Nünning, 1–28. Trier:
+                  WVT.</p>
+               
+               <p>Neuschäfer, Hans-Jörg, ed. 2001. <em>Spanische
+                     Literaturgeschichte.</em> 2nd ed. Stuttgart/Weimar: J.B. Metzler.</p>
+               
+               <p>Nielsen, Lars Holm. 2013. “ZENODO - An Innovative Service
+                  for Sharing All Research Outputs.” Talk presented at the Joint OpenAIRE/LIBER
+                  Workshop, Ghent. <a href="http://dx.doi.org/10.5281/zenodo.6815">http://dx.doi.org/10.5281/zenodo.6815</a>.</p>
+               
+               <p>Oakes, Michael P. 2003. <em>Statistics for corpus
+                     linguistics.</em> Edinburgh: Edinburgh Univ. Press.</p>
+               
+               <p>Oakes, Michael P. 2009. “Corpus Linguistics and
+                  Stylometry.” In <em>Corpus Linguistics</em>, edited by Anke Lüdeling and Merja
+                  Kytö, 1070–1090. Vol. 2. Berlin: De Gruyter. <a href="https://doi.org/10.1515/9783110213881.2.1070">https://doi.org/10.1515/9783110213881.2.1070</a>.</p>
+               
+               <p>Ocantos, Carlos María. (1913) 2007. “Quilito.”
+                  Project Gutenberg. <a href="https://web.archive.org/web/20230422145502/https://www.gutenberg.org/files/23035/23035-h/23035-h.htm">https://web.archive.org/web/20230422145502/https://www.gutenberg.org/files/23035/23035-h/23035-h.htm</a>.</p>
+               
+               <p>Odebrecht, Carolin, Lou Burnard, and Christof
+                  Schöch, eds. 2021. “European Literary Text Collection (ELTeC).” Version 1.1.0.
+                  COST Action Distant Reading for European Literary History (CA16204). <a href="https://doi.org/10.5281/zenodo.4662444">https://doi.org/10.5281/zenodo.4662444</a>.</p>
+               
+               <p>Olea, Ismael. 2021. “Lemarios y listas de palabras del
+                  español.” GitHub.com. <a href="https://web.archive.org/web/20230609200732/https://github.com/olea/lemarios">https://web.archive.org/web/20230609200732/https://github.com/olea/lemarios</a>.</p>
+               
+               <p>Olea Franco, Rafael. 2011. “Narrativa e identidad
+                  hispanoamericanas. De Fernández de Lizardi a Borges.” In <em>La literatura
+                     hispanoamericana</em>, edited by Julio Ortega, 23–134. La búsqueda perpetua:
+                  lo propio y lo universal de la cultura latinoamericana 3. México: Secretaría de
+                  Relaciones Exteriores, Dirección General del Acervo Histórico Diplomático.</p>
+               
+               <p>OCLC. 2001–2023. “WorldCat.” <a href="https://www.worldcat.org/de">https://www.worldcat.org/de</a>.
+                  Accessed March 28, 2023.</p>
+               
+               <p>OCLC. 2010–2021a. “Iglesia, Álvaro de la, 1859–1940.”
+                  VIAF. Virtual International Authority File. <a href="https://viaf.org/viaf/120788045/">https://viaf.org/viaf/120788045/</a>.</p>
+               
+               <p>OCLC. 2010–2021b. “VIAF. Virtual International
+                  Authority File.” <a href="https://web.archive.org/web/20230423111630/https://viaf.org/">https://web.archive.org/web/20230423111630/https://viaf.org/</a>.</p>
+               
+               <p>OCLC. 2023. “Inside WorldCat.” <a href="https://web.archive.org/web/20230325164614/https://www.oclc.org/en/worldcat/inside-worldcat.html">https://web.archive.org/web/20230325164614/https://www.oclc.org/en/worldcat/inside-worldcat.html</a>.</p>
+               
+               <p>Padró, Lluís. n.d.a. “FreeLing Home Page.” <a href="https://web.archive.org/web/20230610172727/https://nlp.lsi.upc.edu/freeling/">https://web.archive.org/web/20230610172727/https://nlp.lsi.upc.edu/freeling/</a>.</p>
+               
+               
+               <p>Padró, Lluís. n.d.b. “Linguistic Data.” FreeLing Home Page.
+                  <a href="https://web.archive.org/web/20230610173053/https://nlp.lsi.upc.edu/freeling/index.php/node/12">https://web.archive.org/web/20230610173053/https://nlp.lsi.upc.edu/freeling/index.php/node/12</a>.</p>
+               
+               <p>Padró, Lluís. n.d.c. “Multiword Recognition Module.”
+                  FreeLing 4.0 User Manual. <a href="https://web.archive.org/web/20230610173340/https://freeling-user-manual.readthedocs.io/en/v4.0/modules/locutions/">https://web.archive.org/web/20230610173340/https://freeling-user-manual.readthedocs.io/en/v4.0/modules/locutions/</a>.</p>
+               
+               <p>Padró, Lluís. n.d.d. “Tagset for Spanish (es).” FreeLing 4.0
+                  User Manual. <a href="https://web.archive.org/web/20230610173624/https://freeling-user-manual.readthedocs.io/en/v4.0/tagsets/tagset-es/">https://web.archive.org/web/20230610173624/https://freeling-user-manual.readthedocs.io/en/v4.0/tagsets/tagset-es/</a>.</p>
+               
+               <p>Padró, Lluís. n.d.e. “Using analyzer Program to Process
+                  Corpora.” FreeLing 4.0 User Manual. <a href="https://web.archive.org/web/20230610173731/https://freeling-user-manual.readthedocs.io/en/v4.0/analyzer/">https://web.archive.org/web/20230610173731/https://freeling-user-manual.readthedocs.io/en/v4.0/analyzer/</a>.</p>
+               
+               <p>Padró, Lluís, and Evgeny Stanislovsky. 2012.
+                  “FreeLing 3.0: Towards Wider Multilinguality.” In <em>Proceedings of the
+                     Language Resources and Evaluation Conference (LREC 2012) ELRA</em>,
+                  2473–2479. Istanbul, Turkey: ELRA. <a href="https://web.archive.org/web/20230610172457/http://www.lrec-conf.org/proceedings/lrec2012/pdf/430_Paper.pdf">https://web.archive.org/web/20230610172457/http://www.lrec-conf.org/proceedings/lrec2012/pdf/430_Paper.pdf</a>.</p>
+               
+               <p>Paz, Ireneo. (1883) 2017. <em>Doña Marina.</em>
+                  Berlin: Ibero-Amerikanisches Institut – Preußischer Kulturbesitz. <a href="http://resolver.iai.spk-berlin.de/IAI00006A0B00000000">http://resolver.iai.spk-berlin.de/IAI00006A0B00000000</a>.</p>
+               
+               <p>Peñaranda Medina, Rosario. 1994. <em>La novela
+                     modernista hispanoamericana.</em> Valencia: Universitat de Valencia.</p>
+               
+               <p>Phillips-López, Dolores. 1996. <em>La novela
+                     hispanoamericana del modernismo.</em> Genève: Ed. Slatkine.</p>
+               
+               <p>Pi-Suñer Llorens, Antonia. 2005. “Entre la
+                  historia y la novela. Ireneo Paz.” In <em>La república de las letras. Asomos a
+                     la cultura escrita del México decimonónico</em>, edited by Belem Clark de
+                  Lara and Elisa Speckman Guerra, 379–392. Vol. 3: Galería de escritores. México:
+                  UNAM.</p>
+               
+               <p>Portillo, Andrés. (1896) 2020. <em>María Luisa.
+                     Leyenda histórica.</em> Würzburg: CLiGS. Accessed January 28, 2023. <a href="https://github.com/cligs/conha19/blob/master/tei/nh0100.xml">https://github.com/cligs/conha19/blob/master/tei/nh0100.xml</a>.</p>
+               
+               <p>Prendes, Manuel. 2003. <em>La novela naturalista
+                     hispanoamericana. Evolución y direcciones de un proceso narrativo.</em>
+                  Madrid: Ediciones Cátedra.</p>
+               
+               <p> Princeton University. 2023. “lexnames(5WN).” WordNet.
+                  A Lexical Database for English. <a href="https://web.archive.org/web/20230610175939/https://wordnet.princeton.edu/documentation/lexnames5wn">https://web.archive.org/web/20230610175939/https://wordnet.princeton.edu/documentation/lexnames5wn</a>.</p>
+               
+               <p>Raible, Wolfgang. 1980. “Was sind Gattungen? Eine Antwort
+                  aus semiotischer und textlinguistischer Sicht.” <em>Poetica</em> 12:
+                  320–349.</p>
+               
+               <p>Ramírez, José María. (1868) 2008. “Full text of ‘Una
+                  rosa y un harapo: Novela original’.” Internet Archive. <a href="https://web.archive.org/web/20230328190153/https://archive.org/stream/unarosayunharap00ramgoog/unarosayunharap00ramgoog_djvu.txt">https://web.archive.org/web/20230328190153/https://archive.org/stream/unarosayunharap00ramgoog/unarosayunharap00ramgoog_djvu.txt</a>.</p>
+               
+               <p>Read, John Lloyd. 1939. <em>The Mexican Historical Novel.
+                     1826–1910.</em> New York: Instituto de las Españas en los Estados
+                  Unidos.</p>
+               
+               <p>Real Academia Española (RAE). 2023a. “Diccionario de la
+                  lengua española. (DLe).” Accessed June 11, 2023. <a href="https://dle.rae.es/">https://dle.rae.es/</a>.</p>
+               
+               <p>Real Academia Española (RAE). 2023b. “suriano, na.”
+                  Diccionario de la lengua española (DLe). <a href="http://web.archive.org/web/20230601151138/https://dle.rae.es/suriano">http://web.archive.org/web/20230601151138/https://dle.rae.es/suriano</a>.</p>
+               
+               <p>Real Academia Española (RAE). 2023c. “tapatío, a.”
+                  Diccionario de la lengua española (DLe). <a href="http://web.archive.org/web/20230601151450/https://dle.rae.es/tapat%C3%ADo">http://web.archive.org/web/20230601151450/https://dle.rae.es/tapat%C3%ADo</a>.</p>
+               
+               <p>Remos y Rubio, Juan J. 1935. <em>Tendencias de la
+                     narración imaginativa en Cuba.</em> La Habana: Casa Montalvo-Cárdenas. <a href="https://dloc.com/UF00078289/00001/images">https://dloc.com/UF00078289/00001/images</a>.</p>
+               
+               <p>Remos y Rubio, Juan J. 1945. <em>Historia de la
+                     literatura cubana.</em> Vol. 2: Romanticismo. La Habana: Cárdenas y
+                  Compañía.</p>
+               
+               <p>Rhody, Lisa M. 2012. “Topic Modeling and Figurative
+                  Language.” <em>Journal of Digital Humanities</em> 2 (1). <a href="https://web.archive.org/web/20230316135657/https://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/">https://web.archive.org/web/20230316135657/https://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/</a>.</p>
+               
+               <p>Rinas, Karsten. 2015. “Zum linguistischen Status des
+                  Absatzes.” <em>Aussiger Beiträge: germanistische Schriftenreihe aus Forschung
+                     und Lehre</em> 9: 139–157.</p>
+               
+               <p>Rivas, Mercedes. 1990. <em>Literatura y esclavitud en la
+                     novela cubana del siglo XIX.</em> Sevilla: Escuela de Estudios
+                  Hispano-Americanos.</p>
+               
+               <p>Rojas Mix, Miguel. 1987. “La cultura hispanoamericana
+                  del siglo XIX.” In <em>Historia de la Literatura Hispanoamericana</em>, edited
+                  by Luis Íñigo Madrigal, 55–74. Vol. 2: Del neoclasicismo al modernismo. Madrid:
+                  Ediciones Cátedra.</p>
+               
+               <p>Romanos de Tiratel, Susana. 2004. “La
+                  bibliografía nacional Argentina: una deuda pendiente.” In <em>Proceedings of the
+                     70th IFLA General Conference and Council</em>, 1–11. Buenos Aires. <a href="https://web.archive.org/web/20230603163155/https://archive.ifla.org/IV/ifla70/papers/046s_Tiratel.pdf">https://web.archive.org/web/20230603163155/https://archive.ifla.org/IV/ifla70/papers/046s_Tiratel.pdf</a>.</p>
+               
+               <p>Rosch, Eleanor, and Carolyn B. Mervis. 1975. “Family
+                  Resemblances: Studies in the Internal Structure of Categories.” <em>Cognitive
+                     Psychology</em> 7: 573–605.</p>
+               
+               <p>Rosell, Sara V. 1997. <em>La novela antiesclavista en
+                     Cuba y Brasil, siglo XIX.</em> Madrid: Ed. Pliegos.</p>
+               
+               <p>Rössner, Michael. 2007. <em>Lateinamerikanische
+                     Literaturgeschichte.</em> 3rd ed. Stuttgart, Weimar: J.B. Metzler.</p>
+               
+               <p>Ruhl, Klaus-Jörg, and Laura Ibarra García.
+                  2000. <em>Kleine Geschichte Mexikos. Von der Frühzeit bis zur Gegenwart.</em>
+                  München: C. H. Beck.</p>
+               
+               <p>Sahle, Patrick. 2013. <em>Digitale Editionsformen. Zum
+                     Umgang mit der Überlieferung unter den Bedingungen des Medienwandels.</em>
+                  Vol. 2: Befunde, Theorie und Methodik. Schriften des Instituts für Dokumentologie
+                  und Editorik 8. Norderstedt: BoD.</p>
+               
+               <p>Sahlgren, Magnus. 2008. “The Distributional Hypothesis.”
+                  <em>Rivista di Linguistica</em> 20 (1): 33–53. <a href="https://web.archive.org/web/20230310101109/https://www.italian-journal-linguistics.com/app/uploads/2021/05/Sahlgren-1.pdf">https://web.archive.org/web/20230310101109/https://www.italian-journal-linguistics.com/app/uploads/2021/05/Sahlgren-1.pdf</a>.</p>
+               
+               <p>Sahlgren, Magnus. 2015. “A brief history of word
+                  embeddings (and some clarifications).” <em>Linked in.</em>
+                  <a href="https://web.archive.org/web/20230310102225/https://www.linkedin.com/pulse/brief-history-word-embeddings-some-clarifications-magnus-sahlgren">https://web.archive.org/web/20230310102225/https://www.linkedin.com/pulse/brief-history-word-embeddings-some-clarifications-magnus-sahlgren</a>.</p>
+               
+               <p>Sáinz de Medrano, Luis. 1987. “Cirilo Villaverde.”
+                  In <em>Historia de la Literatura Hispanoamericana</em>, edited by Luis Íñigo
+                  Madrigal, 145–153. Vol. 2: Del neoclasicismo al modernismo. Madrid: Ediciones
+                  Cátedra.</p>
+               
+               <p>Sánchez, Luis Alberto. 1953. <em>Proceso y contenido de
+                     la novela hispano-americana.</em> Madrid: Editorial Gredos.</p>
+               
+               <p>Sánchez Mármol, Manuel. 2011. <em>Obras
+                     completas I: novelas.</em> Edited by Manuel Sol. Colección Manuel Sánchez
+                  Mármol. Villahermosa: Universidad Juárez Autónoma de Tabasco.</p>
+               
+               <p>Sapkota, Upendra, Steven Bethard, Manuel
+                  Montes-y-Gómez, and Thamar Solorio. 2015. “Not All Character N-grams Are Created
+                  Equal: A Study in Authorship Attribution.” In <em>Proceedings of the 2015
+                     Conference of the North American Chapter of the Association for Computational
+                     Linguistics: Human Language Technologies</em>, 93–102. Denver, Colorado:
+                  Association for Computational Linguistics. <a href="http://dx.doi.org/10.3115/v1/N15-1010">http://dx.doi.org/10.3115/v1/N15-1010</a>.</p>
+               
+               <p>Sarmiento, Domingo Faustino. (1845) 2000.
+                  <em>Vida de Juan Facundo Quiroga (en formato HTML).</em> Edited by Benito
+                  Varela Jácome. Alicante: Biblioteca Virtual Miguel de Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmc18359">https://www.cervantesvirtual.com/nd/ark:/59851/bmc18359</a>.</p>
+               
+               <p>Saxonica. n.d. “Running XSLT from the Command Line.”
+                  Saxonica. XSLT and XQuery Processing. <a href="https://web.archive.org/web/20230610171712/https://www.saxonica.com/html/documentation12/using-xsl/commandline/">https://web.archive.org/web/20230610171712/https://www.saxonica.com/html/documentation12/using-xsl/commandline/</a>.</p>
+               
+               <p>Schaeffer, Jean-Marie. 1983. <em>Qu’est-ce qu’un
+                     genre littéraire?</em> Paris: Seuil.</p>
+               
+               <p>Schlickers, Sabine. 2003. <em>El lado oscuro de la
+                     modernización: estudios sobre la novela naturalista hispanoamericana.</em>
+                  Madrid, Frankfurt: Iberoamericana/Vervuert.</p>
+               
+               <p>Schmid, Helmut. 1994. “Probabilistic Part-of-Speech
+                  Tagging Using Decision Trees.” In <em>Proceedings of the International
+                     Conference on New Methods in Language Processing, Manchester, UK</em>, 44–49.
+                  <a href="https://web.archive.org/web/20230603115230/https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger1.pdf">https://web.archive.org/web/20230603115230/https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger1.pdf</a>.</p>
+               
+               <p>Schmitz-Emans, Monika. 2010. “Écriture und
+                  Gattung.” In <em>Handbuch Gattungstheorie</em>, edited by Rüdiger Zymner,
+                  107–109. Stuttgart: J.B. Metzler.</p>
+               
+               <p>Schnur-Wellpott, Margrit. 1983. <em>Aporien der
+                     Gattungstheorie aus semiotischer Sicht.</em> Tübingen: Narr.</p>
+               
+               <p>Schöch, Christof. 2013. “Fine-tuning Stylometric Tools:
+                  Investigating Authorship and Genre in French Classical Theater.” In <em>Digital
+                     Humanities 2013. Conference Abstracts, Lincoln, NE, USA, July 16–19</em>,
+                  383–386. Lincoln, NE, USA: University of Nebraska-Lincoln. <a href="https://web.archive.org/web/20230304104934/http://dh2013.unl.edu/abstracts/ab-270.html">https://web.archive.org/web/20230304104934/http://dh2013.unl.edu/abstracts/ab-270.html</a>.</p>
+               
+               <p>Schöch, Christof. 2016. “Topic Modeling with MALLET:
+                  Hyperparameter Optimization.” The Dragonfly’s Gaze. <a href="https://web.archive.org/web/20230316145457/https://dragonfly.hypotheses.org/1051">https://web.archive.org/web/20230316145457/https://dragonfly.hypotheses.org/1051</a>.</p>
+               
+               <p>Schöch, Christof. 2017a. “Aufbau von Datensammlungen.” In
+                  <em>Digital Humanities. Eine Einführung</em>, edited by Fotis Jannidis,
+                  Hubertus Kohle, and Malte Rehbein, 223–233. Stuttgart: J.B. Metzler.</p>
+               
+               <p>Schöch, Christof, ed. 2017b. “theatreclassique.” Accessed
+                  December 9, 2022. <a href="https://github.com/cligs/theatreclassique">https://github.com/cligs/theatreclassique</a>.</p>
+               
+               <p>Schöch, Christof. 2017c. “Topic Modeling Genre: An
+                  Exploration of French Classical and Enlightenment Drama.” <em>Digital Humanities
+                     Quarterly</em> 11 (2). <a href="https://web.archive.org/web/20230211105751/http://www.digitalhumanities.org/dhq/vol/11/2/000291/000291.html">https://web.archive.org/web/20230211105751/http://www.digitalhumanities.org/dhq/vol/11/2/000291/000291.html</a>.</p>
+               
+               <p>Schöch, Christof. 2018. “Zeta für die kontrastive Analyse
+                  literarischer Texte. Theorie, Implementierung, Fallstudie.” In <em>Quantitative
+                     Ansätze in den Literatur- und Geisteswissenschaften</em>, edited by Toni
+                  Bernhart, Marcus Willand, Sandra Richter, and Andrea Albrecht, 77–94. Berlin,
+                  München, Boston: De Gruyter. <a href="https://doi.org/10.1515/9783110523300-004">https://doi.org/10.1515/9783110523300-004</a>.</p>
+               
+               <p>Schöch, Christof. 2019. “Distributional Semantics and
+                  Topic Modeling: Theory and Application.” Workshop given at the <em>Baltic Summer
+                     School of Digital Humanties: Essentials of Coding and Encoding</em>, Riga,
+                  July 2019. Accessed November 14, 2020. <a href="https://christofs.github.io/riga/#/">https://christofs.github.io/riga/#/</a>.</p>
+               
+               <p>Schöch, Christof, José Calvo Tello,
+                  Ulrike Henny-Krahmer, and Stefanie Popp, eds. 2018. “The CLiGS textbox.” Version
+                  4.0.0. Zenodo. <a href="https://doi.org/10.5281/zenodo.597430">https://doi.org/10.5281/zenodo.597430</a>.</p>
+               
+               <p>Schöch, Christof, José Calvo Tello, Ulrike
+                  Henny-Krahmer, and Stefanie Popp. 2019. “The CLiGS Textbox: Building and Using
+                  Collections of Literary Texts in Romance Languages Encoded in TEI XML.”
+                  <em>Journal of the Text Encoding Initiative.</em> Rolling Issue. <a href="https://doi.org/10.4000/jtei.2085">https://doi.org/10.4000/jtei.2085</a>.</p>
+               
+               <p>Schöch, Christof, Ulrike Henny, José Calvo Tello,
+                  Katrin Betz, and Daniel Schlör. 2017. “Epochenschwellen als Phasen beschleunigter
+                  literarischer Entwicklung?” Talk presented at the <em>Forum Junge
+                     Romanistik</em>, Göttingen, March, 2017. Accessed March 3, 2023. <a href="https://christofs.github.io/fjr17/#">https://christofs.github.io/fjr17/#</a>. </p>
+               
+               <p>Schöch, Christof, Ulrike Henny, José Calvo
+                  Tello, Daniel Schlör, and Stefanie Popp. 2016. “Topic, Genre, Text. Topics im
+                  Textverlauf von Untergattungen des spanischen und hispanoamerikanischen Romans
+                  (1880–1930).” In <em>DHd 2016. Modellierung, Vernetzung, Visualisierung. Die
+                     Digital Humanities als fächerübergreifendes Forschungsparadigma.
+                     Konferenzabstracts</em>, 235–239. Leipzig: Universität Leipzig. <a href="https://doi.org/10.5281/zenodo.4645380">https://doi.org/10.5281/zenodo.4645380</a>.</p>
+               
+               <p>Schöch, Christof, and Steffen Pielström. 2014a.
+                  “Für eine computergestützte literarische Gattungsstilistik.” <em>DHd2014.
+                     Konferenzabstracts.</em> Passau: Universität Passau. <a href="https://doi.org/10.5281/zenodo.4623620">https://doi.org/10.5281/zenodo.4623620</a>.</p>
+               
+               <p>Schöch, Christof, and Steffen Pielström. 2014b.
+                  “Die Principal Component Analysis für die Differenzierung von Autorschaft, Form
+                  und Gattung literarischer Texte.” Talk presented at the <em>&lt;philtag
+                     n=12/&gt;</em>, University of Würzburg, September 19, 2014.</p>
+               
+               <p>Schöch, Christof, and Daniel Schlör. 2017. “tmw –
+                  Topic Modeling Workflow.” GitHub. Accessed November 14, 2020. <a href="https://github.com/cligs/tmw">https://github.com/cligs/tmw</a>.</p>
+               
+               <p>Schöch, Christof, Daniel Schlör, Stefanie
+                  Popp, Annelen Brunner, Ulrike Henny, and José Calvo Tello. 2016. “Straight Talk!
+                  Automatic Recognition of Direct Speech in Nineteenth-Century French Novels.” In
+                  <em>Digital Humanities 2016: Conference Abstracts</em>, 346–353. Kraków:
+                  Jagiellonian University and Paedagocial University. <a href="https://web.archive.org/web/20230325081511/https://dh2016.adho.org/abstracts/31">https://web.archive.org/web/20230325081511/https://dh2016.adho.org/abstracts/31</a>.</p>
+               
+               <p>Schöch, Christof, Daniel Schlör, Albin Zehe,
+                  Henning Gebhard, Martin Becker, and Andreas Hotho. 2018. “Burrows’ Zeta: Exploring
+                  and Evaluating Variants and Parameters.” In <em>Digital Humanities 2018.
+                     Puentes–Bridges. Book of Abstracts. Mexico City, 26–29 June 2018</em>,
+                  274–278. Mexico City: Red de Humanidades Digitales. <a href="https://web.archive.org/web/20230212045250/https://dh2018.adho.org/burrows-zeta-exploring-and-evaluating-variants-and-parameters/">https://web.archive.org/web/20230212045250/https://dh2018.adho.org/burrows-zeta-exploring-and-evaluating-variants-and-parameters/</a>.</p>
+               
+               <p>Schröter, Julian. 2019. “Gattungsgeschichte und ihr
+                  Gattungsbegriff am Beispiel der Novellen.” <em>Journal of Literary Theory</em>
+                  13 (2): 227–257.</p>
+               
+               <p>Schröter, Julian. Forthcoming. “Machine-Learning
+                  as a Measure of the Conceptual Looseness of Disordered Genres: Studies on German
+                  Novellen.” In <em>Digital Stylistics in Romance Studies and Beyond</em>,
+                  edited by Robert, Hesselbach, José Calvo Tello, Ulrike Henny-Krahmer, Christof
+                  Schöch, and Daniel Schlör. Heidelberg: Heidelberg University Publishing.</p>
+               
+               <p>Schulz, Armin. 2007. “Thema.” In <em>Reallexikon der
+                     deutschen Literaturwissenschaft</em>, edited by Harald Fricke, 634–635. Vol.
+                  2. Berlin, New York: De Gruyter.</p>
+               
+               <p>Scikit-learn developers. 2007–2023a.
+                  “Clustering.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304125710/https://scikit-learn.org/stable/modules/clustering.html">https://web.archive.org/web/20230304125710/https://scikit-learn.org/stable/modules/clustering.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023b.
+                  “Clustering, sec. K-means.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304125710/https://scikit-learn.org/stable/modules/clustering.html">https://web.archive.org/web/20230304125710/https://scikit-learn.org/stable/modules/clustering.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023c. “Common
+                  pitfalls in interpretation of coefficients of linear models.”
+                  <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304130148/https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html">https://web.archive.org/web/20230304130148/https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023d. “Feature
+                  extraction, sec. The Bag of Words representation.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304131525/https://scikit-learn.org/stable/modules/feature_extraction.html">https://web.archive.org/web/20230304131525/https://scikit-learn.org/stable/modules/feature_extraction.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023e.
+                  “sklearn.ensemble.RandomForestClassifier.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304130404/https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">https://web.archive.org/web/20230304130404/https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023f.
+                  “sklearn.feature_extraction.text.CountVectorizer.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304130529/https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html">https://web.archive.org/web/20230304130529/https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023g.
+                  “sklearn.feature_extraction.text.TfidfTransformer.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304130653/https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html">https://web.archive.org/web/20230304130653/https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023h.
+                  “sklearn.model_selection.cross_validate.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304130816/https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_validate.html">https://web.archive.org/web/20230304130816/https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_validate.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023i.
+                  “sklearn.model_selection.GridSearchCV.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304131032/https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html">https://web.archive.org/web/20230304131032/https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023j.
+                  “sklearn.neighbors.KNeighborsClassifier.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304131239/https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">https://web.archive.org/web/20230304131239/https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023k.
+                  “sklearn.svm.SVC.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304131430/https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html">https://web.archive.org/web/20230304131430/https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023l.
+                  “Supervised learning.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304125409/https://scikit-learn.org/stable/supervised_learning.html">https://web.archive.org/web/20230304125409/https://scikit-learn.org/stable/supervised_learning.html</a>.</p>
+               
+               <p>Scikit-learn developers. 2007–2023m. “Support
+                  Vector Machines, sec. Scores and probabilites.” <em>Scikit-learn.</em>
+                  <a href="https://web.archive.org/web/20230304123130/https://scikit-learn.org/stable/modules/svm.html">https://web.archive.org/web/20230304123130/https://scikit-learn.org/stable/modules/svm.html</a>.</p>
+               
+               <p>Scott, Mike. 1997. “PC analysis of key words — and key key
+                  words.” <em>System</em> 25 (2): 233–245.</p>
+               
+               <p>Sicardi, Francisco. (1894) 2016. “File:Libro extraño
+                  I — Francisco A. Sicardi.pdf.” Wikimedia Commons. <a href="http://web.archive.org/web/20230620100511/https://commons.m.wikimedia.org/wiki/File:Libro_extra%C3%B1o_I_-_Francisco_A._Sicardi.pdf">http://web.archive.org/web/20230620100511/https://commons.m.wikimedia.org/wiki/File:Libro_extra%C3%B1o_I_-_Francisco_A._Sicardi.pdf</a>.</p>
+               
+               <p>Siegel, Erik. 2022. <em>Schematron. A language for
+                     Validating XML.</em> Denver: XML Press.</p>
+               
+               <p>Siemens, Ray, and Susan Schreibman, eds. 2008.
+                  <em>A Companion to Digital Literary Studies.</em> Oxford: Blackwell.</p>
+               
+               <p>Sierra, Justo. 2018. <em>Confesiones de un
+                     pianista.</em> Edited by Karla Ximena Salinas Gallegos. La novela corta. Una
+                  biblioteca virtual. Novelas en tránsito. Segunda serie. México: Universidad
+                  Nacional Autónoma de México. <a href="https://web.archive.org/web/20200322100041/http://www.lanovelacorta.com/novelas-en-transito-2/confesiones-de-un-pianista.pdf">https://web.archive.org/web/20200322100041/http://www.lanovelacorta.com/novelas-en-transito-2/confesiones-de-un-pianista.pdf</a>.</p>
+               
+               <p>SIG-DLS. n.d. “Goals.” Digital Literary Stylistics
+                  (SIG-DLS). <a href="http://web.archive.org/web/20221023111813/https://dls.hypotheses.org/activities/about/about">http://web.archive.org/web/20221023111813/https://dls.hypotheses.org/activities/about/about</a>.</p>
+               
+               <p>Smith, Verity, ed. 1997. <em>Encyclopedia of Latin
+                     American Literature.</em> Chicago, Illinois: Fitzroy Dearborn
+                  Publishers.</p>
+               
+               <p>Sommer, Doris. 1993. <em>Foundational Fictions. The
+                     National Romances of Latin America.</em> Berkeley: University of California
+                  Press.</p>
+               
+               <p>Sowinski, Bernhard. 1999. <em>Stilistik: Stiltheorien
+                     und Stilanalysen.</em> Stuttgart: Metzler.</p>
+               
+               <p>Spang, Kurt. 1998. “Apuntes para una definición de la
+                  novela histórica.” In <em>La novela histórica. Teoría y comentarios.</em>,
+                  edited by Kurt Spang, Ignacio Arellano, and Carlos Mata, 63–125. 2nd ed. Pamplona:
+                  EUNSA. <a href="https://web.archive.org/web/20160504022949/http://www.culturahistorica.es/spang/novela_historica.pdf">https://web.archive.org/web/20160504022949/http://www.culturahistorica.es/spang/novela_historica.pdf</a>.</p>
+               
+               <p>Sparrow de García Barrío, Constance. 1977.
+                  <em>The abolitionist novel in nineteenth century Cuba.</em> Baltimore:
+                  Morgan State College.</p>
+               
+               <p>Spillner, Bernd. 2001. “Stilistik.” In <em>Grundzüge
+                     der Literaturwissenschaft</em>, edited by Heinz Ludwig Arnold and Heinrich
+                  Detering, 234–256. 4th ed. München: dtv.</p>
+               
+               <p>Stamatatos, Efstathios. 2009. “A Survey of Modern
+                  Authorship Attribution Methods.” <em>Journal of the American Society of
+                     Information Science and Technology</em> 60 (3): 538–556. <a href="https://doi.org/10.1002/asi.21001">https://doi.org/10.1002/asi.21001</a>.</p>
+               
+               <p>Steinecke, Hartmut. 2007. “Roman.” In <em>Reallexikon
+                     der deutschen Literaturwissenschaft</em>, edited by Klaus Weimar, Harald
+                  Fricke, and Jan-Dirk Müller, 317–323. Berlin, New York: De Gruyter.</p>
+               
+               <p>Steyvers, Mark, and Tom Griffiths. 2007.
+                  “Probabilistic Topic Models.” In <em>Handbook of latent semantic
+                     analysis</em>, edited by Thomas K. Landauer, Danielle S. McNamara, Simon Dennis,
+                  and Walter Kintsch, 427–448. Mahwah, NJ: Lawrence Erlbaum Associates. <a href="https://web.archive.org/web/20220927113904/https://cocosci.princeton.edu/tom/papers/SteyversGriffiths.pdf">https://web.archive.org/web/20220927113904/https://cocosci.princeton.edu/tom/papers/SteyversGriffiths.pdf</a>.</p>
+               
+               <p>Strube, Werner. 1993. <em>Analytische Philosophie der
+                     Literaturwissenschaft. Untersuchungen zur literaturwissenschaftlichen
+                     Definition, Klassifikation, Interpretation und Textbewertung.</em> Paderborn:
+                  Schöningh.</p>
+               
+               <p>Suárez-Murias, Marguerite C. 1963. <em>La novela
+                     romántica en Hispanoamérica.</em> New York: Hispanic Institute in the United
+                  States.</p>
+               
+               <p>Taylor, John R. 2003. <em>Linguistic
+                     categorization.</em> 3rd ed. New York: Oxford University Press.</p>
+               
+               <p>Text Encoding Initiative Consortium. n.d.a “Text Encoding
+                  Initiative.” <a href="https://web.archive.org/web/20230423104650/https://tei-c.org/">https://web.archive.org/web/20230423104650/https://tei-c.org/</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. n.d.b “Getting Started
+                  with P5 ODDs.” <a href="https://web.archive.org/web/20230423104437/https://tei-c.org/favicon.ico">https://web.archive.org/web/20230423104437/https://tei-c.org/favicon.ico</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023a.
+                  “att.global.responsibility.” In: <em>TEI P5: Guidelines for Electronic Text
+                     Encoding and Interchange</em>, 839–840. Version 4.6.0. Revision f18deffba.
+                  <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023b. “Components of
+                  Bibliographic References.” In: <em>TEI P5: Guidelines for Electronic Text
+                     Encoding and Interchange</em>, 146–164. Version 4.6.0. Revision f18deffba.
+                  <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023c. “The TEI Header
+                  and Its Components.” In: <em>TEI P5: Guidelines for Electronic Text Encoding and
+                     Interchange</em>, 22–23. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023d. “&lt;ab&gt;.”
+                  In: <em>TEI P5: Guidelines for Electronic Text Encoding and Interchange</em>,
+                  868–870. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023e. “&lt;back&gt;.”
+                  In: <em>TEI P5: Guidelines for Electronic Text Encoding and Interchange</em>,
+                  933–936. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023f.
+                  “&lt;floatingText&gt;.” In: <em>TEI P5: Guidelines for Electronic Text Encoding
+                     and Interchange</em>, 1192–1194. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023g. “&lt;front&gt;.”
+                  In: <em>TEI P5: Guidelines for Electronic Text Encoding and Interchange</em>,
+                  1206–1209. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023h.
+                  “&lt;nationality&gt;.” In: <em>TEI P5: Guidelines for Electronic Text Encoding
+                     and Interchange</em>, 1455–1457. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023i. “&lt;quote&gt;.”
+                  In: <em>TEI P5: Guidelines for Electronic Text Encoding and Interchange</em>,
+                  1581–1583. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023j.
+                  “&lt;textClass&gt;.” In: <em>TEI P5: Guidelines for Electronic Text Encoding and
+                     Interchange</em>, 1782–1783. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>Text Encoding Initiative Consortium. 2023k.
+                  “&lt;titlePage&gt;.” In: <em>TEI P5: Guidelines for Electronic Text Encoding and
+                     Interchange</em>, 201–203. Version 4.6.0. Revision f18deffba. <a href="https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://web.archive.org/web/20230423102337/https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</a>.</p>
+               
+               <p>TextGrid, ed. n.d. “The Digital Library in the TextGrid
+                  Repository.” TextGrid. Virtuelle Forschungsumgebung für die Geisteswissenschaften.
+                  <a href="https://web.archive.org/web/20221106162919/https://textgrid.de/en/digitale-bibliothek">https://web.archive.org/web/20221106162919/https://textgrid.de/en/digitale-bibliothek</a>.</p>
+               
+               <p>Theisen, Joachim. 2016. <em>Kontrastive
+                     Linguistik.</em> Tübingen: Narr.</p>
+               
+               <p>Thomé, Horst. 2007. “Werk.” In <em>Reallexikon der
+                     Deutschen Literaturwissenschaft. Neubearbeitung des Reallexikons der deutschen
+                     Literaturgeschichte</em>, edited by Klaus Weimar, Harald Fricke, and Jan-Dirk
+                  Müller, 832–834. Vol. 2. Berlin, New York: De Gruyter.</p>
+               
+               <p>Thompson, W., and B. Thompson. 1991.
+                  “Overturning the Category Bucket.” <em>Byte</em> 16 (1): 249–256.</p>
+               
+               <p>Todorov, Tzvetan. 1970. <em>Introduction à la
+                     littérature fantastique.</em> Paris: Seuil.</p>
+               
+               <p>Todorov, Tzvetan. 2014. “The Origin of Genres.” In
+                  <em>Modern Genre Theory</em>, edited by David Duff, 193–209. New York:
+                  Routledge.</p>
+               
+               <p>Tophinke, Doris. 1997. “Zum Problem der Gattungsgrenze –
+                  Möglichkeiten einer prototypentheoretischen Lösung.” In <em>Gattungen
+                     mittelalterlicher Schriftlichkeit</em>, edited by Barbara Frank, Thomas Haye,
+                  and Doris Tophinke, 161–182. Tübingen: Narr.</p>
+               
+               <p>Torres-Rioseco, Arturo. 1933. <em>Bibliografía
+                     de la novela mejicana.</em> Cambridge, Massachusetts: Harvard University
+                  Press.</p>
+               
+               <p>Trelles, Carlos Manuel de. 1911. <em>Bibliografía
+                     Cubana del Siglo XIX.</em> 8 vols. Matanzas: Imprenta de Quirós y
+                  Estrada.</p>
+               
+               <p>Underwood, Ted. 2015a. “Can we date revolutions in the
+                  history of literature and music?” <em>The Stone and the Shell. Using large
+                     digital libraries to advance literary history.</em> October 3, 2015. <a href="https://web.archive.org/web/20230303135942/https://tedunderwood.com/2015/10/03/can-we-date-revolutions-in-the-history-of-literature-and-music/">https://web.archive.org/web/20230303135942/https://tedunderwood.com/2015/10/03/can-we-date-revolutions-in-the-history-of-literature-and-music/</a>. </p>
+               
+               <p>Underwood, Ted. 2015b. <em>Understanding Genre in a
+                     Collection of a Million Volumes.</em> White Paper Report. Urbana-Champaign:
+                  University of Illinois. <a href="http://dx.doi.org/10.17613/M6W07V">http://dx.doi.org/10.17613/M6W07V</a>. </p>
+               
+               <p>Underwood, Ted. 2016. “The Life Cycles of Genres.”
+                  <em>Journal of Cultural Analytics</em> 2 (2). <a href="https://doi.org/10.22148/16.005">https://doi.org/10.22148/16.005</a>.</p>
+               
+               <p>Underwood, Ted. 2019. <em>Distant Horizons: Digital
+                     Evidence and Literary Change.</em> Chicago: The University of Chicago
+                  Press.</p>
+               
+               <p>Universidad Nacional Autónoma de México. 2008–2023. “La
+                  Novela Corta. Una biblioteca virtual.” <a href="https://web.archive.org/web/20230328173719/https://www.lanovelacorta.com/">https://web.archive.org/web/20230328173719/https://www.lanovelacorta.com/</a>.</p>
+               
+               <p>VanderPlas, Jake. 2017. <em>Python Data Science
+                     Handbook. Essential Tools for Working with Data.</em> 2nd ed. Sebastopol, CA:
+                  O’Reilly.</p>
+               
+               <p>Varela Jácome, Benito. (1982) 2000.
+                  <em>Evolución de la novela hispanoamericana en el siglo XIX (en formato
+                     HTML).</em> Alicante: Biblioteca Virtual Miguel de Cervantes. <a href="https://www.cervantesvirtual.com/nd/ark:/59851/bmct14z8">https://www.cervantesvirtual.com/nd/ark:/59851/bmct14z8</a>.</p>
+               
+               <p>Villegas Cedillo, Alberto. 1984. <em>La novela
+                     popular mexicana en el siglo XIX.</em> San Nicolás de los Garza: Universidad
+                  Autónoma de Nuevo León.</p>
+               
+               <p>Vivas, Eliseo. 1968. “Literary Classes: Some Problems.”
+                  <em>Genre</em> 1: 97–105.</p>
+               
+               <p>Voßkamp, Wilhelm. 1977. “Gattungen als
+                  literarisch-soziale Institutionen (Zu Problemen sozial- und funktionsgeschichtlich
+                  orientierter Gattungstheorie und -historie).” In <em>Textsortenlehre –
+                     Gattungsgeschichte</em>, edited by Walter Hinck, 27–44. Heidelberg: Quelle
+                  &amp; Meyer.</p>
+               
+               <p>Wallach, Hanna M., David Mimno, and Andrew
+                  McCallum. 2009. “Rethinking LDA: Why Priors Matter.” <em>Advances in Neural
+                     Information Processing Systems</em> 22: 1973–1981. <a href="https://web.archive.org/web/20230316142452/https://mimno.infosci.cornell.edu/papers/NIPS2009_0929.pdf">https://web.archive.org/web/20230316142452/https://mimno.infosci.cornell.edu/papers/NIPS2009_0929.pdf</a>.</p>
+               
+               <p>Weber, Dietrich. 1998. <em>Erzählliteratur. Schriftwerk,
+                     Kunstwerk, Erzählwerk.</em> Göttingen: Vandenhoeck &amp; Ruprecht.</p>
+               
+               <p>Weidacher, Georg. 2017. “Fiktionalität und
+                  Fiktionalitätssignale.” In <em>Handbuch Sprache in der Literatur</em>, edited
+                  by Anne Betten, Ulla Fix, and Berbeli Wanning, 373–390. Berlin, New York: De
+                  Gruyter.</p>
+               
+               <p>Werlich, Egon. 1975. <em>Typologie der Texte. Entwurf
+                     eines textlinguistischen Modells zur Grundlegung einer Textgrammatik.</em>
+                  Heidelberg: Quelle &amp; Meyer.</p>
+               
+               <p>Wikimedia Commons. 2019. “Category:Files from
+                  Academia Argentina de Letras.” Accessed March 16, 2020. <a href="https://commons.wikimedia.org/wiki/Category:Files_from_Academia_Argentina_de_Letras">https://commons.wikimedia.org/wiki/Category:Files_from_Academia_Argentina_de_Letras</a>.</p>
+               
+               <p>Wikimedia Foundation. 2023. “Wikimedia
+                  Commons.” <a href="https://web.archive.org/web/20230603175401/https://commons.wikimedia.org/wiki/Main_Page">https://web.archive.org/web/20230603175401/https://commons.wikimedia.org/wiki/Main_Page</a>.</p>
+               
+               <p>Wikipedia. 2022. “Anexo:Nombres de países en español.”
+                  Wikipedia. <a href="https://web.archive.org/web/20230422153154/https://es.wikipedia.org/wiki/Anexo:Nombres_de_pa%C3%ADses_en_espa%C3%B1ol">https://web.archive.org/web/20230422153154/https://es.wikipedia.org/wiki/Anexo:Nombres_de_pa%C3%ADses_en_espa%C3%B1ol</a>.</p>
+               
+               <p>Wilkinson, Mark D., Michel Dumontier, IJsbrand
+                  Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et
+                  al. 2016. “The FAIR Guiding Principles for Scientific Data Management and
+                  Stewardship.” <em>Scientific Data</em> 3. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.</p>
+               
+               <p>Willand, Marcus, Peer Trilcke, Christof Schöch,
+                  Nanette Rißler-Pipka, Nils Reiter, and Frank Fischer. 2017. “Aktuelle
+                  Herausforderungen der Digitalen Dramenanalyse.” In <em>DHd 2017. Digitale
+                     Nachhaltigkeit. Konferenzabstracts</em>, 46–49. Bern: Universität Bern. <a href="https://doi.org/10.5281/zenodo.4622643">https://doi.org/10.5281/zenodo.4622643</a>.</p>
+               
+               <p>Wittgenstein, Ludwig. 2009. <em>Philosophical
+                     Investigations.</em> Edited by P.M.S. Hacker and Joachim Schulte. New York:
+                  Wiley.</p>
+               
+               <p>Wolfzettel, Friedrich. 1999. <em>Der spanische Roman
+                     von der Aufklärung bis zur frühen Moderne.</em> Tübingen/Basel:
+                  Francke.</p>
+               
+               <p>Yang, Jaewon, and Jure Leskovec. 2015. “Defining
+                  and Evaluatign Network Communities based on ground-truth.” <em>Knowledge and
+                     Information Systems</em> 42: 181–213. <a href="https://doi.org/10.1007/s10115-013-0693-z">https://doi.org/10.1007/s10115-013-0693-z</a>.</p>
+               
+               <p>Yin, Filippa B. 1992. “Díaz Covarrubias, Juan.” In
+                  <em>Dictionary of Mexican Literature</em>, edited by Eladio Cortés,
+                  195–196. Westport, Connecticut; London: Greenwood Press.</p>
+               
+               <p>Zehe, Albin, Daniel Schlör, Ulrike Henny-Krahmer,
+                  Martin Becker, and Andreas Hotho. 2018. “A White-Box Model for Detecting Author
+                  Nationality by Linguistic Differences in Spanish Novels.” In <em>Digital
+                     Humanities 2018. Puentes–Bridges. Book of Abstracts. Mexico City, 26–29 June
+                     2018</em>, 519–522. Mexico City: Red de Humanidades Digitales. <a href="https://web.archive.org/web/20230212050806/https://dh2018.adho.org/en/a-white-box-model-for-detecting-author-nationality-by-linguistic-differences-in-spanish-novels/">https://web.archive.org/web/20230212050806/https://dh2018.adho.org/en/a-white-box-model-for-detecting-author-nationality-by-linguistic-differences-in-spanish-novels/</a>.</p>
+               
+               <p>Zeuske, Michael. 2002. <em>Kleine Geschichte
+                     Kubas.</em> 2nd ed. München: C. H. Beck.</p>
+               
+               <p>Zipfel, Frank. 2010. “Gattungstheorie im 20. Jahrhundert.”
+                  In <em>Handbuch Gattungstheorie</em>, edited by Rüdiger Zymner, 213–216.
+                  Stuttgart: J.B. Metzler.</p>
+               
+               <p>Zipfel, Frank. 2014. “Fiktionalitätssignale.” In
+                  <em>Fiktionalität. Ein interdisziplinäres Handbuch</em>, edited by Tobias
+                  Klauk and Tilmann Köppe, 97–124. Berlin, Boston: De Gruyter.</p>
+               
+               <p>Zó, Ramiro Esteban. 2015. <em>Emociones escriturales. La
+                     novela sentimental latinoamericana.</em> Saarbrücken: Editorial Académica
+                  Española.</p>
+               
+               <p>Zum Felde, Alberto. 1954. <em>Índice crítico de la
+                     literatura hispanoamericana.</em> 2 vols. México: Editorial Guaranía.</p>
+               
+               <p>Zymner, Rüdiger. 2003. <em>Gattungstheorie. Probleme und
+                     Positionen der Literaturwissenschaft.</em> Paderborn: mentis.</p>
+               
+               <p>Zymner, Rüdiger, ed. 2010. <em>Handbuch
+                     Gattungstheorie.</em> Stuttgart: J.B. Metzler.</p>
+               
+               <p>Zymner, Rüdiger. 2017. “Narrative Gattungen.” In
+                  <em>Grundthemen der Literaturwissenschaft: Erzählen</em>, edited by Martin
+                  Huber and Wolf Schmid, 365–383. Berlin: De Gruyter.</p>
+               </div>
+            <div class="w3-col w3-rest"></div>
+         </div>
+         <footer id="myFooter">
+            <div class="w3-container w3-theme-l2 w3-padding-32">
+               <p>Henny-Krahmer, Ulrike. 2023. <em>Genre Analysis and Corpus Design.
+                     Nineteenth-Century Spanish-American Novels (1830–1910).</em> HTML version, v1.0.0.
+                  Schriften des Instituts für Dokumentologie und Editorik 17. Berlin: IDE.</p>
+            </div>
+            <div class="w3-container w3-theme-l1">
+               <p><span style="display: inline-block; padding-right: 10px;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://ride.i-d-e.de/wp-content/uploads/cc-by.png" width="55"></a></span><a href="imprint.html">Publishing Policy, Imprint and Privacy</a></p>
+            </div>
+         </footer>
+      </div><script>
+            // Get the Sidebar
+            var mySidebar = document.getElementById("mySidebar");
+            
+            // Get the DIV with overlay effect
+            var overlayBg = document.getElementById("myOverlay");
+            
+            // Toggle between showing and hiding the sidebar, and add overlay effect
+            function w3_open() {
+            if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+            overlayBg.style.display = "none";
+            } else {
+            mySidebar.style.display = 'block';
+            overlayBg.style.display = "block";
+            }
+            }
+            
+            // Close the sidebar with the close button
+            function w3_close() {
+            mySidebar.style.display = "none";
+            overlayBg.style.display = "none";
+            }
+            
+            function myAccFunc(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            x.previousElementSibling.className += " w3-blue-grey";
+            } else { 
+            x.className = x.className.replace(" w3-show", "");
+            x.previousElementSibling.className = 
+            x.previousElementSibling.className.replace(" w3-blue-grey", "");
+            }
+            }
+            
+            window.onload, window.onhashchange = function(){
+                var hash = window.location.hash;
+                var hash_id = hash.substring(1);
+                var x = document.getElementById("menuAcc"+hash_id);
+                
+                if (x.className.indexOf("w3-blue-grey") == -1) {
+                    x.className += " w3-blue-grey w3-show";
+                    x.closest(".w3-bar-block.w3.hide").className.replace("w3-hide","w3-show");
+                }
+                
+                var y = document.getElementById("menu"+hash_id);
+                if (y.className.indexOf("w3-blue-grey") == -1) {
+                    y.className += " w3-blue-grey";
+                }
+                
+                
+            };
+            
+            
+        </script></body>
+</html>

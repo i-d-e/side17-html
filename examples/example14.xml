@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example14" class="code">
+<pre><code><span style="color: #000096;">&lt;taxonomy</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"keywords"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"author"</span><span style="color: #000096;">&gt;</span>[...]<span style="color: #000096;">&lt;/category&gt;</span>
+  <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text"</span><span style="color: #000096;">&gt;</span>[...] 
+    <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration"</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>text.narration<span style="color: #000096;">&lt;/catDesc&gt;</span>
+      <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration.narrator"</span><span style="color: #000096;">&gt;</span>
+        <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>text.narration.narrator<span style="color: #000096;">&lt;/catDesc&gt;</span>
+        <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration.narrator_1"</span><span style="color: #000096;">&gt;</span>
+          <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>autodiegetic<span style="color: #000096;">&lt;/catDesc&gt;</span>
+        <span style="color: #000096;">&lt;/category&gt;</span>
+        <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration.narrator_2"</span><span style="color: #000096;">&gt;</span>
+          <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>homodiegetic<span style="color: #000096;">&lt;/catDesc&gt;</span>
+        <span style="color: #000096;">&lt;/category&gt;</span>
+        <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration.narrator_3"</span><span style="color: #000096;">&gt;</span>
+          <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>heterodiegetic<span style="color: #000096;">&lt;/catDesc&gt;</span>
+        <span style="color: #000096;">&lt;/category&gt;</span>
+        <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration.narrator.person"</span><span style="color: #000096;">&gt;</span>
+          <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>text.narration.narrator.person<span style="color: #000096;">&lt;/catDesc&gt;</span>
+        <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration.narrator.person_1"</span><span style="color: #000096;">&gt;</span>
+        <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>first person<span style="color: #000096;">&lt;/catDesc&gt;</span>
+          <span style="color: #000096;">&lt;/category&gt;</span>
+        <span style="color: #000096;">&lt;category</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"text.narration.narrator.person_2"</span><span style="color: #000096;">&gt;</span>
+          <span style="color: #000096;">&lt;catDesc</span><span style="color: #000096;">&gt;</span>third person<span style="color: #000096;">&lt;/catDesc&gt;</span>
+        <span style="color: #000096;">&lt;/category&gt;</span>
+      <span style="color: #000096;">&lt;/category&gt;</span>
+    <span style="color: #000096;">&lt;/category&gt;</span> [...] <span style="color: #000096;">&lt;/category&gt;</span>
+  <span style="color: #000096;">&lt;/category&gt;</span>
+<span style="color: #000096;">&lt;/taxonomy&gt;</span></code></pre>
+<figcaption>Example 14: A section of the TEI taxonomy of keywords.</figcaption>
+</figure>

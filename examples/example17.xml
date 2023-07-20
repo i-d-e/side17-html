@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example17" class="code">
+<pre><code><span style="color: #000096;">&lt;front</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">source=</span><span style="color: #993300;">"#PS"</span> <span style="color: #f5844c">n=</span><span style="color: #993300;">"1906"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"titlepage"</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Biblioteca de Autores Americanos<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Alvaro de la Iglesia<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Adoración<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Novela original<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Tercera edición<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Barcelona<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>F. Granada C.ª, Editores<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Calle de Escudillers, 20<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Buenos-Aires<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Serafín Ponzinibbio, Editor<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>B. Mitre, 1.100<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>1906<span style="color: #000096;">&lt;/ab&gt;</span>
+    <span style="color: #000096;">&lt;/div&gt;</span>
+    <span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"dedication"</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>A Antonio Herrera<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>en El Mundo<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>testimonio sincerísimo de afecto.<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>
+        <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>El Autor.<span style="color: #000096;">&lt;/seg&gt;</span>
+      <span style="color: #000096;">&lt;/ab&gt;</span>
+    <span style="color: #000096;">&lt;/div&gt;</span>
+    <span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"preface"</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>Prólogo<span style="color: #000096;">&lt;/head&gt;</span>
+      <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Si los hombres no fueran tan dados a vaticinar y tan
+        reacios a escarmentar, no obstante la facilidad con que se
+        viene abajo la fábrica de sus pronósticos, no oyéramos con
+        tanta frecuencia los horóscopos que anuncian casi para día
+        fijo la muerte de la poesía. [...]<span style="color: #000096;">&lt;/p&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Enrique José Varona.<span style="color: #000096;">&lt;/ab&gt;</span>
+      <span style="color: #000096;">&lt;ab</span><span style="color: #000096;">&gt;</span>Habana (Cuba).<span style="color: #000096;">&lt;/ab&gt;</span>
+    <span style="color: #000096;">&lt;/div&gt;</span>
+  <span style="color: #000096;">&lt;/div&gt;</span>
+<span style="color: #000096;">&lt;/front&gt;</span></code></pre>
+<figcaption>Example 17: Front matter of the novel “Adoración”.</figcaption>
+</figure>

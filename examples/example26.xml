@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example26" class="code">
+<pre><code><span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"part"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>Libro Primero.<span style="color: #000096;">&lt;/head&gt;</span>
+  <span style="color: #000096;">&lt;quote</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;p</span> <span style="color: #f5844c">xml:lang=</span><span style="color: #993300;">"fr"</span><span style="color: #000096;">&gt;</span>La paix profonde et sereine imprimée par les
+    sculpteurs aux visages des figures vierges destinées a
+    representer la justice, l'innocence, toutes les divinités
+    qui ne savent rien des agitations terrestres; ce calme est
+    le plus grand charme d’une fille, il est le signe de sa
+    pureté; rien encore ne l’a emuée; aucune passion brisée,
+    aucun intérét trahi n’a nuancé la plácide expression de
+    son visage; est il joné, la jeune fille n’est plus.<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;/quote&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>De Balzac.<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"chapter"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>I.<span style="color: #000096;">&lt;/head&gt;</span>
+    <span style="color: #000096;">&lt;quote</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;lg</span><span style="color: #000096;">&gt;</span>
+        <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>Necio, y digno de mil quejas<span style="color: #000096;">&lt;/l&gt;</span>
+        <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>el que ronca sin decoro<span style="color: #000096;">&lt;/l&gt;</span>
+        <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>cuando el sol con rayo de oro<span style="color: #000096;">&lt;/l&gt;</span>
+        <span style="color: #000096;">&lt;l</span><span style="color: #000096;">&gt;</span>da en las domésticas tejas.<span style="color: #000096;">&lt;/l&gt;</span>
+      <span style="color: #000096;">&lt;/lg&gt;</span>
+    <span style="color: #000096;">&lt;/quote&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>J. J. Milanes.<span style="color: #000096;">&lt;/p&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Acababa de amanecer, y el tibio sol de invierno a
+    principios de febrero del año pasado, derramaba mansas
+    olas de luz sobre los techos y campanarios de la ciudad,
+    que comenzaba e despertar de un delicioso sueño. [...]<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;/div&gt;</span>
+<span style="color: #000096;">&lt;/div&gt;</span></code></pre>
+<figcaption>Example 26: Encoding of quotations in the novel “La joven de la flecha de oro”.</figcaption>
+</figure>

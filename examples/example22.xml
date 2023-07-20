@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example22" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>—Sí, pero yo quiero romper esas ligaduras; sí, quiero
+  romperlas, porque un día miro cercano en que no pudiendo ya
+  mi corazón hacerse más violencia, romperá las cadenas de su
+  deber, atro-<span style="color: #000096;">&lt;/said&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;gap</span> <span style="color: #f5844c">unit=</span><span style="color: #993300;">"page"</span> <span style="color: #f5844c">extent=</span><span style="color: #993300;">"2"</span> <span style="color: #f5844c">reason=</span><span style="color: #993300;">"missing"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>luchar hasta morir al frente de vuestros ejércitos, y si llegáis
+  a vencer un día, acordaos de que soñó con vuestra independencia
+  el infortunado nieto de Cárlos I.<span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 22: Encoding of a gap in the novel “El tálamo y la horca”.</figcaption>
+</figure>

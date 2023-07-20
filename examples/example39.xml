@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example39" class="code">
+<pre><code><span style="color: #000096;">&lt;keywords</span> <span style="color: #f5844c">scheme=</span><span style="color: #993300;">"../schema/keywords.xml"</span><span style="color: #000096;">&gt;</span>
+  [...] 
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.title"</span> <span style="color: #f5844c">n=</span><span style="color: #993300;">"1890"</span><span style="color: #000096;">&gt;</span>Rastaquouère. Ilusiones y desengaños 
+    sudamericanos en París<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.title.explicit"</span><span style="color: #000096;">&gt;</span>Ilusiones y desengaños
+    sudamericanos en París<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.title.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.explicit"</span><span style="color: #000096;">&gt;</span>estudio de crítica social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.explicit"</span><span style="color: #000096;">&gt;</span>escritor de costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.explicit"</span><span style="color: #000096;">&gt;</span>pintor de cuadros de 
+    circunstancias<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.explicit"</span><span style="color: #000096;">&gt;</span>estudio de las costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.explicit"</span><span style="color: #000096;">&gt;</span>Balzac<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.explicit"</span><span style="color: #000096;">&gt;</span>Comedia Humana<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    de costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.paratext.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.explicit"</span><span style="color: #000096;">&gt;</span>Ilusiones y desengaños 
+    sudamericanos en París<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.explicit"</span><span style="color: #000096;">&gt;</span>estudio de crítica 
+    social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.explicit"</span><span style="color: #000096;">&gt;</span>estudio de las 
+    costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.explicit.norm"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>estudio<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.explicit.norm"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.explicit.norm"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    de costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.explicit.norm"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>cuadros<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    de costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.historical.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.litHist"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#Schlickers_2003"</span><span style="color: #000096;">&gt;</span>novela 
+    naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.litHist"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#Sanchez_1953"</span><span style="color: #000096;">&gt;</span>novela 
+    de tendencia mixta<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.litHist"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#Sanchez_1953"</span><span style="color: #000096;">&gt;</span>novela social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.litHist.interp"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.litHist.interp"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.litHist.interp"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.signal.explicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.signal.explicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela de costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.signal.explicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>estudio<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.signal.explicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>cuadros<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.signal.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.signal.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela 
+    realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.theme.explicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span> 
+    <span style="color: #f5844c">cligs:importance=</span><span style="color: #993300;">"2"</span><span style="color: #000096;">&gt;</span>novela social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.theme.explicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela de costumbres<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.theme.litHist"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.current.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span> 
+    <span style="color: #f5844c">cligs:importance=</span><span style="color: #993300;">"2"</span><span style="color: #000096;">&gt;</span>novela naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.current.implicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.current.litHist"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela naturalista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.current.litHist"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.mode.intention.explicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>estudio<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.mode.medium.explicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>cuadros<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.mode.representation.explicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>cuadros<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"text.genre.subgenre.summary.mode.representation.explicit"</span> 
+    <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>estudio<span style="color: #000096;">&lt;/term&gt;</span> 
+  [...] 
+<span style="color: #000096;">&lt;/keywords&gt;</span></code></pre>
+<figcaption>Example 39: Encoding of subgenre labels in the novel “Rastaquouère” in the corpus file.</figcaption>
+</figure>

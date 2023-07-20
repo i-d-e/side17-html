@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example2" class="code">
+<pre><code><span style="color: #000096;">&lt;bibl</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"W925"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;author</span> <span style="color: #f5844c">key=</span><span style="color: #993300;">"A367"</span><span style="color: #000096;">&gt;</span>Iglesia, Álvaro de la<span style="color: #000096;">&lt;/author&gt;</span>
+  <span style="color: #000096;">&lt;title</span><span style="color: #000096;">&gt;</span>La alondra<span style="color: #000096;">&lt;/title&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"subgenre.title.explicit"</span><span style="color: #000096;">&gt;</span>novela original<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"subgenre.title.explicit.norm"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela original<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"subgenre.title.implicit"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>-<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"subgenre.title.interp"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela general<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"subgenre.summary"</span> <span style="color: #f5844c">subtype=</span><span style="color: #993300;">"signal"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"subgenre.summary"</span> <span style="color: #f5844c">subtype=</span><span style="color: #993300;">"theme"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela social<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;term</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"subgenre.summary"</span> <span style="color: #f5844c">subtype=</span><span style="color: #993300;">"current"</span> <span style="color: #f5844c">resp=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>novela realista<span style="color: #000096;">&lt;/term&gt;</span>
+  <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"cligs"</span><span style="color: #000096;">&gt;</span>nh0221<span style="color: #000096;">&lt;/idno&gt;</span>
+  <span style="color: #000096;">&lt;country</span><span style="color: #000096;">&gt;</span>Cuba<span style="color: #000096;">&lt;/country&gt;</span>
+  <span style="color: #000096;">&lt;note</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"source"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;ptr</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#DLC_1999"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;/note&gt;</span>
+<span style="color: #000096;">&lt;/bibl&gt;</span></code></pre>
+<figcaption>Example 2: An entry from works.xml.</figcaption>
+</figure>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example4" class="code">
+<pre><code><span style="color: #000096;">&lt;sch:rule</span> <span style="color: #f5844c">context=</span><span style="color: #993300;">"tei:listBibl/tei:bibl"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;sch:let</span> <span style="color: #f5844c">name=</span><span style="color: #993300;">"work-id"</span> <span style="color: #f5844c">value=</span><span style="color: #993300;">"@xml:id"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;sch:assert</span> <span style="color: #f5844c">test=</span><span style="color: #993300;">"matches($work-id,'^W\d+$')"</span><span style="color: #000096;">&gt;</span>The id of a work should have 
+    the form "W + number"<span style="color: #000096;">&lt;/sch:assert&gt;</span>
+  <span style="color: #000096;">&lt;sch:assert</span> <span style="color: #f5844c">test=</span><span style="color: #993300;">"doc('../data/editions.xml')//tei:biblStruct[@corresp = 
+    concat('works.xml#',$work-id)]"</span><span style="color: #000096;">&gt;</span>There is no corresponding work-id 
+    in editions.xml<span style="color: #000096;">&lt;/sch:assert&gt;</span>
+<span style="color: #000096;">&lt;/sch:rule&gt;</span></code></pre>
+<figcaption>Example 4: A rule in the Schematron file works.sch.</figcaption>
+</figure>

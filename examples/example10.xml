@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example10" class="code">
+<pre><code><span style="color: #000096;">&lt;sourceDesc</span> <span style="color: #f5844c">xml:base=</span><span style="color: #993300;">"https://raw.githubusercontent.com/cligs/bibacme/master/app/data/editions.xml"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;bibl</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"digital-source"</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"DS"</span><span style="color: #000096;">&gt;</span> Iglesia, Álvaro de la. "Adoración. 
+    Novela original." <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>HathiTrust Digital Library<span style="color: #000096;">&lt;/seg&gt;</span>, 
+    <span style="color: #000096;">&lt;ref</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"https://catalog.hathitrust.org/Record/009049820"</span><span style="color: #000096;">&gt;</span>https://catalog.hathitrust.org/Record/009049820<span style="color: #000096;">&lt;/ref&gt;</span>.
+    Accessed 31 April 2018.
+  <span style="color: #000096;">&lt;/bibl&gt;</span>
+  <span style="color: #000096;">&lt;bibl</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"print-source"</span> <span style="color: #f5844c">n=</span><span style="color: #993300;">"222"</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"PS"</span> <span style="color: #f5844c">corresp=</span><span style="color: #993300;">"#E1786"</span><span style="color: #000096;">&gt;</span>
+    Iglesia, Álvaro de la. <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Adoración. Novela original.<span style="color: #000096;">&lt;/seg&gt;</span> 
+    Barcelona: Ed. F. Granada, <span style="color: #000096;">&lt;date</span> <span style="color: #f5844c">when=</span><span style="color: #993300;">"1906"</span><span style="color: #000096;">&gt;</span>1906<span style="color: #000096;">&lt;/date&gt;</span>. 222 p. 
+  <span style="color: #000096;">&lt;/bibl&gt;</span>
+  <span style="color: #000096;">&lt;bibl</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"edition-first"</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"E1"</span> <span style="color: #f5844c">corresp=</span><span style="color: #993300;">"#E1280"</span><span style="color: #000096;">&gt;</span>
+    Iglesia, Álvaro de la. <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Adoración. Novela original.<span style="color: #000096;">&lt;/seg&gt;</span> 
+    Matanzas: Imprenta de la Propaganda, <span style="color: #000096;">&lt;date</span> <span style="color: #f5844c">when=</span><span style="color: #993300;">"1894"</span><span style="color: #000096;">&gt;</span>1894<span style="color: #000096;">&lt;/date&gt;</span>. 
+  <span style="color: #000096;">&lt;/bibl&gt;</span>
+<span style="color: #000096;">&lt;/sourceDesc&gt;</span></code></pre>
+<figcaption>Example 10: Source description of the novel “Adoración”.</figcaption>
+</figure>

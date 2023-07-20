@@ -1,0 +1,275 @@
+<!DOCTYPE HTML><html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830–1910)</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/w3.css">
+      <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
+      <link rel="stylesheet" href="css/w3-colors-signal.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <style>
+                html {
+                scroll-padding-top: 118px;
+                }
+                html,body {font-size: 20px;}
+                html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", serif;}
+                h1 {font-size: 32px;}
+                h2 {font-size: 30px;}
+                h3, h4, h5 {font-size: 28px;}
+                .header-image {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -1;
+                }
+                .custom-logo {
+                position: absolute;
+                top: 20px;
+                left: 7px;
+                }
+                #toc a {
+                text-decoration: none;
+                }
+                sup.w3-btn {
+                font-size: small;
+                padding: 7px 5px;
+                }
+                .w3-top a {
+                text-decoration: none;
+                }
+                .w3-sidebar {
+                z-index: 3;
+                width: 450px;
+                top: 86px;
+                bottom: 0;
+                height: inherit;
+                }
+                .w3-sidebar button.w3-button {
+                white-space: normal;
+                }
+                .w3-sidebar.w3-bar-block .w3-bar-item {
+                /*line-height: 1.0;*/
+                padding-right: 20px;
+                }
+                .w3-sidebar .w3-bar {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .w3-tooltip .w3-text {
+                line-height: 1.0;
+                min-width: 300px;
+                }
+                .paracount a {
+                display: inline-block;
+                padding: 0px 5px;
+                text-decoration: none;
+                font-size: 0.8em;
+                font-weight: bold;
+                }
+                .w3-responsive .w3-table {
+                width: auto;
+                max-width: 100%;
+                margin: 0 auto 0 auto;
+                }
+                table.w3-border, table.w3-border th, table.w3-border td {
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                border-spacing: 0px;
+                }
+                table.center th, table.center td {
+                text-align: center;
+                }
+                table th, table td {
+                font-size: 0.9em;
+                }
+                table th {
+                background-color: #dddddd;
+                }
+                caption {
+                margin-top: 5px;
+                }
+                blockquote {
+                font-size: 0.95em;
+                }
+                code {
+                font-size: 0.8em;
+                }
+                figure.code {
+                overflow: scroll;
+                }
+                figure.code pre {
+                padding: 10px;
+                border: 1px solid grey;
+                margin-bottom: 0px;
+                overflow: scroll;
+                }
+                figcaption {
+                font-size: 0.9em;
+                text-align: center;
+                }
+                
+            </style>
+   </head>
+   <body>
+      <div class="w3-top">
+         <div class="w3-bar w3-theme w3-top w3-center w3-large"><a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a><img src="img/side.jpg" class="header-image" alt="Institut für Dokumentologie und Editorik" width="100%" height="15"><h1 class="w3-center" style="margin-top: 27px; padding-left: 175px; font-size:calc(8pt + 1.2vw);"><a href="index.html">Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830–1910)</a></h1><a href="https://www.i-d-e.de/"><img src="img/ide-logo.png" class="custom-logo w3-image" alt="Institut für Dokumentologie und Editorik" style="width:172px;height:auto;"></a></div>
+      </div>
+      <nav class="w3-sidebar w3-padding-32 w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar"><a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu"><i class="fa fa-remove"></i></a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="index.html">Home</a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="acknowledgements.html">Acknowledgements</a><button class="w3-button w3-block w3-left-align w3-hover-blue-grey " onclick="myAccFunc('menuAcc1')">Summary <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc1" class="w3-bar-block w3-hide w3-white w3-card-4"><a href="summary.html#Summary" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Summary</a><a href="summary.html#Resumen" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Resumen</a><a href="summary.html#Zusammenfassung" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Zusammenfassung</a></div><a class="w3-bar-item w3-button w3-hover-blue-grey " href="toc.html">Table of Contents</a><div class="w3-bar w3-border w3-dark-grey"></div><a id="menuch1" class="w3-bar-item w3-button w3-hover-blue-grey  " href="ch1.html#ch1">1 Introduction</a><span id="menuch2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch2.html#ch2" style="text-decoration: none;">2 Concepts</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2')"></i></span><div id="menuAccch2" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1" style="text-decoration: none;">2.1 Literary Genres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1')"></i></span><div id="menuAccch2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.1">2.1.1 Disciplinary Locations of Genre Studies</a><span id="menuch2.1.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.2" style="text-decoration: none;">2.1.2 Ontological Status and Relevance of Genres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.2')"></i></span><div id="menuAccch2.1.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.2.1">2.1.2.1 Semiotic Models of Genres</a><a id="menuch2.1.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.2.2">2.1.2.2 Genres and Digital Genre Stylistics: The Roles of Corpora, Genre Labels,
+                     Features, and Text Style</a></div><span id="menuch2.1.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.3" style="text-decoration: none;">2.1.3 System and History</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.3')"></i></span><div id="menuAccch2.1.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.1">2.1.3.1 A Conceptual Proposal for Digital Genre Stylistics: Literary Text Types,
+                     Conventional Literary Genres, and Textual Literary Genres</a><a id="menuch2.1.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.2">2.1.3.2 Text Types, Conventional Genres, and Textual Genres in Semiotic Models of
+                     Generic Terms</a><a id="menuch2.1.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.3">2.1.3.3 Literary Currents, Schools, and Movements</a><a id="menuch2.1.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.4">2.1.3.4 Genre Systems and Hierarchies</a><a id="menuch2.1.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.5">2.1.3.5 Genre Identity and Variability</a></div><span id="menuch2.1.4" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.4" style="text-decoration: none;">2.1.4 Categorization</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.4')"></i></span><div id="menuAccch2.1.4" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.4.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.1">2.1.4.1 Logical Classes</a><a id="menuch2.1.4.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.2">2.1.4.2 Prototype Categories</a><a id="menuch2.1.4.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.3">2.1.4.3 Family Resemblance Networks</a></div>
+            </div><a id="menuch2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.2">2.2 Style</a><span id="menuch2.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3" style="text-decoration: none;">2.3 Subgenres of the Nineteenth-Century Spanish-American Novel</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3')"></i></span><div id="menuAccch2.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch2.3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3.1" style="text-decoration: none;">2.3.1 Thematic Subgenres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3.1')"></i></span><div id="menuAccch2.3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.3.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.1">2.3.1.1 <em>Novela histórica</em></a><a id="menuch2.3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.2">2.3.1.2 <em>Novela de costumbres</em></a><a id="menuch2.3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.3">2.3.1.3 <em>Novela sentimental</em></a></div><span id="menuch2.3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3.2" style="text-decoration: none;">2.3.2 Subgenres Related to Literary Currents</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3.2')"></i></span><div id="menuAccch2.3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.1">2.3.2.1 <em>Novela romántica</em></a><a id="menuch2.3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.2">2.3.2.2 <em>Novela realista</em></a><a id="menuch2.3.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.3">2.3.2.3 <em>Novela naturalista</em></a></div>
+            </div>
+         </div><span id="menuch3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch3.html#ch3" style="text-decoration: none;">3 Corpus</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3')"></i></span><div id="menuAccch3" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.1" style="text-decoration: none;">3.1 Selection Criteria</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.1')"></i></span><div id="menuAccch3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch3.1.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.1.1" style="text-decoration: none;">3.1.1 Boundaries of the Novel</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.1.1')"></i></span><div id="menuAccch3.1.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.1.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.1">3.1.1.1 Fictionality</a><a id="menuch3.1.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.2">3.1.1.2 Narrativity</a><a id="menuch3.1.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.3">3.1.1.3 Prose</a><a id="menuch3.1.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.4">3.1.1.4 Length</a><a id="menuch3.1.1.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.5">3.1.1.5 Independent Publication</a><a id="menuch3.1.1.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.6">3.1.1.6 Additional Criteria</a><a id="menuch3.1.1.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.7">3.1.1.7 A Working Definition of the Novel</a></div><a id="menuch3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.2">3.1.2 Borders of Argentina, Cuba, and Mexico</a><a id="menuch3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.3">3.1.3 Limits of the Nineteenth Century</a></div><span id="menuch3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.2" style="text-decoration: none;">3.2 Bibliographical Database</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.2')"></i></span><div id="menuAccch3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.1">3.2.1 Sources</a><a id="menuch3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.2">3.2.2 Data Model and Text Encoding</a><span id="menuch3.2.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.2.3" style="text-decoration: none;">3.2.3 Assignment of Subgenre Labels</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.2.3')"></i></span><div id="menuAccch3.2.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.2.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.1">3.2.3.1 An Example</a><a id="menuch3.2.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.2">3.2.3.2 Levels of Subgenre Terms</a><a id="menuch3.2.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.3">3.2.3.3 Explicit and Implicit Subgenre Signals</a><a id="menuch3.2.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.4">3.2.3.4 Interpretive Subgenre Labels</a><a id="menuch3.2.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.5">3.2.3.5 Literary-Historical Subgenre Labels</a><a id="menuch3.2.3.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.6">3.2.3.6 A Discursive Model of Generic Terms</a></div>
+            </div><span id="menuch3.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3" style="text-decoration: none;">3.3 Text Corpus</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3')"></i></span><div id="menuAccch3.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.1">3.3.1 Selection of Novels and Sources</a><a id="menuch3.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.2">3.3.2 Text Treatment</a><span id="menuch3.3.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3" style="text-decoration: none;">3.3.3 Metadata and Text Encoding</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3')"></i></span><div id="menuAccch3.3.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch3.3.3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3.1" style="text-decoration: none;">3.3.3.1 TEI Header</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3.1')"></i></span><div id="menuAccch3.3.3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.3.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.1">3.3.3.1.1 Title and Publication Statements</a><a id="menuch3.3.3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.2">3.3.3.1.2 Declaration of Rights</a><a id="menuch3.3.3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.3">3.3.3.1.3 Source Description</a><a id="menuch3.3.3.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.4">3.3.3.1.4 Encoding Description</a><a id="menuch3.3.3.1.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.5">3.3.3.1.5 Abstracts</a><a id="menuch3.3.3.1.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.6">3.3.3.1.6 Text Classification with Keywords</a><a id="menuch3.3.3.1.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.7">3.3.3.1.7 Revision Description</a></div><span id="menuch3.3.3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3.2" style="text-decoration: none;">3.3.3.2 TEI Body</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3.2')"></i></span><div id="menuAccch3.3.3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.1">3.3.3.2.1 Typographically Marked Subdivisions of the Text</a><a id="menuch3.3.3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.2">3.3.3.2.2 Typographically Highlighted Words or Phrases</a><a id="menuch3.3.3.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.3">3.3.3.2.3 Gaps</a><a id="menuch3.3.3.2.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.4">3.3.3.2.4 Verse Lines</a><a id="menuch3.3.3.2.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.5">3.3.3.2.5 Dramatic Text</a><a id="menuch3.3.3.2.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.6">3.3.3.2.6 Representations of Written Text</a><a id="menuch3.3.3.2.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.7">3.3.3.2.7 Quotations</a><a id="menuch3.3.3.2.8" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.8">3.3.3.2.8 Direct Speech and Thought</a><a id="menuch3.3.3.2.9" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.9">3.3.3.2.9 Embedded Texts</a></div><a id="menuch3.3.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.3">3.3.3.3 TEI Schema</a></div><a id="menuch3.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.4">3.3.4 Assignment of Subgenre Labels</a><a id="menuch3.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.5">3.3.5 Derivative Formats and Publication</a></div>
+         </div><span id="menuch4" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch4.html#ch4" style="text-decoration: none;">4 Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4')"></i></span><div id="menuAccch4" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch4.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1" style="text-decoration: none;">4.1 Metadata Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1')"></i></span><div id="menuAccch4.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.1">4.1.1 On Representativeness</a><a id="menuch4.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.2">4.1.2 Authors</a><span id="menuch4.1.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.3" style="text-decoration: none;">4.1.3 Works</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.3')"></i></span><div id="menuAccch4.1.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.3.1">4.1.3.1 Comparison of Bib-ACMé and Conha19</a><a id="menuch4.1.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.3.2">4.1.3.2 Corpus-specific Overviews</a></div><a id="menuch4.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.4">4.1.4 Editions</a><span id="menuch4.1.5" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5" style="text-decoration: none;">4.1.5 Subgenres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5')"></i></span><div id="menuAccch4.1.5" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.1">4.1.5.1 Explicit Signals, Implicit Signals, and Literary-Historical Labels</a><span id="menuch4.1.5.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5.2" style="text-decoration: none;">4.1.5.2 Discursive Levels of Subgenre Labels</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5.2')"></i></span><div id="menuAccch4.1.5.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.1">4.1.5.2.1 Theme</a><a id="menuch4.1.5.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.2">4.1.5.2.2 Literary Currents</a><a id="menuch4.1.5.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.3">4.1.5.2.3 Mode of Representation</a><a id="menuch4.1.5.2.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.4">4.1.5.2.4 Mode of Reality</a><a id="menuch4.1.5.2.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.5">4.1.5.2.5 Identity</a><a id="menuch4.1.5.2.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.6">4.1.5.2.6 Medium</a><a id="menuch4.1.5.2.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.7">4.1.5.2.7 Attitude</a><a id="menuch4.1.5.2.8" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.8">4.1.5.2.8 Intention</a></div><span id="menuch4.1.5.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5.3" style="text-decoration: none;">4.1.5.3 Subgenre Labels Selected for Text Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5.3')"></i></span><div id="menuAccch4.1.5.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.3.1">4.1.5.3.1 Primary Thematic Labels</a><a id="menuch4.1.5.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.3.2">4.1.5.3.2 Primary Literary Currents</a></div>
+               </div>
+            </div><span id="menuch4.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2" style="text-decoration: none;">4.2 Text Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2')"></i></span><div id="menuAccch4.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch4.2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.1" style="text-decoration: none;">4.2.1 Features</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.1')"></i></span><div id="menuAccch4.2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.1.1">4.2.1.1 General Features: MFW</a><a id="menuch4.2.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.1.2">4.2.1.2 Semantic Features: Topics</a></div><span id="menuch4.2.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2" style="text-decoration: none;">4.2.2 Categorization</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2')"></i></span><div id="menuAccch4.2.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch4.2.2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2.1" style="text-decoration: none;">4.2.2.1 Classification</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2.1')"></i></span><div id="menuAccch4.2.2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.1.1">4.2.2.1.1 Thematic Subgenres</a><a id="menuch4.2.2.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.1.2">4.2.2.1.2 Literary Currents</a></div><span id="menuch4.2.2.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2.2" style="text-decoration: none;">4.2.2.2 Family Resemblance: Network Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2.2')"></i></span><div id="menuAccch4.2.2.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.2.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.1">4.2.2.2.1 Method</a><a id="menuch4.2.2.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.2">4.2.2.2.2 Data</a><a id="menuch4.2.2.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.3">4.2.2.2.3 Results</a></div>
+               </div>
+            </div>
+         </div><a id="menuch5" class="w3-bar-item w3-button w3-hover-blue-grey  " href="ch5.html#ch5">5 Conclusion</a><div class="w3-bar w3-border w3-dark-grey"></div><a class="w3-bar-item w3-button w3-hover-blue-grey " href="notes.html">Notes</a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="references.html">References</a><button class="w3-button w3-block w3-left-align w3-hover-blue-grey" onclick="myAccFunc('menuAcc3')">Appendix <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc3" class="w3-bar-block w3-hide w3-white w3-card-4 "><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="corpus-sources.html">Sources of the Novels in the Corpus</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="appendix-figures.html">Appendix of Figures</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-figures.html">Index of Figures</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-tables.html">Index of Tables</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey w3-blue-grey" href="index-examples.html">Index of Examples</a></div><button class="w3-button w3-hover-blue-grey w3-block w3-left-align" onclick="myAccFunc('menuAcc2')">Data and Scripts <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc2" class="w3-bar-block w3-hide w3-white w3-card-4"><a href="https://github.com/cligs/bibacme" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Bibliography (Bib-ACMé)</a><a href="https://github.com/cligs/conha19" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Corpus (Conha19)</a><a href="https://github.com/cligs/scripts-nh/" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Analysis Scripts (Scripts-nh)</a><a href="https://github.com/cligs/data-nh/" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Analysis Data (Data-nh)</a><a href="tei/Henny-Krahmer_2023_Genre-Analysis-Corpus-Design.xml" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">TEI (Dissertation)</a></div>
+      </nav>
+      <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+      <div class="w3-main" style="margin-left:450px;margin-top:85px;">
+         <div class="w3-row w3-padding-32">
+            <div class="w3-col" style="width: 7%;">&nbsp;</div>
+            <div class="w3-col l8 m10 s10" id="Index-Examples">
+               <h1>Index of Examples</h1>
+               <p><a href="ch3.html#example1">Example 1</a>: An entry from “authors.xml”.</p>
+               <p><a href="ch3.html#example2">Example 2</a>: An entry from “works.xml”.</p>
+               <p><a href="ch3.html#example3">Example 3</a>: An entry from “editions.xml”.</p>
+               <p><a href="ch3.html#example4">Example 4</a>: A rule in the Schematron file “works.sch”.</p>
+               <p><a href="ch3.html#example5">Example 5</a>: Subgenre labels for the work “Los casamientos del diablo”.</p>
+               <p><a href="ch3.html#example6">Example 6</a>: Subgenre labels for the work “Santa”.</p>
+               <p><a href="ch3.html#example7">Example 7</a>: Title statement of the novel “Adoración”.</p>
+               <p><a href="ch3.html#example8">Example 8</a>: Extent and publication statement of the novel
+                  “Adoración”.</p>
+               <p><a href="ch3.html#example9">Example 9</a>: Restricted access for the novel “María de Montiel”.</p>
+               <p><a href="ch3.html#example10">Example 10</a>: Source description of the novel “Adoración”.</p>
+               <p><a href="ch3.html#example11">Example 11</a>: Encoding description of the novel “Adoración”.</p>
+               <p><a href="ch3.html#example12">Example 12</a>: Abstract of the novel “Adoración”.</p>
+               <p><a href="ch3.html#example13">Example 13</a>: Keywords for the novel “Adoración”.</p>
+               <p><a href="ch3.html#example14">Example 14</a>: A section of the TEI taxonomy of keywords.</p>
+               <p><a href="ch3.html#example15">Example 15</a>: Schematron file to control the metadata.</p>
+               <p><a href="ch3.html#example16">Example 16</a>: Revision description of the novel “Adoración”.</p>
+               <p><a href="ch3.html#example17">Example 17</a>: Front matter of the novel “Adoración”.</p>
+               <p><a href="ch3.html#example18">Example 18</a>: Back matter of the novel “Clemencia”.</p>
+               <p><a href="ch3.html#example19">Example 19</a>: Beginning of the novel “Adoración”.</p>
+               <p><a href="ch3.html#example20">Example 20</a>: Encoding of a subdivision inside a chapter in the novel “A fuego
+                  lento”.</p>
+               <p><a href="ch3.html#example21">Example 21</a>: Encoding of non-standard oral speech highlighted in italics in
+                  the novel “Cecilia Valdés o la Loma del Ángel”.</p>
+               <p><a href="ch3.html#example22">Example 22</a>: Encoding of a gap in the novel “El tálamo y la horca”.</p>
+               <p><a href="ch3.html#example23">Example 23</a>: Encoding of verse lines in the novel “Los Hermanos del
+                  Silencio”.</p>
+               <p><a href="ch3.html#example24">Example 24</a>: Encoding of dramatic speech in the novel “Pot-pourri”.</p>
+               <p><a href="ch3.html#example25">Example 25</a>: Encoding of a newspaper ad in the novel “La virgen del
+                  Niágara”.</p>
+               <p><a href="ch3.html#example26">Example 26</a>: Encoding of quotations in the novel “La joven de la flecha de
+                  oro”.</p>
+               <p><a href="ch3.html#example27">Example 27</a>: Encoding of direct speech in the novel “Adoración”.</p>
+               <p><a href="ch3.html#example28">Example 28</a>: Encoding of direct thought in the novel “S. Y.”.</p>
+               <p><a href="ch3.html#example29">Example 29</a>: Encoding of direct speech in the novel “Los precursores”.</p>
+               <p><a href="ch3.html#example30">Example 30</a>: Encoding of direct speech in the novel “La Ginesa”.</p>
+               <p><a href="ch3.html#example31">Example 31</a>: Encoding of direct speech in the novel “Peregrinaciones de un
+                  alma triste”.</p>
+               <p><a href="ch3.html#example32">Example 32</a>: Encoding of direct speech in the novel “Puebla”.</p>
+               <p><a href="ch3.html#example33">Example 33</a>: A parenthesis introduced with hyphens in the novel
+                  “Adoración”.</p>
+               <p><a href="ch3.html#example34">Example 34</a>: Excerpt from the tokenized version of the novel “El guajiro”,
+                  with stand-off direct speech annotation.</p>
+               <p><a href="ch3.html#example35">Example 35</a>: Encoding of an embedded letter in the novel “Amelia de Floriani
+                  o el castillo del diablo”.</p>
+               <p><a href="ch3.html#example36">Example 36</a>: Encoding of an embedded newspaper article in the novel
+                  “Divertidas aventuras del nieto de Juan Moreira”.</p>
+               <p><a href="ch3.html#example37">Example 37</a>: Processing instructions in a TEI corpus file.</p>
+               <p><a href="ch3.html#example38">Example 38</a>: Subgenre labels for the novel “Rastaquouère” in the work list of
+                  Bib-ACMé.</p>
+               <p><a href="ch3.html#example39">Example 39</a>: Encoding of subgenre labels in the novel “Rastaquouère” in the corpus
+                  file.</p>
+               <p><a href="ch3.html#example40">Example 40</a>: Excerpts from the introduction to the novel “Rastaquouère”.</p>
+               <p><a href="ch3.html#example41">Example 41</a>: Excerpts from the first chapter of the novel “La Mestiza”.</p>
+               <p><a href="ch3.html#example42">Example 42</a>: Excerpt from the plain text version of the novel “El guajiro”.</p>
+               <p><a href="ch3.html#example43">Example 43</a>: Command line call of the FreeLing analyzer program.</p>
+               <p><a href="ch3.html#example44">Example 44</a>: Annotation result in the FreeLing XML format.</p>
+               <p><a href="ch3.html#example45">Example 45</a>: Annotation result in the TEI format.</p>
+               <p><a href="ch3.html#example46">Example 46</a>: FreeLing output for verb forms with enclitic pronouns (in CLiGS
+                  TEI-format).</p>
+               <p><a href="ch3.html#example47">Example 47</a>: FreeLing output for verb forms with enclitic pronouns (in CLiGS
+                  TEI-format).</p>
+               <p><a href="ch3.html#example48">Example 48</a>: Phrase with corrected morphological analysis and POS
+                  assignment.</p>
+               <p><a href="ch4.html#example49">Example 49</a>: Example sentence for character n-gram creation.</p>
+               <p><a href="ch4.html#example50">Example 50</a>: Example sentence from the novel “Amalia” (1855, AR) by José
+                  Mármol.</p>
+            </div>
+            <div class="w3-col w3-rest"></div>
+         </div>
+         <footer id="myFooter">
+            <div class="w3-container w3-theme-l2 w3-padding-32">
+               <p>Henny-Krahmer, Ulrike. 2023. <em>Genre Analysis and Corpus Design.
+                     Nineteenth-Century Spanish-American Novels (1830–1910).</em> HTML version, v1.0.0.
+                  Schriften des Instituts für Dokumentologie und Editorik 17. Berlin: IDE.</p>
+            </div>
+            <div class="w3-container w3-theme-l1">
+               <p><span style="display: inline-block; padding-right: 10px;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://ride.i-d-e.de/wp-content/uploads/cc-by.png" width="55"></a></span><a href="imprint.html">Publishing Policy, Imprint and Privacy</a></p>
+            </div>
+         </footer>
+      </div><script>
+            // Get the Sidebar
+            var mySidebar = document.getElementById("mySidebar");
+            
+            // Get the DIV with overlay effect
+            var overlayBg = document.getElementById("myOverlay");
+            
+            // Toggle between showing and hiding the sidebar, and add overlay effect
+            function w3_open() {
+            if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+            overlayBg.style.display = "none";
+            } else {
+            mySidebar.style.display = 'block';
+            overlayBg.style.display = "block";
+            }
+            }
+            
+            // Close the sidebar with the close button
+            function w3_close() {
+            mySidebar.style.display = "none";
+            overlayBg.style.display = "none";
+            }
+            
+            function myAccFunc(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            x.previousElementSibling.className += " w3-blue-grey";
+            } else { 
+            x.className = x.className.replace(" w3-show", "");
+            x.previousElementSibling.className = 
+            x.previousElementSibling.className.replace(" w3-blue-grey", "");
+            }
+            }
+            
+            window.onload, window.onhashchange = function(){
+                var hash = window.location.hash;
+                var hash_id = hash.substring(1);
+                var x = document.getElementById("menuAcc"+hash_id);
+                
+                if (x.className.indexOf("w3-blue-grey") == -1) {
+                    x.className += " w3-blue-grey w3-show";
+                    x.closest(".w3-bar-block.w3.hide").className.replace("w3-hide","w3-show");
+                }
+                
+                var y = document.getElementById("menu"+hash_id);
+                if (y.className.indexOf("w3-blue-grey") == -1) {
+                    y.className += " w3-blue-grey";
+                }
+                
+                
+            };
+            
+            
+        </script></body>
+</html>

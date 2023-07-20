@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example9" class="code">
+<pre><code><span style="color: #000096;">&lt;availability</span> <span style="color: #f5844c">status=</span><span style="color: #993300;">"restricted"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>This file is prepared for personal research use only and not for publication 
+    because the ancillary copyright of the underlying print edition has not yet 
+    expired according to German law.<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;/availability&gt;</span></code></pre>
+<figcaption>Example 9: Restricted access for the novel “María de Montiel”.</figcaption>
+</figure>

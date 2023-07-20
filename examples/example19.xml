@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example19" class="code">
+<pre><code><span style="color: #000096;">&lt;body</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"chapter"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>I<span style="color: #000096;">&lt;/head&gt;</span>
+    <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>El escenario<span style="color: #000096;">&lt;/head&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Allí donde se rompe sobre el acantilado granítico el inmenso
+    empuje de dos mares y el movimiento formidable del Océano
+    levanta al aire blancas trombas de rugiente espuma
+    manteniendo en un constante clamoreo las aguas de la costa,
+    la labor eterna de las olas ha abierto una ensenada en el
+    abrupto litoral en que va a morir la resaca como en un
+    remanso, cual si cansada de su fatigoso golpeo se tendiera
+    perezosa en las brillantes arenas de la playa.<span style="color: #000096;">&lt;/p&gt;</span> [...]
+  <span style="color: #000096;">&lt;/div&gt;</span>
+<span style="color: #000096;">&lt;/body&gt;</span></code></pre>
+<figcaption>Example 19: Beginning of the novel “Adoración”.</figcaption>
+</figure>

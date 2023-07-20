@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example37" class="code">
+<pre><code><span style="color: #8d2acb;">&lt;?xml-model
+  href="../schema/keywords.sch" type="application/xml" 
+  schematypens="http://purl.oclc.org/dsdl/schematron"?&gt;
+&lt;?xml-model
+  href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" 
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?&gt;</span></code></pre>
+<figcaption>Example 37: Processing instructions in a TEI corpus file.</figcaption>
+</figure>

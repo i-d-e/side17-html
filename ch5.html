@@ -1,0 +1,593 @@
+<!DOCTYPE HTML><html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830–1910)</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/w3.css">
+      <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
+      <link rel="stylesheet" href="css/w3-colors-signal.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <style>
+                html {
+                scroll-padding-top: 118px;
+                }
+                html,body {font-size: 20px;}
+                html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", serif;}
+                h1 {font-size: 32px;}
+                h2 {font-size: 30px;}
+                h3, h4, h5 {font-size: 28px;}
+                .header-image {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -1;
+                }
+                .custom-logo {
+                position: absolute;
+                top: 20px;
+                left: 7px;
+                }
+                #toc a {
+                text-decoration: none;
+                }
+                sup.w3-btn {
+                font-size: small;
+                padding: 7px 5px;
+                }
+                .w3-top a {
+                text-decoration: none;
+                }
+                .w3-sidebar {
+                z-index: 3;
+                width: 450px;
+                top: 86px;
+                bottom: 0;
+                height: inherit;
+                }
+                .w3-sidebar button.w3-button {
+                white-space: normal;
+                }
+                .w3-sidebar.w3-bar-block .w3-bar-item {
+                /*line-height: 1.0;*/
+                padding-right: 20px;
+                }
+                .w3-sidebar .w3-bar {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .w3-tooltip .w3-text {
+                line-height: 1.0;
+                min-width: 300px;
+                }
+                .paracount a {
+                display: inline-block;
+                padding: 0px 5px;
+                text-decoration: none;
+                font-size: 0.8em;
+                font-weight: bold;
+                }
+                .w3-responsive .w3-table {
+                width: auto;
+                max-width: 100%;
+                margin: 0 auto 0 auto;
+                }
+                table.w3-border, table.w3-border th, table.w3-border td {
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                border-spacing: 0px;
+                }
+                table.center th, table.center td {
+                text-align: center;
+                }
+                table th, table td {
+                font-size: 0.9em;
+                }
+                table th {
+                background-color: #dddddd;
+                }
+                caption {
+                margin-top: 5px;
+                }
+                blockquote {
+                font-size: 0.95em;
+                }
+                code {
+                font-size: 0.8em;
+                }
+                figure.code {
+                overflow: scroll;
+                }
+                figure.code pre {
+                padding: 10px;
+                border: 1px solid grey;
+                margin-bottom: 0px;
+                overflow: scroll;
+                }
+                figcaption {
+                font-size: 0.9em;
+                text-align: center;
+                }
+                
+            </style>
+   </head>
+   <body>
+      <div class="w3-top">
+         <div class="w3-bar w3-theme w3-top w3-center w3-large"><a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a><img src="img/side.jpg" class="header-image" alt="Institut für Dokumentologie und Editorik" width="100%" height="15"><h1 class="w3-center" style="margin-top: 27px; padding-left: 175px; font-size:calc(8pt + 1.2vw);"><a href="index.html">Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830–1910)</a></h1><a href="https://www.i-d-e.de/"><img src="img/ide-logo.png" class="custom-logo w3-image" alt="Institut für Dokumentologie und Editorik" style="width:172px;height:auto;"></a></div>
+      </div>
+      <nav class="w3-sidebar w3-padding-32 w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar"><a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu"><i class="fa fa-remove"></i></a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="index.html">Home</a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="acknowledgements.html">Acknowledgements</a><button class="w3-button w3-block w3-left-align w3-hover-blue-grey " onclick="myAccFunc('menuAcc1')">Summary <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc1" class="w3-bar-block w3-hide w3-white w3-card-4"><a href="summary.html#Summary" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Summary</a><a href="summary.html#Resumen" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Resumen</a><a href="summary.html#Zusammenfassung" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Zusammenfassung</a></div><a class="w3-bar-item w3-button w3-hover-blue-grey " href="toc.html">Table of Contents</a><div class="w3-bar w3-border w3-dark-grey"></div><a id="menuch1" class="w3-bar-item w3-button w3-hover-blue-grey  " href="ch1.html#ch1">1 Introduction</a><span id="menuch2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch2.html#ch2" style="text-decoration: none;">2 Concepts</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2')"></i></span><div id="menuAccch2" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1" style="text-decoration: none;">2.1 Literary Genres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1')"></i></span><div id="menuAccch2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.1">2.1.1 Disciplinary Locations of Genre Studies</a><span id="menuch2.1.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.2" style="text-decoration: none;">2.1.2 Ontological Status and Relevance of Genres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.2')"></i></span><div id="menuAccch2.1.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.2.1">2.1.2.1 Semiotic Models of Genres</a><a id="menuch2.1.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.2.2">2.1.2.2 Genres and Digital Genre Stylistics: The Roles of Corpora, Genre Labels,
+                     Features, and Text Style</a></div><span id="menuch2.1.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.3" style="text-decoration: none;">2.1.3 System and History</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.3')"></i></span><div id="menuAccch2.1.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.1">2.1.3.1 A Conceptual Proposal for Digital Genre Stylistics: Literary Text Types,
+                     Conventional Literary Genres, and Textual Literary Genres</a><a id="menuch2.1.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.2">2.1.3.2 Text Types, Conventional Genres, and Textual Genres in Semiotic Models of
+                     Generic Terms</a><a id="menuch2.1.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.3">2.1.3.3 Literary Currents, Schools, and Movements</a><a id="menuch2.1.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.4">2.1.3.4 Genre Systems and Hierarchies</a><a id="menuch2.1.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.3.5">2.1.3.5 Genre Identity and Variability</a></div><span id="menuch2.1.4" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.1.4" style="text-decoration: none;">2.1.4 Categorization</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.1.4')"></i></span><div id="menuAccch2.1.4" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.1.4.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.1">2.1.4.1 Logical Classes</a><a id="menuch2.1.4.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.2">2.1.4.2 Prototype Categories</a><a id="menuch2.1.4.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.1.4.3">2.1.4.3 Family Resemblance Networks</a></div>
+            </div><a id="menuch2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.2">2.2 Style</a><span id="menuch2.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3" style="text-decoration: none;">2.3 Subgenres of the Nineteenth-Century Spanish-American Novel</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3')"></i></span><div id="menuAccch2.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch2.3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3.1" style="text-decoration: none;">2.3.1 Thematic Subgenres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3.1')"></i></span><div id="menuAccch2.3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.3.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.1">2.3.1.1 <em>Novela histórica</em></a><a id="menuch2.3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.2">2.3.1.2 <em>Novela de costumbres</em></a><a id="menuch2.3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.1.3">2.3.1.3 <em>Novela sentimental</em></a></div><span id="menuch2.3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch2.html#ch2.3.2" style="text-decoration: none;">2.3.2 Subgenres Related to Literary Currents</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch2.3.2')"></i></span><div id="menuAccch2.3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch2.3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.1">2.3.2.1 <em>Novela romántica</em></a><a id="menuch2.3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.2">2.3.2.2 <em>Novela realista</em></a><a id="menuch2.3.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch2.html#ch2.3.2.3">2.3.2.3 <em>Novela naturalista</em></a></div>
+            </div>
+         </div><span id="menuch3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch3.html#ch3" style="text-decoration: none;">3 Corpus</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3')"></i></span><div id="menuAccch3" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.1" style="text-decoration: none;">3.1 Selection Criteria</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.1')"></i></span><div id="menuAccch3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch3.1.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.1.1" style="text-decoration: none;">3.1.1 Boundaries of the Novel</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.1.1')"></i></span><div id="menuAccch3.1.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.1.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.1">3.1.1.1 Fictionality</a><a id="menuch3.1.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.2">3.1.1.2 Narrativity</a><a id="menuch3.1.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.3">3.1.1.3 Prose</a><a id="menuch3.1.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.4">3.1.1.4 Length</a><a id="menuch3.1.1.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.5">3.1.1.5 Independent Publication</a><a id="menuch3.1.1.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.6">3.1.1.6 Additional Criteria</a><a id="menuch3.1.1.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.1.7">3.1.1.7 A Working Definition of the Novel</a></div><a id="menuch3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.2">3.1.2 Borders of Argentina, Cuba, and Mexico</a><a id="menuch3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.1.3">3.1.3 Limits of the Nineteenth Century</a></div><span id="menuch3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.2" style="text-decoration: none;">3.2 Bibliographical Database</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.2')"></i></span><div id="menuAccch3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.1">3.2.1 Sources</a><a id="menuch3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.2">3.2.2 Data Model and Text Encoding</a><span id="menuch3.2.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.2.3" style="text-decoration: none;">3.2.3 Assignment of Subgenre Labels</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.2.3')"></i></span><div id="menuAccch3.2.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.2.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.1">3.2.3.1 An Example</a><a id="menuch3.2.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.2">3.2.3.2 Levels of Subgenre Terms</a><a id="menuch3.2.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.3">3.2.3.3 Explicit and Implicit Subgenre Signals</a><a id="menuch3.2.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.4">3.2.3.4 Interpretive Subgenre Labels</a><a id="menuch3.2.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.5">3.2.3.5 Literary-Historical Subgenre Labels</a><a id="menuch3.2.3.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.2.3.6">3.2.3.6 A Discursive Model of Generic Terms</a></div>
+            </div><span id="menuch3.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3" style="text-decoration: none;">3.3 Text Corpus</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3')"></i></span><div id="menuAccch3.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.1">3.3.1 Selection of Novels and Sources</a><a id="menuch3.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.2">3.3.2 Text Treatment</a><span id="menuch3.3.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3" style="text-decoration: none;">3.3.3 Metadata and Text Encoding</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3')"></i></span><div id="menuAccch3.3.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch3.3.3.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3.1" style="text-decoration: none;">3.3.3.1 TEI Header</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3.1')"></i></span><div id="menuAccch3.3.3.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.3.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.1">3.3.3.1.1 Title and Publication Statements</a><a id="menuch3.3.3.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.2">3.3.3.1.2 Declaration of Rights</a><a id="menuch3.3.3.1.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.3">3.3.3.1.3 Source Description</a><a id="menuch3.3.3.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.4">3.3.3.1.4 Encoding Description</a><a id="menuch3.3.3.1.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.5">3.3.3.1.5 Abstracts</a><a id="menuch3.3.3.1.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.6">3.3.3.1.6 Text Classification with Keywords</a><a id="menuch3.3.3.1.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.1.7">3.3.3.1.7 Revision Description</a></div><span id="menuch3.3.3.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch3.html#ch3.3.3.2" style="text-decoration: none;">3.3.3.2 TEI Body</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch3.3.3.2')"></i></span><div id="menuAccch3.3.3.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch3.3.3.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.1">3.3.3.2.1 Typographically Marked Subdivisions of the Text</a><a id="menuch3.3.3.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.2">3.3.3.2.2 Typographically Highlighted Words or Phrases</a><a id="menuch3.3.3.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.3">3.3.3.2.3 Gaps</a><a id="menuch3.3.3.2.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.4">3.3.3.2.4 Verse Lines</a><a id="menuch3.3.3.2.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.5">3.3.3.2.5 Dramatic Text</a><a id="menuch3.3.3.2.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.6">3.3.3.2.6 Representations of Written Text</a><a id="menuch3.3.3.2.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.7">3.3.3.2.7 Quotations</a><a id="menuch3.3.3.2.8" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.8">3.3.3.2.8 Direct Speech and Thought</a><a id="menuch3.3.3.2.9" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.2.9">3.3.3.2.9 Embedded Texts</a></div><a id="menuch3.3.3.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.3.3">3.3.3.3 TEI Schema</a></div><a id="menuch3.3.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.4">3.3.4 Assignment of Subgenre Labels</a><a id="menuch3.3.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch3.html#ch3.3.5">3.3.5 Derivative Formats and Publication</a></div>
+         </div><span id="menuch4" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  "><a href="ch4.html#ch4" style="text-decoration: none;">4 Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4')"></i></span><div id="menuAccch4" class="w3-bar-block w3-hide w3-white w3-card-4 "><span id="menuch4.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1" style="text-decoration: none;">4.1 Metadata Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1')"></i></span><div id="menuAccch4.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.1">4.1.1 On Representativeness</a><a id="menuch4.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.2">4.1.2 Authors</a><span id="menuch4.1.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.3" style="text-decoration: none;">4.1.3 Works</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.3')"></i></span><div id="menuAccch4.1.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.3.1">4.1.3.1 Comparison of Bib-ACMé and Conha19</a><a id="menuch4.1.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.3.2">4.1.3.2 Corpus-specific Overviews</a></div><a id="menuch4.1.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.4">4.1.4 Editions</a><span id="menuch4.1.5" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5" style="text-decoration: none;">4.1.5 Subgenres</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5')"></i></span><div id="menuAccch4.1.5" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.1">4.1.5.1 Explicit Signals, Implicit Signals, and Literary-Historical Labels</a><span id="menuch4.1.5.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5.2" style="text-decoration: none;">4.1.5.2 Discursive Levels of Subgenre Labels</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5.2')"></i></span><div id="menuAccch4.1.5.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.1">4.1.5.2.1 Theme</a><a id="menuch4.1.5.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.2">4.1.5.2.2 Literary Currents</a><a id="menuch4.1.5.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.3">4.1.5.2.3 Mode of Representation</a><a id="menuch4.1.5.2.4" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.4">4.1.5.2.4 Mode of Reality</a><a id="menuch4.1.5.2.5" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.5">4.1.5.2.5 Identity</a><a id="menuch4.1.5.2.6" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.6">4.1.5.2.6 Medium</a><a id="menuch4.1.5.2.7" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.7">4.1.5.2.7 Attitude</a><a id="menuch4.1.5.2.8" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.2.8">4.1.5.2.8 Intention</a></div><span id="menuch4.1.5.3" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.1.5.3" style="text-decoration: none;">4.1.5.3 Subgenre Labels Selected for Text Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.1.5.3')"></i></span><div id="menuAccch4.1.5.3" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.1.5.3.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.3.1">4.1.5.3.1 Primary Thematic Labels</a><a id="menuch4.1.5.3.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.1.5.3.2">4.1.5.3.2 Primary Literary Currents</a></div>
+               </div>
+            </div><span id="menuch4.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2" style="text-decoration: none;">4.2 Text Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2')"></i></span><div id="menuAccch4.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch4.2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.1" style="text-decoration: none;">4.2.1 Features</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.1')"></i></span><div id="menuAccch4.2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.1.1">4.2.1.1 General Features: MFW</a><a id="menuch4.2.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.1.2">4.2.1.2 Semantic Features: Topics</a></div><span id="menuch4.2.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2" style="text-decoration: none;">4.2.2 Categorization</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2')"></i></span><div id="menuAccch4.2.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><span id="menuch4.2.2.1" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2.1" style="text-decoration: none;">4.2.2.1 Classification</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2.1')"></i></span><div id="menuAccch4.2.2.1" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.2.1.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.1.1">4.2.2.1.1 Thematic Subgenres</a><a id="menuch4.2.2.1.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.1.2">4.2.2.1.2 Literary Currents</a></div><span id="menuch4.2.2.2" class="w3-hover-blue-grey w3-button w3-bar-item w3-block w3-left-align  w3-margin-left"><a href="ch4.html#ch4.2.2.2" style="text-decoration: none;">4.2.2.2 Family Resemblance: Network Analysis</a><i class="fa fa-caret-down w3-padding-small" style="z-index: 10;" onclick="myAccFunc('menuAccch4.2.2.2')"></i></span><div id="menuAccch4.2.2.2" class="w3-bar-block w3-hide w3-white w3-card-4 w3-margin-left"><a id="menuch4.2.2.2.1" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.1">4.2.2.2.1 Method</a><a id="menuch4.2.2.2.2" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.2">4.2.2.2.2 Data</a><a id="menuch4.2.2.2.3" class="w3-bar-item w3-button w3-hover-blue-grey  w3-margin-left" href="ch4.html#ch4.2.2.2.3">4.2.2.2.3 Results</a></div>
+               </div>
+            </div>
+         </div><a id="menuch5" class="w3-bar-item w3-button w3-hover-blue-grey w3-blue-grey " href="ch5.html#ch5">5 Conclusion</a><div class="w3-bar w3-border w3-dark-grey"></div><a class="w3-bar-item w3-button w3-hover-blue-grey " href="notes.html">Notes</a><a class="w3-bar-item w3-button w3-hover-blue-grey " href="references.html">References</a><button class="w3-button w3-block w3-left-align w3-hover-blue-grey" onclick="myAccFunc('menuAcc3')">Appendix <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc3" class="w3-bar-block w3-hide w3-white w3-card-4 "><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="corpus-sources.html">Sources of the Novels in the Corpus</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="appendix-figures.html">Appendix of Figures</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-figures.html">Index of Figures</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-tables.html">Index of Tables</a><a class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey " href="index-examples.html">Index of Examples</a></div><button class="w3-button w3-hover-blue-grey w3-block w3-left-align" onclick="myAccFunc('menuAcc2')">Data and Scripts <i class="fa fa-caret-down w3-padding-small"></i></button><div id="menuAcc2" class="w3-bar-block w3-hide w3-white w3-card-4"><a href="https://github.com/cligs/bibacme" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Bibliography (Bib-ACMé)</a><a href="https://github.com/cligs/conha19" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Corpus (Conha19)</a><a href="https://github.com/cligs/scripts-nh/" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Analysis Scripts (Scripts-nh)</a><a href="https://github.com/cligs/data-nh/" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">Analysis Data (Data-nh)</a><a href="tei/Henny-Krahmer_2023_Genre-Analysis-Corpus-Design.xml" class="w3-bar-item w3-button w3-margin-left w3-hover-blue-grey">TEI (Dissertation)</a></div>
+      </nav>
+      <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+      <div class="w3-main" style="margin-left:450px;margin-top:85px;">
+         <div class="w3-row w3-padding-32">
+            <div class="w3-col" style="width: 7%;">&nbsp;</div>
+            <div class="w3-col l8 m10 s10" id="ch5">
+               <h1>5 Conclusion</h1>
+               
+               
+               <p id="p767"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p767">767</a></span>A central question raised in the introduction was how literary genres
+                  can be conceived in theoretical terms as categories that can capture the common
+                  aspects that humans see in literary works of the same genres. Moreover, the
+                  theoretical conception of literary genres should be able to grasp the common features
+                  of literary works belonging to a genre on a textual level. In the context of
+                  computational literary studies, this applies not only to the analysis of textual
+                  properties of genres by literary scholars but also by computers. To that end,
+                  concepts of genre stemming from literary theory were discussed in the theoretical
+                  part of this dissertation and were related to the aims and procedures of digital
+                  genre stylistics.</p>
+               
+               <p id="p768"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p768">768</a></span>Regarding the ontological status of genres, it was argued that they can
+                  best be understood as communicative norms or conventions which have an influence on
+                  the stylistic form of the literary texts that participate in them. Surface cues of
+                  the texts that are related to genre labels can be interpreted as traces or “normative
+                  facts”, in the terms of Hempfer (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">1973<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Hempfer, Klaus W. 1973. <em>Gattungstheorie.
+                           Information und Synthese.</em> München: Fink.</span></span>), which are left by the genre conventions. In this way, even a digital
+                  stylistic text analysis can capture elements of communicative phenomena that are,
+                  at
+                  least to a certain degree, determined by factors that lie outside of the syntactic
+                  and semantic level of literary texts.</p>
+               
+               <p id="p769"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p769">769</a></span>As a second aspect of the theoretical part of this dissertation, the
+                  usefulness of semiotic models of genres for the modeling of generic terms was
+                  highlighted. They allow to organize conventional signals that are transported by
+                  genre labels on different linguistic and contextual levels so that stylistic analyses
+                  can focus on selected semiotic levels. Semiotic levels include the thematic one,
+                  which is, for instance, primarily addressed by sentimental or social novels, or the
+                  level concerned with the relationship of the texts to reality, for which historical,
+                  science fiction, or fantastic novels are examples. These are only two of the possible
+                  semiotic levels to which generic names can refer. Most of the genre labels do not
+                  refer to one level exclusively, but it is helpful to decide on a specific dimension
+                  of genre discourse that is examined, to compare genres or subgenres on a similar
+                  level. To make decisions for selected levels of analysis is especially relevant for
+                  digital genre stylistics because corpus studies are usually performed in a
+                  contrastive setting, either by comparing one subgenre to a larger corpus covering
+                  a
+                  superordinate major genre or by opposing individual genres or subgenres directly.
+                  Analyzing the discursive levels that genre labels refer to can also provide useful
+                  hints about the textual traits that could be relevant for them and can lead to
+                  hypotheses about the stylistic characteristics of the texts participating in the
+                  genre in question. For thematic subgenres, for instance, topic features can be a good
+                  choice. However, it must be assumed that most genres are defined on several textual
+                  levels at once. In any case, in digital stylistic analysis, the textual traits must
+                  all be captured on the textual surface, and they must therefore be formalized and
+                  leveled down to text style, as is done by using topics as indicators for thematic
+                  developments. As a result, other aspects of text surface style may enter the feature
+                  space. In the case of topics, for example, not only thematic elements become visible
+                  but also aspects of the setting, plot, or specific literary motifs. This shows that
+                  a
+                  connection between genre conventions, textual traits of genres, and surface style
+                  can
+                  be assumed and deduced, or induced, but that this connection is a complex one, which
+                  still needs to be investigated further in theoretical and empirical terms.</p>
+               
+               <p id="p770"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p770">770</a></span>A third finding of the theoretical part was that for digital genre
+                  stylistics, it is advantageous to have separate concepts of literary text types,
+                  conventional genres, and textual genres. In this way, not only theoretically driven
+                  genre analyses, starting from certain concepts of textual genres are enabled, but
+                  also exploratory ones concerned with groupings of texts that emerge from stylistic
+                  features. This is important because it is not necessarily directly possible to
+                  clarify the relationship between literary definitions of genres and surface style
+                  captured in computational analyses. Theoretically, such a relationship is most often
+                  hypothesis-driven, and practically, many tools that formalize literary concepts are
+                  still missing. In literary genre theory, there are proposals of how to distinguish
+                  text types from genres, but they usually adhere to a relationship of dependence
+                  between both. Here it was proposed to completely separate the levels of literary text
+                  types and literary conventional genres to be able to define and find intersections
+                  of
+                  both as a result.</p>
+               
+               <p id="p771"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p771">771</a></span>In the part on the different literary theoretical concepts of genres as
+                  categories (classes, prototypes, and families), it was laid out how they can be
+                  applied fruitfully by using statistical categorization methods. Classification,
+                  clustering, or network analysis constitute different options to analyze literary text
+                  types and to relate them to conventional genres. It was argued that there is no
+                  exclusive relationship between each of these text categorization methods and the
+                  different literary theoretical concepts of genre categories. Instead, each method
+                  covers different aspects of several types of categories. Statistical classification,
+                  for instance, can also be used to determine the prototypicality of literary texts
+                  as
+                  instances of genres to a certain degree. On the other hand, networks can not only
+                  be
+                  used for family resemblance analyses, but also allow the formation of clusters in
+                  the
+                  networks, which then represent delimited groups.</p>
+               
+               <p id="p772"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p772">772</a></span>In the chapter on style, a definition of literary genre style was
+                  formulated that applies the concept of style formulated by Herrmann, Schöch, and van
+                  Dalen-Oskam (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">2015<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Herrmann, J. Berenike, Christof Schöch, and Karina
+                        van Dalen-Oskam. 2015. “Revisiting Style, a Key Concept in Literary Studies.”
+                        <em>Journal of Literary Theory</em> 9 (1): 25–52. <a href="https://doi.org/10.1515/jlt-2015-0003">https://doi.org/10.1515/jlt-2015-0003</a>.</span></span>) to the
+                  field of literary genre analysis. In this definition, the distinction between
+                  communicatively determined, conventional genres and formally determined literary text
+                  types is included. Furthermore, a distinction is made between higher-level stylistic
+                  traits and low-level surface cues, and it is formulated which types of linguistic
+                  features are considered stylistic cues. In this way, the relationships between
+                  literary genres and their stylistic characteristics on the one hand and linguistic
+                  features of the surface of texts on the other hand is differentiated and made
+                  clear.</p>
+               
+               <p id="p773"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p773">773</a></span>In the last part of the Concepts chapter, selected thematic subgenres
+                  and literary currents of the nineteenth-century Spanish-American novel were presented
+                  with a view to genre-stylistic characteristics. In this way, the textual analysis
+                  of
+                  these subgenres conducted in the Analysis chapter of the dissertation was prepared
+                  and related to established literary-historical knowledge.</p>
+               
+               <p id="p774"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p774">774</a></span>The various considerations of the theory section contribute to relating
+                  established theoretical concepts of literary and linguistic studies to computer-based
+                  analyses of literary genres. On the one hand, this should promote a theoretical
+                  foundation of textual analyses of digital genre stylistics. On the other hand, it
+                  should also be possible to relate the results obtained with digital genre stylistic
+                  analyses to previous results obtained with classical methods. They should not be
+                  detached from previous research in literary history, but should enter, be, and remain
+                  in dialogue with it. Recent developments in the digital humanities show that the need
+                  for a stronger theoretical foundation is seen. For example, a working group on
+                  digital humanities theory has been established in the DHd association (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">AG Digital Humanities Theorie
+                     2023<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">AG Digital Humanities Theorie. 2023. Digital
+                        Humanities Theorie. Theorie und Theoriebildung in den digitalen
+                        Geisteswissenschaften. <a href="https://web.archive.org/web/20230208165032/https://dhtheorien.hypotheses.org/">https://web.archive.org/web/20230208165032/https://dhtheorien.hypotheses.org/</a>.</span></span>). In relation to the results of this dissertation, the next step will be
+                  to see to what extent the suggestions made here for concepts of digital genre
+                  stylistics can be useful not only for the analyses in this specific thesis, but also
+                  in other application studies. Furthermore, the conceptual considerations of genre
+                  categories and computational categorization can still be extended and need to be
+                  supported by further empirical studies.</p>
+               
+               <p id="p775"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p775">775</a></span>In the empirical part of this thesis, the methodology for the creation
+                  of a digital bibliography serving as a sampling frame and a text corpus aimed at the
+                  analysis of nineteenth-century Spanish-American novels with regard to subgenres was
+                  discussed and presented in detail. The approaches taken were outlined in practical
+                  terms and by example, addressing the specific questions, challenges, and solutions
+                  found for the bibliography and corpus at hand. Still, the proceedings followed were
+                  also the result of general considerations and discussions in the CLiGS project. They
+                  can be taken as a proposal for how to prepare a digital corpus of literary texts for
+                  genre analysis in a good way. The findings of these reflections in the project led
+                  to
+                  the creation of the “textbox” as an exemplary set of text collections for digital
+                  literary analysis (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">Schöch et al.
+                     2019<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Schöch, Christof, José Calvo Tello, Ulrike
+                        Henny-Krahmer, and Stefanie Popp. 2019. “The CLiGS Textbox: Building and Using
+                        Collections of Literary Texts in Romance Languages Encoded in TEI XML.”
+                        <em>Journal of the Text Encoding Initiative.</em> Rolling Issue. <a href="https://doi.org/10.4000/jtei.2085">https://doi.org/10.4000/jtei.2085</a>.</span></span>). For this dissertation in particular, the considerations and
+                  implementation of data modeling in the digital bibliography on novels, their
+                  subgenres, and the editions in which they were published is also of a general
+                  character and it goes beyond what was worked out on text corpora in the project
+                  group. Own decisions have also been made for the digital text corpus regarding its
+                  composition and the modeling of the metadata and text structure. These have mainly
+                  resulted from the subject matter of the nineteenth-century Spanish-American
+                  novels.</p>
+               
+               <p id="p776"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p776">776</a></span>One question was, for example, how to define the limits of the corpus
+                  in generic terms – how to determine if a literary work can be considered a novel in
+                  several hundreds of cases without being able to read every single work? Here, the
+                  decision was to start from a very general formal definition of the novel and to check
+                  the fulfillment of its requirements in part through quantitative analysis and in part
+                  by evaluating available metadata and by checking the information in paratexts
+                  manually. The selection of subgenres, on the other hand, was not predetermined, so
+                  that the bibliography Bib-ACMé and the corpus Conha19 constitute general resources
+                  covering the Spanish-American nineteenth-century novel as it is represented by works
+                  from the three countries Argentina, Cuba, and Mexico. It is hoped that this corpus
+                  will be used in the future by other researchers for digital text analysis, which may
+                  also have a different focus than that pursued here. For example, the corpus could
+                  also be used for the study of authorship, for an analysis that examines chronological
+                  developments within the nineteenth century, or for the analysis of specific motifs
+                  or
+                  themes in the texts. Individual texts from Conha19 encoded in TEI could also serve
+                  as
+                  a starting point for the development of digital critical editions of selected works.
+                  Finally, a desirable future development is to add novels from other Spanish-American
+                  countries to the corpus, or texts from other major genres (for example, drama), in
+                  order to make cross-genre analyses possible.</p>
+               
+               <p id="p777"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p777">777</a></span>As the analysis of subgenres was the goal of this thesis, a particular
+                  focus in the corpus-building process was on the information about the subgenres of
+                  the novels, which was collected by evaluating different literary-historical sources
+                  and explicit and implicit historical genre labels and signals. All of this material
+                  represents the conventional level of the novels’ subgenres. It was organized by
+                  encoding it in TEI according to an empirically induced model of discursive levels
+                  of
+                  subgenres, including the following levels: 
+                  <ul>
+                     
+                     <li>thematic subgenre labels</li>
+                     
+                     <li>labels referring to literary currents</li>
+                     
+                     <li>labels related to the cultural-geographical and linguistic identity</li>
+                     
+                     <li>labels pointing to the relationship between the novel and reality</li>
+                     
+                     <li>labels concerned with the mode that a novel is narrated in</li>
+                     
+                     <li>labels reflecting the author's or narrator's intention or attitude</li>
+                     
+                     <li>labels that refer to the medium that a novel uses and the mode that it is
+                        represented in linguistically or narratively</li>
+                     </ul> An interesting question is whether other extensive empirical studies of genre
+                  signals and genre assignments will arrive at similar categorizations, i.e., whether
+                  a
+                  general trend of the types of genre signals and, in particular, their frequencies
+                  can
+                  be identified, or whether the results obtained here are specific to Spanish-American
+                  novels. Only further corpus-based studies of historical and literary critical genre
+                  assignments will be able to show this.</p>
+               
+               <p id="p778"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p778">778</a></span>The information on subgenres was evaluated in the metadata analysis
+                  part to see which subgenres were frequent enough to be analyzed on a textual level
+                  with quantitative methods. It was found that several of the discursive levels
+                  initially proposed by Raible (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">1980<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Raible, Wolfgang. 1980. “Was sind Gattungen? Eine Antwort
+                        aus semiotischer und textlinguistischer Sicht.” <em>Poetica</em> 12:
+                        320–349.</span></span>)
+                  and Schaeffer (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">1983<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Schaeffer, Jean-Marie. 1983. <em>Qu’est-ce qu’un
+                           genre littéraire?</em> Paris: Seuil.</span></span>) are present
+                  in literary critical and also explicit historical subgenre labels but that only a
+                  few
+                  of them are quantitatively relevant. The frequent ones were found in particular on
+                  the thematic level (“novela histórica”, “novela de costumbres”, “novela sentimental”,
+                  etc.) and the contextual levels of literary current (“novela romántica”, “novela
+                  realista”, “novela naturalista”, and so on) as well as of the cultural, geographical,
+                  or linguistic identity (as expressed through the labels “novela argentina”, “novela
+                  mexicana”, “novela cubana”, or “novela original”). For the text analysis part, it
+                  was
+                  decided to focus on the thematic subgenres and the literary currents. Labels related
+                  to the cultural, geographical, or linguistic identity have been evaluated in a
+                  research article outside of the scope of this dissertation (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">Henny-Krahmer 2022<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Henny-Krahmer, Ulrike. 2022. “Novelas originales y
+                        americanas. A Digital Analysis of References to Identity in Subtitles of Spanish
+                        American 19th Century Novels.” <em>apropos [Perspektiven auf die Romania]</em>
+                        9: 14–36. <a href="https://doi.org/10.15460/apropos.9.1893">https://doi.org/10.15460/apropos.9.1893</a>.</span></span>). Thus, not all categories
+                  of genre labels were effectively evaluated in this thesis. The great variety of
+                  subgenre labels found for the novels in Bib-ACMé and Conha19 shows how multifaceted
+                  the novel as a genre is and further analyses that can proceed from the material
+                  encoded here are possible. As a result, quantitative digital text analysis is only
+                  one of several possible approaches for analyzing the subgenres of the
+                  nineteenth-century Spanish-American novel. The big pool of different subgenres and
+                  generic terms that are not so frequent can only meaningfully be analyzed
+                  qualitatively.</p>
+               
+               <p id="p779"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p779">779</a></span>Besides assessing different levels and perspectives on subgenres of the
+                  novels, the metadata analysis also served to check how well the corpus represents
+                  the
+                  material collected in the more extensive bibliography in quantitative terms. The
+                  relationship between both resources was found to be approximately proportional in
+                  most but not all aspects. For example, the corpus contains more works written by
+                  well-known, high-prestige authors than the bibliography. This is not surprising
+                  because these are the works that have primarily been digitized. Still, this aspect
+                  of
+                  the corpus can still be improved. It is desirable to enlarge the corpus in the future
+                  and include even more works of lesser-known authors than the ones it already
+                  contains. That would make the corpus more representative of the whole production of
+                  Argentine, Cuban, and Mexican nineteenth-century novels. As the corpus is published
+                  with this dissertation, it can be hoped that it provides a starting point for
+                  building a more extensive collection of nineteenth-century Spanish-American
+                  novels.</p>
+               
+               <p id="p780"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p780">780</a></span>In the text analysis part, statistical classification was used as the
+                  first method for categorizing the novels by their subgenre. To this end, one primary
+                  subgenre label was determined for each novel, and the classification was done for
+                  thematic subgenres and literary currents. Both subgenres and currents can be
+                  classified well on the basis of most frequent words and topic features. Experiments
+                  with three types of classifiers (K-nearest neighbor, Support Vector Machine, and
+                  Random Forest) and several different feature sets were run. In the case of MFW,
+                  different token units, numbers of words, and normalization techniques were used. For
+                  topics, different numbers of topics and optimization parameters for the modeling were
+                  chosen. The results showed that both subgenres and currents are textually coherent
+                  to
+                  degrees of 70 to 90&nbsp;%, depending on the type of features and subgenre. Textual
+                  coherence here refers to the degree to which the communicatively determined subgenre
+                  assignments of the novels coincide with their class assignments as determined by text
+                  classification, measured in classification accuracy.</p>
+               
+               <p id="p781"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p781">781</a></span>In general, the differences between the two feature types were minor.
+                  In the case of thematic subgenres, there was almost no difference in the accuracy
+                  values between most frequent words and topics, and for literary currents, most
+                  frequent words worked a bit better than topics.</p>
+               
+               <p id="p782"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p782">782</a></span>The classification results for the literary currents were better than
+                  for the thematic subgenres. This was not expected from the beginning because the
+                  currents are broader phenomena which, at least in the case of the realist and
+                  romantic novels, include several thematic subgenres. While the realist and
+                  naturalistic novels were mainly published in the last two decades of the nineteenth
+                  century and the first decade of the twentieth century, the romantic novel was present
+                  from the early decades of the nineteenth century up to the last ones, with a dominant
+                  role up to the 1870s. So also diachronically, especially the romantic novels
+                  constitute a general phenomenon. The classification results suggest that the literary
+                  currents nonetheless represent a level of the novels that can be captured better
+                  stylistically than the thematic subgenres.</p>
+               
+               <p id="p783"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p783">783</a></span>That literary currents can be better recognized stylistically than
+                  thematic subgenres was also visible in the visualizations of the amount of correct
+                  and wrong classifications for individual novels of the corpus. For the thematic
+                  subgenres, there were cases of regular false positives and false negatives, that is,
+                  novels that carry the respective genre label but were classified as another subgenre
+                  in more than 70&nbsp;% of the cases or novels that do not carry the label but were
+                  recognized as members of the subgenre almost in every case. Such instances of novels
+                  were not present in the results for the literary currents. The same could be observed
+                  for the “middle range” of novels that are misclassified in around 30 to 70&nbsp;% of the
+                  cases, which happened for the thematic subgenres but not for the literary currents.
+                  This concludes that the levels of genre convention and text type are more congruent
+                  for the literary currents than for the thematic subgenres. When evaluating these
+                  results, it has to be kept in mind that the labels for literary currents were mainly
+                  collected from literary-historical sources. In contrast, the thematic labels are also
+                  present as explicit historical labels on the texts, so it is more probable that there
+                  are discrepancies between convention and text type than for critically established
+                  labels. Nevertheless, it may as well be the case that there is less consensus on the
+                  major theme of novels than on their dominant style in terms of literary currents.</p>
+               
+               <p id="p784"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p784">784</a></span>The text classification in the context of this dissertation has not yet
+                  taken into account the multiple subgenre assignments recorded in Bib-ACMé and
+                  Conha19. For the purposes of this thesis, the most plausible primary subgenre label
+                  was selected as the classification target in order to establish a classification
+                  baseline in a classical setting in the first place. This has not been done before
+                  for
+                  Spanish-American novels. The next obvious step is applying multi-label classification
+                  procedures to include secondary and further subgenre assignments. Especially in the
+                  case of thematic subgenres, there are very often multiple classifications on a
+                  communicative level. These occur in the historical subtitles of the novels (e.g.,
+                  “novela histórica de costumbres”) and especially when literary scholars describe the
+                  novels in terms of thematic subgenres. It can therefore be assumed that such multiple
+                  attributions are also textually and stylistically relevant. Another way to further
+                  map the complexity of the novels in terms of their subgenres would be to include
+                  chapter structures or to divide the novels into text sections to classify them
+                  individually. The corpus Conha19 is well prepared for both approaches.</p>
+               
+               <p id="p785"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p785">785</a></span>As an alternative approach to text categorization, a family resemblance
+                  network analysis was conducted, with a focus on the internal structure of individual
+                  subgenres and a focus on the historical novel. It showed that specific subtypes of
+                  historical novels are obscured in the classification approach because they do not
+                  represent the quantitatively dominant type of romantic historical novels. However,
+                  these subtypes of historical novels become visible as a family when the corpus of
+                  historical novels is partitioned into network communities based on individual
+                  similarity relationships between the texts. When two subgenres were combined in the
+                  network, it became clear that several factors other than genre influence the style
+                  of
+                  the novels, for instance, the period of publication or the narrative perspective.
+                  These results show that statistical classification is a powerful method that yields
+                  very good results but also occludes interior subdivisions and stylistic differences
+                  of the novels that are part of the subgenres, so for exploratory and refining
+                  analyses, a family resemblance network analysis is a good alternative.</p>
+               
+               <p id="p786"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p786">786</a></span>Returning to the observation made at the outset that categorization is
+                  a basic human need, the analyses here have shown that human assignments of texts to
+                  genres, in terms of communicative phenomena, function differently from
+                  computer-assisted stylistic genre classification. The classifiers are powerful tools
+                  that can recognize which subgenres the novels belong to in most cases. However, they
+                  do not (yet) understand how the text style is related to the perceived conventional
+                  genre of the texts. This led to errors and unexpected results in some individual
+                  cases. The classifiers are more strict in interpreting the textual surface
+                  structures. Because they are different in that way from a human author or reader,
+                  through the analysis of mistakes that the statistical models make, they bring the
+                  opportunity to understand better how genres function as communicative phenomena. This
+                  understanding is supported by alternative categorization methods, such as the family
+                  resemblance approach presented in this thesis. Research in digital genre stylistics
+                  and computational literary studies needs to continue to engage with literary theory,
+                  literary history, and computational approaches to develop their own suitable methods
+                  for their objects of study.</p>
+               
+               <p id="p787"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p787">787</a></span>In the future, the text analysis can be developed further by using
+                  other features, especially those that can be related more directly to literary
+                  concepts, such as character constellations or literary space. In many cases, however,
+                  the computational caption of such features on the textual surface has yet to be
+                  developed. Another enhancement for the analysis would be not to analyze the novels
+                  as
+                  a whole, as was done here, but to evaluate the results for text segments, chapters,
+                  or different parts of the narration, such as direct speech versus narrator text. The
+                  textual characteristics of genres may also be defined in connection to these
+                  substructures of the texts and not only for the entire texts. Furthermore,
+                  classification and network analysis are just two of the further available options
+                  of
+                  computational text categorization methods that could be employed for genre analysis.
+                  Especially the concept of genres as prototypical structures could be approached with
+                  clustering methods, for example, which has not been done in the scope of this
+                  dissertation. Moreover, of course, there should be more empirical studies based on
+                  other literatures and corpora in order to be able to identify broader trends in the
+                  history of genres and to be able to come to more general conclusions than was
+                  possible in this work on the nineteenth-century Spanish-American novel. Thus, future
+                  research directions in digital genre stylistics could be envisioned here but have
+                  yet
+                  to be carried out. Hopefully, the spirit of Open Science will be followed in future
+                  genre-stylistic research, as it has been done in this work, by making the texts,
+                  data, and scripts all openly available, as far as legally possible.</p>
+               </div>
+            <div class="w3-col w3-rest"></div>
+         </div>
+         <div></div>
+         <div></div>
+         <footer id="myFooter">
+            <div class="w3-container w3-theme-l2 w3-padding-32">
+               <p>Henny-Krahmer, Ulrike. 2023. <em>Genre Analysis and Corpus Design.
+                     Nineteenth-Century Spanish-American Novels (1830–1910).</em> HTML version, v1.0.0.
+                  Schriften des Instituts für Dokumentologie und Editorik 17. Berlin: IDE.</p>
+            </div>
+            <div class="w3-container w3-theme-l1">
+               <p><span style="display: inline-block; padding-right: 10px;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://ride.i-d-e.de/wp-content/uploads/cc-by.png" width="55"></a></span><a href="imprint.html">Publishing Policy, Imprint and Privacy</a></p>
+            </div>
+         </footer>
+      </div><script>
+            // Get the Sidebar
+            var mySidebar = document.getElementById("mySidebar");
+            
+            // Get the DIV with overlay effect
+            var overlayBg = document.getElementById("myOverlay");
+            
+            // Toggle between showing and hiding the sidebar, and add overlay effect
+            function w3_open() {
+            if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+            overlayBg.style.display = "none";
+            } else {
+            mySidebar.style.display = 'block';
+            overlayBg.style.display = "block";
+            }
+            }
+            
+            // Close the sidebar with the close button
+            function w3_close() {
+            mySidebar.style.display = "none";
+            overlayBg.style.display = "none";
+            }
+            
+            function myAccFunc(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            x.previousElementSibling.className += " w3-blue-grey";
+            } else { 
+            x.className = x.className.replace(" w3-show", "");
+            x.previousElementSibling.className = 
+            x.previousElementSibling.className.replace(" w3-blue-grey", "");
+            }
+            }
+            
+            window.onload, window.onhashchange = function(){
+                var hash = window.location.hash;
+                var hash_id = hash.substring(1);
+                var x = document.getElementById("menuAcc"+hash_id);
+                
+                if (x.className.indexOf("w3-blue-grey") == -1) {
+                    x.className += " w3-blue-grey w3-show";
+                    x.closest(".w3-bar-block.w3.hide").className.replace("w3-hide","w3-show");
+                }
+                
+                var y = document.getElementById("menu"+hash_id);
+                if (y.className.indexOf("w3-blue-grey") == -1) {
+                    y.className += " w3-blue-grey";
+                }
+                
+                
+            };
+            
+            
+        </script></body>
+</html>

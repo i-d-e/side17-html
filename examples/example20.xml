@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example20" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>La vida, durante la noche, se concentraba en la plaza de la
+  Catedral, donde estaba, de un lado, el 
+  <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Círculo del Comercio,<span style="color: #000096;">&lt;/seg&gt;</span> y del otro, 
+    <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>El Café Americano.<span style="color: #000096;">&lt;/seg&gt;</span> Las familias 
+    tertuliaban en las aceras o en medio del arroyo hasta las once. 
+    En el silencio sofocante de la noche, la salmodia de las ranas 
+    alternaba con el rodar de las bolas cascadas sobre el paño de 
+    los billares y el ruido de las fichas sobre el mármol de las mesas.
+    La calma era profunda y bochornosa. El cielo, a pedazos de tinta, 
+    anunciaba el aguacero de la madrugada o tal vez el de la media 
+    noche.<span style="color: #000096;">&lt;/p&gt;</span>
+    <span style="color: #000096;">&lt;milestone</span> <span style="color: #f5844c">unit=</span><span style="color: #993300;">"section"</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"asterisks"</span><span style="color: #000096;">/&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>La casa de don Olimpio andaba manga por hombro. Misia Tecla, su
+    mujer, gritaba a los sirvientes, que iban y venían atolondrados
+    como hormiguero que ha perdido el rumbo. Una 
+    <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>marimonda<span style="color: #000096;">&lt;/seg&gt;</span>, que estaba en el patio, atada por 
+    la cintura con una cuerda, chillaba y saltaba que era un gusto
+    enseñando los dientes y moviendo el cuero cabelludo.
+  <span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 20: Encoding of a subdivision inside a chapter in the novel “A fuego lento”.</figcaption>
+</figure>

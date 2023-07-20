@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example41" class="code">
+<pre><code><span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"chapter"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>Capítulo I<span style="color: #000096;">&lt;/head&gt;</span>
+  <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>La callejuela de San Sebastián<span style="color: #000096;">&lt;/head&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Eran las siete y media de la mañana de un hermoso día de primavera.
+    La atmósfera estaba limpia de vapores y el bellísimo azul de los
+    cielos se ostentaba entonces con toda su imponente majestad y
+    hermosura. [...]<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>No dejaba de participar de estos beneficios una angosta callejuela
+    del barrio de San Sebastián, formada por dos hileras de rústicas
+    albarradas, cuya mala construcción desaparecía en parte bajo un
+    tapiz de silvestre enredadera. [...]<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Acababa de presentarse en la callejuela un joven de veinte a
+    veinticinco años, de una figura bastante recomendable y simpática,
+    que venía tarareando distraídamente una canción, como el que trae
+    demasiado ocupado el pensamiento.<span style="color: #000096;">&lt;/p&gt;</span> 
+  [...] 
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Ya partía con los
+    dientes la ciruela más tierna qué había encontrado, cuando
+    dirigiendo la vista por la centésima vez al lugar que hemos
+    indicado, vio aparecer al extremo izquierdo de la callejuela el
+    blanco vestido de una mestiza.<span style="color: #000096;">&lt;/p&gt;</span> 
+  [...] 
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—¡Dolores! —exclamó el
+    joven con alegría. <span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—¡Señor Pablo! —respondió la mestiza. <span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Y después de este reconocimiento, porque no creemos que merezca
+    otro nombre, ambos guardaron silencio; el joven contemplaba
+    ávidamente a Dolores, y Dolores inmóvil junto a él, tenía los ojos
+    fijos en tierra porque sentía clavadas sobre su semblante las
+    miradas de fuego de Pablo.<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Y Pablo tenía razón en devorar con sus miradas a la mestiza, porque
+    Dolores era una bellísima criatura.<span style="color: #000096;">&lt;/p&gt;</span> 
+  [...] 
+<span style="color: #000096;">&lt;/div&gt;</span></code></pre>
+<figcaption>Example 41: Excerpts from the first chapter of the novel “La Mestiza”.</figcaption>
+</figure>

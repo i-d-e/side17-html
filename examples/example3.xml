@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example3" class="code">
+<pre><code><span style="color: #000096;">&lt;biblStruct</span> <span style="color: #f5844c">corresp=</span><span style="color: #993300;">"works.xml#W925"</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"E1284"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;monogr</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;author</span> <span style="color: #f5844c">key=</span><span style="color: #993300;">"A367"</span><span style="color: #000096;">&gt;</span>Iglesia, Álvaro de la<span style="color: #000096;">&lt;/author&gt;</span>
+    <span style="color: #000096;">&lt;title</span> <span style="color: #f5844c">level=</span><span style="color: #993300;">"m"</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"main"</span><span style="color: #000096;">&gt;</span>La alondra<span style="color: #000096;">&lt;/title&gt;</span>
+    <span style="color: #000096;">&lt;title</span> <span style="color: #f5844c">level=</span><span style="color: #993300;">"m"</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"sub"</span><span style="color: #000096;">&gt;</span>(El secreto de Estrovo)<span style="color: #000096;">&lt;/title&gt;</span>
+    <span style="color: #000096;">&lt;title</span> <span style="color: #f5844c">level=</span><span style="color: #993300;">"m"</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"sub"</span><span style="color: #000096;">&gt;</span>Novela original<span style="color: #000096;">&lt;/title&gt;</span>
+    <span style="color: #000096;">&lt;imprint</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;publisher</span><span style="color: #000096;">&gt;</span>Biblioteca de Follas Novas<span style="color: #000096;">&lt;/publisher&gt;</span>
+      <span style="color: #000096;">&lt;pubPlace</span> <span style="color: #f5844c">corresp=</span><span style="color: #993300;">"countries.xml#CU"</span><span style="color: #000096;">&gt;</span>La Habana<span style="color: #000096;">&lt;/pubPlace&gt;</span>
+      <span style="color: #000096;">&lt;date</span> <span style="color: #f5844c">when=</span><span style="color: #993300;">"1897"</span><span style="color: #000096;">&gt;</span>1897<span style="color: #000096;">&lt;/date&gt;</span>
+    <span style="color: #000096;">&lt;/imprint&gt;</span>
+    <span style="color: #000096;">&lt;extent</span> <span style="color: #f5844c">n=</span><span style="color: #993300;">"315"</span><span style="color: #000096;">&gt;</span>315 pp.<span style="color: #000096;">&lt;/extent&gt;</span>
+  <span style="color: #000096;">&lt;/monogr&gt;</span>
+  <span style="color: #000096;">&lt;ref</span><span style="color: #000096;">&gt;</span>https://catalog.hathitrust.org/Record/100345975<span style="color: #000096;">&lt;/ref&gt;</span>
+  <span style="color: #000096;">&lt;ref</span><span style="color: #000096;">&gt;</span>https://archive.org/details/laalondraelsecr00iglegoog<span style="color: #000096;">&lt;/ref&gt;</span>
+<span style="color: #000096;">&lt;/biblStruct&gt;</span></code></pre>
+<figcaption>Example 3: An entry from editions.xml.</figcaption>
+</figure>

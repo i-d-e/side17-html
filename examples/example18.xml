@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example18" class="code">
+<pre><code><span style="color: #000096;">&lt;back</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;div</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>Nota<span style="color: #000096;">&lt;/head&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>El menor de los defectos de esta pobre novelita es que para
+    cuento parece demasiado larga. Pero no hay que tomar
+    formalmente la ficción de que el doctor relate esto en una
+    noche. Es un artificio literario, como otro cualquiera, pues
+    necesitaba yo que el doctor narrara, como testigo de los
+    hechos, y no creí que debía tener en cuenta el tamaño de la
+    narración. Además, a pesar de mi pequeñez me amparan, para
+    hacer perdonable lo largo del cuento, los ejemplos de Víctor
+    Hugo en Bug-Jargal, de Dickens en varios de sus Cuentos de
+    Navidad, de Erkmann Chatrian en sus Cuentos populares, de
+    Enrique Zschokke en sus Cuentos suizos, y de Hoffman en
+    muchos de los suyos. En lo que si no tengo amparo es en lo
+    demás, y no me queda más recurso que apelar a la bondad de
+    los lectores.<span style="color: #000096;">&lt;/p&gt;</span>
+    <span style="color: #000096;">&lt;ab</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"signed"</span><span style="color: #000096;">&gt;</span>EL AUTOR<span style="color: #000096;">&lt;/ab&gt;</span>
+  <span style="color: #000096;">&lt;/div&gt;</span>
+<span style="color: #000096;">&lt;/back&gt;</span></code></pre>
+<figcaption>Example 18: Back matter of the novel “Clemencia”.</figcaption>
+</figure>

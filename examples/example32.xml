@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example32" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Miró el mexicano a su compañero con cara de espanto, y el otro,
+  sin esperar a que le pidieran explicaciones, habló así:<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>—Me llamo Nicolás Chardon, soy originario de París y mi
+  padre es normando, de tierra de Rouen. Profesor de latín en
+  las Universidades de provincia, no ha cesado un punto desde
+  que se entronizó el Imperio, de hacerle la guerra mediante la
+  propaganda republicana más activa...<span style="color: #000096;">&lt;/said&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>El ministro Duruy, que atribuyó a mi padre los famosos
+  <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Propos de Labbiennus,<span style="color: #000096;">&lt;/seg&gt;</span> le
+  persiguió con durísima saña, pues aseguraba que ninguno de
+  los profesores de Francia podía escribir una sátira tan
+  erudita y tan mordaz... [...] <span style="color: #000096;">&lt;/said&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Refirió Miguel su vida y sus andanzas; y cariñoso el otro le
+  ofreció su amistad y su afecto.<span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 32: Encoding of direct speech in the novel “Puebla”.</figcaption>
+</figure>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example21" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—¿Cómo se llama Vd.?<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—<span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Me ñama Ginoveve Santa Crú. Mi marío e
+  Tribusio Polanca. Elle tien uno sijo ñamao Malanga que ha
+  sacao mala cabesa. ¡Ha matao ma branco!... Tondá lo coge como
+  ratón con quesa le dominga depué de Niño perdío, cuando diba
+  nel entierre de ña Chepa Alarcó.<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—¿Chepilla Alarcón? repitió preguntando María de Regla.<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—<span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Sí, sí, agrego Genoveva. Le meme. Asín se
+  ñamaba. Ha perdío un güen caserite.<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—¿Tenía una nieta?<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—<span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Sí, tube un. ¡Ma linde! ¡Ah! ¡qué bunite! No
+  la ha vito ma bunite en la vía.<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 21: Encoding of non-standard oral speech highlighted in italics in the novel “Cecilia Valdés o la Loma del Ángel”.</figcaption>
+</figure>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example25" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Felipe mostró a su amigo un aviso que el día anterior había hecho
+  insertar en el <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Herald<span style="color: #000096;">&lt;/seg&gt;</span> y que decía poco más
+  o menos lo siguiente:<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span>
+    <span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;writing</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"newspaper"</span><span style="color: #000096;">&gt;</span>“Los dos caballeros que entraron en el
+      ómnibus de la estación de Fulton, se considerarán muy
+      agradecidos si las dos hermosas señoritas vestidas de luto a
+      cuyo frente se sentaron y con quienes se sonrieron, les conceden 
+      el honor de una entrevista. Dirigirse al despacho del 
+      <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Herald,<span style="color: #000096;">&lt;/seg&gt;</span> a F. y <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>M.<span style="color: #000096;">&lt;/seg&gt;</span>”
+    <span style="color: #000096;">&lt;/writing&gt;</span>
+  <span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>—Esta aventura,—dijo Felipe,—nos va a indemnizar del tedio de este
+  domingo.<span style="color: #000096;">&lt;/p&gt;</span></code></pre>
+<figcaption>Example 25: Encoding of a newspaper ad in the novel “La virgen del Niágara”.</figcaption>
+</figure>

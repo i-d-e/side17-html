@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example7" class="code">
+<pre><code><span style="color: #000096;">&lt;titleStmt</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;title</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"main"</span><span style="color: #000096;">&gt;</span>Adoración<span style="color: #000096;">&lt;/title&gt;</span>
+  <span style="color: #000096;">&lt;title</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"short"</span><span style="color: #000096;">&gt;</span>Adoracion<span style="color: #000096;">&lt;/title&gt;</span>
+  <span style="color: #000096;">&lt;title</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"sub"</span><span style="color: #000096;">&gt;</span>Novela original<span style="color: #000096;">&lt;/title&gt;</span>
+  <span style="color: #000096;">&lt;title</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"idno"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"viaf"</span><span style="color: #000096;">&gt;</span>-<span style="color: #000096;">&lt;/idno&gt;</span>
+    <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"bibacme"</span><span style="color: #000096;">&gt;</span>W923<span style="color: #000096;">&lt;/idno&gt;</span>
+  <span style="color: #000096;">&lt;/title&gt;</span>
+  <span style="color: #000096;">&lt;author</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;name</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"full"</span><span style="color: #000096;">&gt;</span>Iglesia, Álvaro de la<span style="color: #000096;">&lt;/name&gt;</span>
+    <span style="color: #000096;">&lt;name</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"short"</span><span style="color: #000096;">&gt;</span>IglesiaA<span style="color: #000096;">&lt;/name&gt;</span>
+    <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"viaf"</span><span style="color: #000096;">&gt;</span>120788045<span style="color: #000096;">&lt;/idno&gt;</span>
+    <span style="color: #000096;">&lt;idno</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"bibacme"</span><span style="color: #000096;">&gt;</span>A367<span style="color: #000096;">&lt;/idno&gt;</span>
+  <span style="color: #000096;">&lt;/author&gt;</span>
+  <span style="color: #000096;">&lt;principal</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"uhk"</span><span style="color: #000096;">&gt;</span>Ulrike Henny-Krahmer<span style="color: #000096;">&lt;/principal&gt;</span>
+<span style="color: #000096;">&lt;/titleStmt&gt;</span></code></pre>
+<figcaption>Example 7: Title statement of the novel “Adoración”.</figcaption>
+</figure>

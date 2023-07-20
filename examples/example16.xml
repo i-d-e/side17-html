@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example16" class="code">
+<pre><code><span style="color: #000096;">&lt;revisionDesc</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;change</span> <span style="color: #f5844c">when=</span><span style="color: #993300;">"2015-03-31"</span> <span style="color: #f5844c">who=</span><span style="color: #993300;">"#uhk"</span><span style="color: #000096;">&gt;</span>Initial TEI version.<span style="color: #000096;">&lt;/change&gt;</span>
+<span style="color: #000096;">&lt;/revisionDesc&gt;</span></code></pre>
+<figcaption>Example 16: Revision description of the novel “Adoración”.</figcaption>
+</figure>

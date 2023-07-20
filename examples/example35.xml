@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example35" class="code">
+<pre><code><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>D. Luis empezó a leer la siguiente carta:<span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;said</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;writing</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"letter"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;floatingText</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;body</span><span style="color: #000096;">&gt;</span>
+        <span style="color: #000096;">&lt;div</span><span style="color: #000096;">&gt;</span>
+          <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Parroquia de Santa Maña, Febrero 2 de 1798.<span style="color: #000096;">&lt;/p&gt;</span>
+          <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Señor D. Luis Ferri.<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+          <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>«Mi querido padre:<span style="color: #000096;">&lt;/p&gt;</span>
+          <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Después de largo tiempo que ha trascurrido sin
+            tener noticias de vd. a pesar de las repetidas
+            cartas que le he escrito, vuelvo otra vez a
+            dirigirle esta para anunciarle que dentro de poco,
+            si termino unos asuntos que tengo entre manos, iré
+            a su lado para recibir su bendición y abrazarlo
+            con el cariño que sabe le profeso.<span style="color: #000096;">&lt;/p&gt;</span>
+        <span style="color: #000096;">&lt;/div&gt;</span>
+      <span style="color: #000096;">&lt;/body&gt;</span>
+    <span style="color: #000096;">&lt;/floatingText&gt;</span>
+  <span style="color: #000096;">&lt;/writing&gt;</span>
+<span style="color: #000096;">&lt;/said&gt;</span></code></pre>
+<figcaption>Example 35: Encoding of an embedded letter in the novel “Amelia de Floriani o el castillo del diablo”.</figcaption>
+</figure>

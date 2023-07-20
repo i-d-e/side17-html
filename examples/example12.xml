@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example12" class="code">
+<pre><code><span style="color: #000096;">&lt;abstract</span> <span style="color: #f5844c">source=</span><span style="color: #993300;">"#Iglesia_1906"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;quote</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Es el caso de un joven, casi adolescente, que está
+    enamorado a la vez de dos jovencitas. El mismo narra el
+    desarrollo de ese complejo estado de conciencia, a que
+    asiste en cierto modo, a veces aturdido, a veces
+    espantado, sin acertar a explicárselo [...]<span style="color: #000096;">&lt;/p&gt;</span><span style="color: #000096;">&lt;/quote&gt;</span>
+    <span style="color: #000096;">&lt;bibl</span><span style="color: #000096;">&gt;</span>Varona, Enrique José. "Prólogo." In: Iglesia, Álvaro de
+    la. <span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Adoración. Novela original.<span style="color: #000096;">&lt;/seg&gt;</span>
+    Barcelona: Ed. F. Granada, <span style="color: #000096;">&lt;date</span> <span style="color: #f5844c">when=</span><span style="color: #993300;">"1906"</span><span style="color: #000096;">&gt;</span>1906<span style="color: #000096;">&lt;/date&gt;</span>.<span style="color: #000096;">&lt;/bibl&gt;</span>
+  <span style="color: #000096;">&lt;/p&gt;</span>
+<span style="color: #000096;">&lt;/abstract&gt;</span></code></pre>
+<figcaption>Example 12: Abstract of the novel “Adoración”.</figcaption>
+</figure>

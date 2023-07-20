@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example15" class="code">
+<pre><code><span style="color: #000096;">&lt;sch:pattern</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;sch:rule</span> <span style="color: #f5844c">context=</span><span style="color: #993300;">"tei:titleStmt"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;sch:assert</span> <span style="color: #f5844c">test=</span><span style="color: #993300;">"tei:title[@type = 'short'][. != '']"</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;sch:value-of</span> <span style="color: #f5844c">select=</span><span style="color: #993300;">"$cligs-idno"</span><span style="color: #000096;">/&gt;</span>: TEI header error: 
+      Short title is missing.<span style="color: #000096;">&lt;/sch:assert&gt;</span>
+  <span style="color: #000096;">&lt;/sch:rule&gt;</span>
+<span style="color: #000096;">&lt;/sch:pattern&gt;</span>
+<span style="color: #000096;">&lt;sch:let</span> <span style="color: #f5844c">name=</span><span style="color: #993300;">"keywords-file"</span> <span style="color: #f5844c">value=</span><span style="color: #993300;">"document('keywords.xml')"</span><span style="color: #000096;">/&gt;</span>
+<span style="color: #000096;">&lt;sch:pattern</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;sch:let</span> <span style="color: #f5844c">name=</span><span style="color: #993300;">"cat-narration"</span> 
+    <span style="color: #f5844c">value=</span><span style="color: #993300;">"$keywords-file//tei:category[@xml:id='text.narration']"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;sch:rule</span> <span style="color: #f5844c">context=</span><span style="color: #993300;">"tei:term[@type=’text.narration.narrator’]"</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;sch:assert</span> <span style="color: #f5844c">test=</span><span style="color: #993300;">"normalize-space(.) = 
+      $cat-narration/tei:category[@xml:id = 
+      'text.narration.narrator']/tei:category/tei:catDesc"</span><span style="color: #000096;">&gt;</span>
+      <span style="color: #000096;">&lt;sch:value-of</span> <span style="color: #f5844c">select=</span><span style="color: #993300;">"$cligs-idno"</span><span style="color: #000096;">/&gt;</span>: Metadata error:
+      text.narration.narrator<span style="color: #000096;">&lt;/sch:assert&gt;</span>
+  <span style="color: #000096;">&lt;/sch:rule&gt;</span>
+<span style="color: #000096;">&lt;/sch:pattern&gt;</span></code></pre>
+<figcaption>Example 15: Schematron file to control the metadata.</figcaption>
+</figure>

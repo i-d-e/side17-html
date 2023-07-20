@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example24" class="code">
+<pre><code><span style="color: #000096;">&lt;div</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"chapter"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;head</span><span style="color: #000096;">&gt;</span>X<span style="color: #000096;">&lt;/head&gt;</span>
+  <span style="color: #000096;">&lt;sp</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;speaker</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>Juan<span style="color: #000096;">&lt;/seg&gt;</span>.<span style="color: #000096;">&lt;/speaker&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>— ¡Una y mil veces malditos los negocios!<span style="color: #000096;">&lt;/p&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>¡Quién pudiera nutrirse de ambrosía como los habitantes del
+    Olimpo!<span style="color: #000096;">&lt;/p&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>Ved aquí a un hombre joven, sano, alegre, dispuesto, que no
+    ambicionaría otra cosa, sino que lo dejaran vivir eternamente
+    mano a mano con su mujercita a quien adora, siendo a su vez
+    adorado por ella... <span style="color: #000096;">&lt;stage</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>(le da un
+    beso)<span style="color: #000096;">&lt;/seg&gt;</span><span style="color: #000096;">&lt;/stage&gt;</span>.<span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;/sp&gt;</span>
+  <span style="color: #000096;">&lt;sp</span><span style="color: #000096;">&gt;</span>
+    <span style="color: #000096;">&lt;speaker</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>María<span style="color: #000096;">&lt;/seg&gt;</span>.<span style="color: #000096;">&lt;/speaker&gt;</span>
+    <span style="color: #000096;">&lt;p</span><span style="color: #000096;">&gt;</span>— ¡Juan, por Dios, qué dirá este caballero! 
+      <span style="color: #000096;">&lt;stage</span><span style="color: #000096;">&gt;</span><span style="color: #000096;">&lt;seg</span> <span style="color: #f5844c">rend=</span><span style="color: #993300;">"italic"</span><span style="color: #000096;">&gt;</span>(poniéndose colorada hasta 
+      la punta de la nariz con incomparable
+      modestia)<span style="color: #000096;">&lt;/seg&gt;</span>.<span style="color: #000096;">&lt;/stage&gt;</span><span style="color: #000096;">&lt;/p&gt;</span>
+  <span style="color: #000096;">&lt;/sp&gt;</span> [...] 
+<span style="color: #000096;">&lt;/div&gt;</span></code></pre>
+<figcaption>Example 24: Encoding of dramatic speech in the novel “Pot-pourri”.</figcaption>
+</figure>

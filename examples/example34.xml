@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure id="example34" class="code">
+<pre><code><span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p367.w135"</span><span style="color: #000096;">&gt;</span>las<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p367.w136"</span><span style="color: #000096;">&gt;</span>palabras<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p367.w137"</span><span style="color: #000096;">&gt;</span>no<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p367.w138"</span><span style="color: #000096;">&gt;</span>le<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p367.w139"</span><span style="color: #000096;">&gt;</span>salieron<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p367.w140"</span><span style="color: #000096;">&gt;</span>enteras<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p367.w141"</span><span style="color: #000096;">&gt;</span>:<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w1"</span><span style="color: #000096;">&gt;</span>—<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w2"</span><span style="color: #000096;">&gt;</span>¡<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w3"</span><span style="color: #000096;">&gt;</span>Señores<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w4"</span><span style="color: #000096;">&gt;</span>,<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w5"</span><span style="color: #000096;">&gt;</span>fuera<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w6"</span><span style="color: #000096;">&gt;</span>de<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w7"</span><span style="color: #000096;">&gt;</span>la<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w8"</span><span style="color: #000096;">&gt;</span>valla<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p368.w9"</span><span style="color: #000096;">&gt;</span>!<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p369.w1"</span><span style="color: #000096;">&gt;</span>Despejada<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p369.w2"</span><span style="color: #000096;">&gt;</span>enteramente<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p369.w3"</span><span style="color: #000096;">&gt;</span>la<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;w</span> <span style="color: #f5844c">xml:id=</span><span style="color: #993300;">"p369.w4"</span><span style="color: #000096;">&gt;</span>valla<span style="color: #000096;">&lt;/w&gt;</span>
+<span style="color: #000096;">&lt;linkGrp</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"DS_gold"</span><span style="color: #000096;">&gt;</span> [...]
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w135 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w136 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w137 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w138 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w139 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w140 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w141 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w1 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w2 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w3 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w4 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w5 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w6 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w7 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w8 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p368.w9 #DS"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p369.w1 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p369.w2 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p369.w3 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p369.w4 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  [...]
+<span style="color: #000096;">&lt;/linkGrp&gt;</span>
+<span style="color: #000096;">&lt;linkGrp</span> <span style="color: #f5844c">type=</span><span style="color: #993300;">"DS_reg"</span><span style="color: #000096;">&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w135 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w136 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  <span style="color: #000096;">&lt;link</span> <span style="color: #f5844c">target=</span><span style="color: #993300;">"#p367.w137 #NARR"</span><span style="color: #000096;">/&gt;</span>
+  [...] 
+<span style="color: #000096;">&lt;/linkGrp&gt;</span></code></pre>
+<figcaption>Example 34: Excerpt from the tokenized version of the novel “El guajiro”, with stand-off direct speech annotation.</figcaption>
+</figure>
