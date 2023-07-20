@@ -1,5 +1,7 @@
 # Repository of SIDE 17: Genre Analysis and Corpus Design. Nineteenth-Century Spanish-American Novels (1830–1910) 
 
+[![DOI](https://zenodo.org/badge/668718311.svg)](https://zenodo.org/badge/latestdoi/668718311)
+
 Welcome to the repository of the digital monograph “Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830–1910)”!
 
 This is the code and data of the HTML edition of the dissertation of Ulrike Henny-Krahmer, 
