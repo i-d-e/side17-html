@@ -17,4 +17,4 @@ The website of the digital monograph is available at https://side17.i-d-e.de/.
 **Contact**: ulrike.henny (at) web (dot) de
 
 **Citation suggestion**:
-Henny-Krahmer, Ulrike. 2023. Repository of SIDE 17: Genre Analysis and Corpus Design. Nineteenth-Century Spanish-American Novels (1830–1910). v1.0.0. GitHub.com.
+Henny-Krahmer, Ulrike. 2023. Repository of SIDE 17: Genre Analysis and Corpus Design. Nineteenth-Century Spanish-American Novels (1830–1910). v1.0.0. GitHub.com. https://github.com/i-d-e/side17-html.
