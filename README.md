@@ -10,7 +10,7 @@ The website of the digital monograph is available at https://side17.i-d-e.de/.
 
 **License**: The content is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) and may be reused accordingly.
 
-**Funding**: The Early-Career Research Group 'Computational Literary Genre Stylistics’ (CLiGS) was funded by the German Federal Ministry of Education and Research (Bundesministerium für Bildung und Forschung) from April 2014 to March 2020 (funding identifiers 01UG1408 and 01UG1508). The Open Access publication of this monograph is funded by DARIAH ERIC.
+**Funding**: The Early-Career Research Group 'Computational Literary Genre Stylistics’ ([CLiGS](https://cligs.hypotheses.org/)) was funded by the German Federal Ministry of Education and Research (Bundesministerium für Bildung und Forschung) from April 2014 to March 2020 (funding identifiers 01UG1408 and 01UG1508). The Open Access publication of this monograph is funded by [DARIAH ERIC](https://www.dariah.eu/).
 
 **Dissertation:** Bei dem Werk handelt es sich um die Veröffentlichung einer Dissertation, die an der Graduiertenschule für die Geisteswissenschaften an der Julius-Maximilians-Universität Würzburg abgeschlossen wurde. Examiners: Prof. Dr. Christof Schöch, Prof. Dr. Fotis Jannidis, Prof. Dr. Hanno Ehrlicher
 
