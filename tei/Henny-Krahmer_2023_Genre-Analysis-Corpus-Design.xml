@@ -7,7 +7,7 @@
          <titleStmt>
             <title>Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels
                (1830–1910)</title>
-            <author ref="https://orcid.org/0000-0003-2852-065X">
+            <author xml:id="uhk" ref="https://orcid.org/0000-0003-2852-065X">
                <name>
                   <forename>Ulrike</forename>
                   <surname>Henny-Krahmer</surname>
@@ -25,7 +25,7 @@
             <funder>The Open Access publication of this monograph is funded by DARIAH ERIC.</funder>
          </titleStmt>
          <editionStmt>
-            <edition>TEI version, v1.0.0</edition>
+            <edition>TEI version, v1.0.1</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Institut für Dokumentologie und Editorik e.V.</publisher>
@@ -97,6 +97,15 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <revisionDesc>
+         <change who="#uhk">Version 1.0.0 corresponded to the original publication version of the
+            dissertation at OPUS Würzburg (<ref
+               target="https://nbn-resolving.org/urn:nbn:de:bvb:20-opus-319992"
+               >https://nbn-resolving.org/urn:nbn:de:bvb:20-opus-319992</ref>). Only minor
+            corrections were made for version 1.0.1, e.g., individual typos and text-internal links
+            were corrected. Version 1.0.1 corresponds to the publication as volume 17 in the IDE
+            publication series.</change>
+      </revisionDesc>
    </teiHeader>
    <text xml:base="https://side17.i-d-e.de">
       <front>
@@ -179,17 +188,17 @@
             <head>Genre Analysis and Corpus Design: <lb/>Nineteenth-Century Spanish-American Novels
                <lb/>(1830–1910)</head>
             <head>Summary</head>
-            <p>This work in the field of digital literary stylistics and computational literary
-               studies is concerned with theoretical concerns of literary genre, with the design of
-               a corpus of nineteenth-century Spanish-American novels, and with its empirical
-               analysis in terms of subgenres of the novel. The digital text corpus consists of 256
-               Argentine, Cuban, and Mexican novels from the period between 1830 and 1910. It has
-               been created with the goal to analyze thematic subgenres and literary currents that
-               were represented in numerous novels in the nineteenth century by means of
-               computational text categorization methods. The texts have been gathered from
-               different sources, encoded in the standard of the Text Encoding Initiative (TEI), and
-               enriched with detailed bibliographic and subgenre-related metadata, as well as with
-               structural information.</p>
+            <p>This work in the field of digital stylistics and computational literary studies is
+               concerned with theoretical aspects of literary genre, with the design of a corpus of
+               nineteenth-century Spanish-American novels, and with its empirical analysis in terms
+               of subgenres of the novel. The digital text corpus consists of 256 Argentine, Cuban,
+               and Mexican novels from the period between 1830 and 1910. It has been created with
+               the goal to analyze thematic subgenres and literary currents that were represented in
+               numerous novels in the nineteenth century by means of computational text
+               categorization methods. The texts have been gathered from different sources, encoded
+               in the standard of the Text Encoding Initiative (TEI), and enriched with detailed
+               bibliographic and subgenre-related metadata, as well as with structural
+               information.</p>
             <p>To categorize the texts, statistical classification and a family resemblance analysis
                relying on network analysis are used with the aim to examine how the subgenres, which
                are understood as communicative, conventional phenomena, can be captured on the
@@ -1479,17 +1488,17 @@
                               >https://github.com/cligs/theatreclassique/blob/master/tei/tc0001.xml</ref>,
                            accessed November 28, 2020), it can be noticed that there is a general
                            subgenre assignment in the TEI header (<egXML
-                              xmlns="http://www.tei-c.org/ns/Examples" valid="true"><term
-                                 type="genre">Comédie</term></egXML>), but no further information
-                           about its provenience is given. As Schöch mentions the historical
-                           subgenre labels in his text, it can be assumed that these are the source.
-                           The classification of works into dramatic subgenres is probably less
-                           debated than into subgenres of the novel. Likely, dramatic subgenre
-                           labels are also more often explicitly given on title pages than in the
-                           case of novels. Still, it would be better to make the generic convention
-                           that is analyzed more explicit because it makes a difference whether
-                           labels assigned by librarians or literary historians or genre labels from
-                           the historical paratexts of the works are used.</note> Despite all good
+                              xmlns="http://www.tei-c.org/ns/Examples"><term type="genre"
+                                 >Comédie</term></egXML>), but no further information about its
+                           provenience is given. As Schöch mentions the historical subgenre labels
+                           in his text, it can be assumed that these are the source. The
+                           classification of works into dramatic subgenres is probably less debated
+                           than into subgenres of the novel. Likely, dramatic subgenre labels are
+                           also more often explicitly given on title pages than in the case of
+                           novels. Still, it would be better to make the generic convention that is
+                           analyzed more explicit because it makes a difference whether labels
+                           assigned by librarians or literary historians or genre labels from the
+                           historical paratexts of the works are used.</note> Despite all good
                         advice and intentions to analyze genres or subgenres only on a defined
                         discursive level or on the basis of homogeneous sources of subgenre labels,
                         especially large-scale digital analysis using hundreds or even thousands of
@@ -2976,12 +2985,12 @@
                         all (<ref type="crossref" target="#Schaeffer_1983">Schaeffer 1983,
                            164–180</ref>). Schaeffer summarizes his system of generic logics in a
                         table, which is reproduced here in <ref type="crossref" target="#tab1">table
-                           1</ref>. That way, it can be related graphically to the three terms of
-                        text type, conventional genre, and textual genre as they are used in this
-                        study. <table xml:id="tab1" rend="text-align: center;">
-                           <head>Generic logics according to Schaeffer (<ref type="crossref"
-                                 target="#Schaeffer_1983">Schaeffer 1983, 181</ref>).<note
-                                 xml:id="ftn60">The colors were added by me.</note></head>
+                           1</ref><note xml:id="ftn60">The colors were added by me.</note> (<ref
+                           type="crossref" target="#Schaeffer_1983">Schaeffer 1983, 181</ref>). That
+                        way, it can be related graphically to the three terms of text type,
+                        conventional genre, and textual genre as they are used in this study. <table
+                           xml:id="tab1" rend="text-align: center;">
+                           <head>Generic logics according to Schaeffer.</head>
                            <row role="label" rows="1" cols="1">
                               <cell role="data" rows="1" cols="1">niveau</cell>
                               <cell role="data" rows="1" cols="1">référent</cell>
@@ -3668,7 +3677,7 @@
                         different text types, various conventional genres, and textual genres are
                         not necessarily clear-cut. The overlap of text types and conventional genres
                         can also take several forms. These problems are discussed in chapter <ref
-                           type="#crossref" target="#ch2.1.4">2.1.4</ref>, on categorization.</p>
+                           type="crossref" target="#ch2.1.4">2.1.4</ref>, on categorization.</p>
                      <p xml:id="p95">With access to very large corpora of digital texts that, in
                         theory, can cover whole periods or several periods of literature, digital
                         genre stylistics is enabled to address genre analysis over time. Different
@@ -8341,7 +8350,7 @@
                         November 7, 2019.</note>
                      <ref type="crossref" target="#example1">Example 1</ref> shows one entry from
                      “authors.xml”: <figure xml:id="example1">
-                        <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <person xml:id="A367">
                               <persName>
                                  <surname>Iglesia</surname>
@@ -8400,7 +8409,7 @@
                      associated with one of the three countries represented in the bibliography
                      because he or she first published his or her works there. <figure
                         xml:id="example2">
-                        <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <bibl xml:id="W925">
                               <author key="A367">Iglesia, Álvaro de la</author>
                               <title>La alondra</title>
@@ -8448,7 +8457,7 @@
                         type="crossref" target="#example3">Example 3</ref> below shows an entry from
                      “editions.xml” which corresponds to the above work entry. <figure
                         xml:id="example3">
-                        <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <biblStruct corresp="works.xml#W925" xml:id="E1284">
                               <monogr>
                                  <author key="A367">Iglesia, Álvaro de la</author>
@@ -8521,7 +8530,7 @@
                      <ref type="crossref" target="#example4">Example 4</ref> shows one of the rules
                      contained in the Schematron file for “works.xml”. <figure xml:id="example4">
                         <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                           xmlns:sch="http://purl.oclc.org/dsdl/schematron" valid="true">
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                            <sch:rule context="tei:listBibl/tei:bibl">
                               <sch:let name="work-id" value="@xml:id"/>
                               <sch:assert test="matches($work-id,'^W\d+$')">The id of a work should
@@ -8594,7 +8603,7 @@
                         Enrique Ortega in the digital bibliography, which includes several subgenre
                         labels. <figure xml:id="example5">
                            <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                              xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                              xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                               <bibl xml:id="W563">
                                  <author key="A227">Ortega, Enrique</author>
                                  <title>Los casamientos del diablo</title>
@@ -9686,7 +9695,7 @@
                         title) but many from the second (labels taken from literary-historical
                         sources). <figure xml:id="example6">
                            <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                              xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                              xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                               <bibl xml:id="W838">
                                  <author key="A326">Gamboa, Federico</author>
                                  <title>Santa</title>
@@ -12849,7 +12858,7 @@
                            its sources. <ref type="crossref" target="#example7">Example
                            7</ref> shows the first part of this section of the TEI header, the title
                            statement. <figure xml:id="example7">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <titleStmt>
                                     <title type="main">Adoración</title>
                                     <title type="short">Adoracion</title>
@@ -12919,13 +12928,14 @@
                            number, as well (<tag scheme="TEI">idno type="viaf"</tag>), and also
                            their ID in Bib-ACMé is indicated (<tag scheme="TEI">idno
                               type="bibacme"</tag>).<note xml:id="ftn300">The VIAF entry of Álvaro
-                              de la Iglesia is available at OCLC (<ref type="#OCLC_2010-2021b"
-                                 >2010–2021b</ref>).</note> Finally, the responsibilities of the
-                           people involved in the creation of the TEI file of a novel are indicated
-                           as part of the title statement. In the case at hand, the file was created
-                           and edited just by one principal investigator. In other cases, further
-                           responsibility statements are included. <figure xml:id="example8">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              de la Iglesia is available at OCLC (<ref type="crossref"
+                                 target="#OCLC_2010-2021b">2010–2021b</ref>).</note> Finally, the
+                           responsibilities of the people involved in the creation of the TEI file
+                           of a novel are indicated as part of the title statement. In the case at
+                           hand, the file was created and edited just by one principal investigator.
+                           In other cases, further responsibility statements are included. <figure
+                              xml:id="example8">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <extent>
                                     <measure unit="words">44670</measure>
                                  </extent>
@@ -13089,7 +13099,7 @@
                               legal ambiguities, all the affected TEI files are kept unpublished
                               until the ancillary copyright expires.</note>
                            <figure xml:id="example9">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <availability status="restricted">
                                     <p>This file is prepared for personal research use only and not
                                        for publication because the ancillary copyright of the
@@ -13207,7 +13217,7 @@
                            about the sources that the digital text was derived from are encoded in
                            the form of bibliographic references (see <ref type="crossref"
                               target="#example10">example 10</ref>). <figure xml:id="example10">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <sourceDesc
                                     xml:base="https://raw.githubusercontent.com/cligs/bibacme/master/app/data/editions.xml">
                                     <bibl type="digital-source" xml:id="DS"> Iglesia, Álvaro de la.
@@ -13262,7 +13272,7 @@
                            treatment and text encoding is given in each file of the corpus, as <ref
                               type="crossref" target="#example11">example 11</ref> shows. <figure
                               xml:id="example11">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <encodingDesc>
                                     <p>The source PDF file was processed with OCR. The software used
                                        was ABBYY Finereader 12 Professional, with Spanish as the
@@ -13297,7 +13307,7 @@
                            from the preface of the novel itself is quoted. A section of the abstract
                            is reproduced here in <ref type="crossref" target="#example12">example
                               12</ref>. <figure xml:id="example12">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <abstract source="#Iglesia_1906">
                                     <p>
                                        <quote><p>Es el caso de un joven, casi adolescente, que está
@@ -13346,7 +13356,7 @@
                            illustrate the usage of this taxonomic system for the corpus, the list of
                            keywords for the novel “Adoración” is represented in <ref type="crossref"
                               target="#example13">example 13</ref>. <figure xml:id="example13">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <textClass>
                                     <keywords scheme="../schema/keywords.xml">
                                        <term type="author.continent">America</term>
@@ -13836,7 +13846,7 @@
                            possible types of keywords and their values and is itself also formulated
                            in TEI. <ref type="crossref" target="#example14">Example 14</ref> shows
                            an excerpt from the taxonomy. <figure xml:id="example14">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <taxonomy xml:id="keywords">
                                     <category xml:id="author">[...]</category>
                                     <category xml:id="text">[...] <category xml:id="text.narration">
@@ -13905,7 +13915,7 @@
                               <ref type="crossref" target="#example15">example 15</ref> shows.
                               <figure xml:id="example15">
                               <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                                 xmlns:sch="http://purl.oclc.org/dsdl/schematron" valid="true">
+                                 xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                                  <sch:pattern>
                                     <sch:rule context="tei:titleStmt">
                                        <sch:assert test="tei:title[@type = 'short'][. != '']"
@@ -13964,7 +13974,7 @@
                            the encoding of changes made to the files might become more important in
                            the future when this corpus is possibly reused by other researchers.
                               <figure xml:id="example16">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <revisionDesc>
                                     <change when="2015-03-31" who="#uhk">Initial TEI
                                        version.</change>
@@ -14007,7 +14017,7 @@
                         transcribed. In <ref type="crossref" target="#example17">example 17</ref>,
                         an excerpt of the front matter for the novel “Adoración” is shown. <figure
                            xml:id="example17">
-                           <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                               <front>
                                  <div source="#PS" n="1906">
                                     <div type="titlepage">
@@ -14085,7 +14095,7 @@
                         Altamirano about the length of his novel “Clemencia” (1869, MX), as shown in
                            <ref type="crossref" target="#example18">example 18</ref>. <figure
                            xml:id="example18">
-                           <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                               <back>
                                  <div>
                                     <head>Nota</head>
@@ -14116,7 +14126,7 @@
                         information in the analysis of the texts. <ref type="crossref"
                            target="#example19">Example 19</ref> shows how the beginning of the novel
                         “Adoración” is encoded. <figure xml:id="example19">
-                           <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                               <body>
                                  <div type="chapter">
                                     <head>I</head>
@@ -14274,7 +14284,7 @@
                               >milestone</gi>, as <ref type="crossref" target="#example20">example
                               20</ref> from the novel “A fuego lento” (1903, CU) by Emilio Bobadilla
                            illustrates. <figure xml:id="example20">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>La vida, durante la noche, se concentraba en la plaza de la
                                     Catedral, donde estaba, de un lado, el <seg rend="italic"
                                        >Círculo del Comercio,</seg> y del otro, <seg rend="italic"
@@ -14334,7 +14344,7 @@
                            indicating how the emphasis is rendered typographically, as shown in <ref
                               type="crossref" target="#example21">example 21</ref>. <figure
                               xml:id="example21">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>—¿Cómo se llama Vd.?</p>
                                  <p>—<seg rend="italic">Me ñama Ginoveve Santa Crú. Mi marío e
                                        Tribusio Polanca. Elle tien uno sijo ñamao Malanga que ha
@@ -14362,7 +14372,7 @@
                            quantify the overall amount of missing text in the corpus. The encoding
                            of a gap is illustrated in <ref type="crossref" target="#example22"
                               >example 22</ref>. <figure xml:id="example22">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p><said>—Sí, pero yo quiero romper esas ligaduras; sí, quiero
                                        romperlas, porque un día miro cercano en que no pudiendo ya
                                        mi corazón hacerse más violencia, romperá las cadenas de su
@@ -14411,7 +14421,7 @@
                            materials, for instance, love letters, or as songs sung by characters, as
                            in <ref type="crossref" target="#example23">example 23</ref> below.
                               <figure xml:id="example23">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>Boca-lobo guardó su moneda.</p>
                                  <p>El jefe se levantó de su asiento, y los demás le siguieron.</p>
                                  <p>Al retirarse, el jefe, para demostrar su complacencia, se puso a
@@ -14453,7 +14463,7 @@
                            seen, even though elements of drama are used, in this case, they are
                            mixed with prose paragraphs in which the narrator comments on the
                            dialogue. <figure xml:id="example24">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <div type="chapter">
                                     <head>X</head>
                                     <sp>
@@ -14515,7 +14525,7 @@
                               type="crossref" target="#example25">example 25</ref>, which contains a
                            newspaper advertisement included in the novel “La virgen del Niágara”
                            (1871, MX) by José Rivera y Río. <figure xml:id="example25">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>Felipe mostró a su amigo un aviso que el día anterior había
                                     hecho insertar en el <seg rend="italic">Herald</seg> y que decía
                                     poco más o menos lo siguiente:</p>
@@ -14610,7 +14620,7 @@
                            attributed to other authors, like the two quotations of Balzac and
                            Milanés in <ref type="crossref" target="#example26">example
                            26</ref> below. <figure xml:id="example26">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <div type="part">
                                     <head>Libro Primero.</head>
                                     <quote>
@@ -14736,7 +14746,7 @@
                            element <gi scheme="TEI">said</gi> was used, as <ref type="crossref"
                               target="#example27">example 27</ref> from the novel “Adoración”
                            illustrates. <figure xml:id="example27">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p><said>—¿Pero ya estás bien, Daniel?</said>—me preguntó
                                     solícita.</p>
                                  <p><said>—Bien del todo, Adoración. ¡Si no valió nada! Lo que
@@ -14776,7 +14786,7 @@
                            the narrator can be smooth, as <ref type="crossref" target="#example28"
                               >example 28</ref> from the novel “S. Y.” (1895, CU) by Francisco
                            Calcagno shows. <figure xml:id="example28">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>¿Qué infame suerte era aquella suya que lo condenaba siempre a
                                     ser deudor del hombre a quien ansiaba poder odiar? ¡Ah! ¡el
                                     viejo rey Priamo tuvo, que besar la mano del matador de su hijo;
@@ -14816,7 +14826,7 @@
                            taken from the novels “Los precursores” (1909, MX) by José López Portillo
                            y Rojas and “La Ginesa” (1894, AR) by Carlos María Ocantos, respectively.
                               <figure xml:id="example29">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>Y para que nada faltase a sus inocentes hechizos, había recibido
                                     de Dios la índole más mansa y cariñosa que se ha visto. Nunca se
                                     oponía a nada, a todo estaba constantemente dispuesta; su
@@ -14827,7 +14837,7 @@
                               <head>Encoding of direct speech in the novel “Los precursores”.</head>
                            </figure>
                            <figure xml:id="example30">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>Y en esto llegó una carta de la capital para Lía, y Lía la
                                     guardó sin abrirla, trémula, leyendo con los ojos del alma los
                                     garrapatos del niño adorado: <writing type="letter">«Ven,
@@ -14900,7 +14910,7 @@
                            “narration” with the attribute <att scheme="TEI">ana</att>, as <ref
                               type="crossref" target="#example31">example 31</ref> shows. <figure
                               xml:id="example31">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p><said>—¿Duermes, bella Cheherazada?</said> —dije a Laura cuando
                                     le hube contado seis horas de sueño—. <said>Pues si estás
                                        despierta, refiéreme, te ruego, esa interesante
@@ -15026,7 +15036,7 @@
                            taken from the novel “Puebla” (1903, MX), which is part of the work “La
                            Intervención y el Imperio (1861–1867)” by Victoriano Salado Álvarez.
                               <figure xml:id="example32">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>Miró el mexicano a su compañero con cara de espanto, y el otro,
                                     sin esperar a que le pidieran explicaciones, habló así:</p>
                                  <p><said>—Me llamo Nicolás Chardon, soy originario de París y mi
@@ -15058,7 +15068,7 @@
                            as a marker for explanatory, meditative, or other kinds of parenthesis
                            that are not direct speech, as depicted in <ref type="crossref"
                               target="#example33">example 33</ref>. <figure xml:id="example33">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>Nunca me habló de su familia: yo creo que jamás la tuvo. Vivía
                                     sólo como un hongo, allá en su vivienda,—que como he dicho ya,
                                     no conocí nunca,—y solo también entre los arrecifes en que
@@ -15088,7 +15098,7 @@
                               type="crossref" target="#example34">example 34</ref>, an excerpt of
                            this derivative format is given for the novel “El guajiro” (1842, CU) by
                            Cirilo Villaverde. <figure xml:id="example34">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <w xml:id="p367.w135">las</w>
                                  <w xml:id="p367.w136">palabras</w>
                                  <w xml:id="p367.w137">no</w>
@@ -15294,7 +15304,7 @@
                            floating texts is shown in examples <ref type="crossref"
                               target="#example35">35</ref> and <ref type="crossref"
                               target="#example36">36</ref>. <figure xml:id="example35">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>D. Luis empezó a leer la siguiente carta:</p>
                                  <said>
                                     <writing type="letter">
@@ -15330,7 +15340,7 @@
                            is marked as written text (<tag scheme="TEI">writing type="letter"</tag>)
                            and as direct speech (<gi scheme="TEI">said</gi>) because it is read by a
                            character. <figure xml:id="example36">
-                              <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                              <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                  <p>No. No podía ser un contemporáneo, porque sintetizaba demasiado.
                                     Uno de mis camaradas hubiera entrado en mayores detalles, no
                                     hubiera visto las cosas a bulto, hubiera cometido menos errores.
@@ -15431,7 +15441,7 @@
                         both schema files are included as processing instructions in each of the
                         corpus files, as shown in <ref type="crossref" target="#example37">example
                            37</ref>. <figure xml:id="example37">
-                           <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                               <?xml-model href="../schema/keywords.sch" type="application/xml" 
                               schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" 
@@ -15548,7 +15558,7 @@
                      bibliographic entry of the novel “Rastaquouère” (1890, ARG) by Alberto del
                      Solar. <figure xml:id="example38">
                         <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                            <bibl xml:id="W1234">
                               <author key="A464">Solar, Alberto del</author>
                               <title>Rastaquouère</title>
@@ -15729,7 +15739,7 @@
                      of subgenre labels in the corpus file of the novel “Rastaquouère”. <figure
                         xml:id="example39">
                         <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                            <keywords scheme="../schema/keywords.xml"> [...] <term type="text.title"
                                  n="1890">Rastaquouère. Ilusiones y desengaños sudamericanos en
                                  París</term>
@@ -15855,7 +15865,7 @@
                      signals evaluated in the TEI header keyword section are given in <ref
                         type="crossref" target="#example40">example 40</ref>. The signals are
                      highlighted in curly brackets. <figure xml:id="example40">
-                        <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <text>
                               <front> [...] <div type="introduction">
                                     <head>Introducción</head>
@@ -16023,7 +16033,7 @@
                      sentimental novel, as the excerpts from the first chapter given in <ref
                         type="crossref" target="#example41">example 41</ref> show. <figure
                         xml:id="example41">
-                        <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <div type="chapter">
                               <head>Capítulo I</head>
                               <head>La callejuela de San Sebastián</head>
@@ -16188,7 +16198,7 @@
                      processed and the path to the output file. An excerpt of the annotation result
                      in the FreeLing format is shown in <ref type="crossref" target="#example44"
                         >example 44</ref>. <figure xml:id="example44">
-                        <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <sentence id="1">
                               <token id="t1.1" form="Más_allá_de" lemma="más_allá_de" tag="SP"
                                  ctag="SP" pos="adposition" type="preposition"> </token>
@@ -16299,7 +16309,7 @@
                   <p xml:id="p440">The result of this process is shown in <ref type="crossref"
                         target="#example45">example 45</ref>. <figure xml:id="example45">
                         <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                            <div type="chapter">
                               <p xml:id="nh0001_p1">
                                  <s>
@@ -16350,7 +16360,7 @@
                      of verb forms with enclitic pronouns that were not recognized by the
                      spell-checker, such as, for example, “habíase” instead of “se había” or
                      “diósela” instead of “se la dio”.<note xml:id="ftn359">See <ref type="crossref"
-                           target="#ch3.2.3">chapter 3.3.2</ref> above for details.</note> As a
+                           target="#ch3.3.2">chapter 3.3.2</ref> above for details.</note> As a
                      first step, the list of regular expressions that was prepared to capture such
                      word forms as exceptions in the spell-checking process was used to detect how
                      many of these forms occur in the texts of the corpus.<note xml:id="ftn360">The
@@ -16394,7 +16404,7 @@
                         type="crossref" target="#example46">example 46</ref>, which shows the
                      annotated phrase “comenzó a hablarnos”. <figure xml:id="example46">
                         <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                            <w cligs:form="comenzó" lemma="comenzar" cligs:tag="VMIS3S0"
                               cligs:ctag="VMI" pos="verb" type="main" cligs:mood="indicative"
                               cligs:tense="past" cligs:person="3" cligs:num="singular"
@@ -16418,7 +16428,7 @@
                         <ref type="crossref" target="#example47">example 47</ref> of the phrase
                      “diósela a Bruno” shows. <figure xml:id="example47">
                         <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                            <w cligs:form="diósela" lemma="diósela" cligs:tag="NCFS000"
                               cligs:ctag="NC" pos="noun" type="common" cligs:gen="feminine"
                               cligs:num="singular" cligs:wnsyn="xxx" cligs:wnlex="xxx">diósela</w>
@@ -16510,7 +16520,7 @@
                      above-mentioned phrase “diósela a Bruno” looks as shown in <ref type="crossref"
                         target="#example48">example 48</ref>. <figure xml:id="example48">
                         <egXML xmlns="http://www.tei-c.org/ns/Examples"
-                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" valid="true">
+                           xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                            <w cligs:form="dió" lemma="dió" pos="verb">dió</w>
                            <w cligs:form="se" lemma="se" pos="pronoun">se</w>
                            <w cligs:form="la" lemma="la" pos="pronoun">la</w>
@@ -16532,7 +16542,7 @@
                      misclassified verb forms with enclitic pronouns that occurred five times or
                      more often were checked and false positives were added to the exception
                         list.<note xml:id="ftn363">See <ref type="crossref" target="#ftn360"
-                           >footnote 360</ref>  above.</note> Linguistic knowledge is indispensable
+                           >footnote 360</ref> above.</note> Linguistic knowledge is indispensable
                      to find a sustainable and more precise solution. A lexicon of verb forms and
                      rules for the recognition of historical enclitic constructions could be used to
                      improve the linguistic annotation in the first place instead of correcting the
@@ -16560,8 +16570,13 @@
                         36–38</ref>).</note> Publications on Zenodo.org receive Digital Object
                      Identifiers (DOI) so that the corpus releases are identifiable and reachable in
                      the long term. The different components of the corpus publication are listed in
-                        <ref type="crossref" target="#tab20">table 20</ref>. <table xml:id="tab20"
-                        rend="text-align: left;">
+                        <ref type="crossref" target="#tab20">table 20</ref>.<note xml:id="ftn365"
+                        >The metadata mentioned in the table was generated with the script
+                        “metadata.xsl” available at <ref
+                           target="https://github.com/cligs/scripts-nh/blob/master/corpus/metadata.xsl"
+                           >https://github.com/cligs/scripts-nh/blob/master/corpus/metadata.xsl</ref>.
+                        Accessed September 24, 2020.</note>
+                     <table xml:id="tab20" rend="text-align: left;">
                         <head>Elements of the corpus published on GitHub.</head>
                         <row role="label" rows="1" cols="1">
                            <cell role="data" rows="1" cols="1">Directory / file name</cell>
@@ -16570,11 +16585,7 @@
                         <row role="data" rows="1" cols="1">
                            <cell role="data" rows="1" cols="1">metadata.csv</cell>
                            <cell role="data" rows="1" cols="1">selected, basic corpus metadata in
-                              CSV format<note xml:id="ftn365">This metadata was generated with the
-                                 script “metadata.xsl” available at <ref
-                                    target="https://github.com/cligs/scripts-nh/blob/master/corpus/metadata.xsl"
-                                    >https://github.com/cligs/scripts-nh/blob/master/corpus/metadata.xsl</ref>.
-                                 Accessed September 24, 2020.</note></cell>
+                              CSV format</cell>
                         </row>
                         <row role="data" rows="1" cols="1">
                            <cell role="data" rows="1" cols="1">tei</cell>
@@ -21028,7 +21039,7 @@
                         normalization strategies reduce the variance of the feature values. For
                         absolute values, the variances range between 6 and 2,976, for tf-scores
                         between 0.001 and 0.150, for tf-idf-scores between 0.0006 and 0.0581, and
-                        for z-scores between 0.999999999999998 and 1.000000000000003, so the
+                        for z-scores between 0.999999999999998 and 1.000000000000002, so the
                         absolute values of variance are smallest for the tf- and tf-idf-scores, but
                         the range of variance is smallest for the z-scores.<note xml:id="ftn527">The
                            last number or decimal of the values was rounded.</note> In addition, the
@@ -22006,17 +22017,18 @@
                         stylistic intentions can have an influence on the thematic unfolding, or,
                         looked at from another perspective, that the exact thematic unfolding can be
                         interpreted as an intended or unintended stylistic effect. The distribution
-                        of topics<hi rend="subscript">TM</hi> in the documentsOut of a topic model
-                        could be interpreted as the result of thematic unfolding. On the level of
-                        the corpus<hi rend="subscript">Out</hi>, the specific set of topics<hi
-                           rend="subscript">TM</hi> can be understood as resulting from the thematic
-                        unfolding across all documents in the text collection. The thematic
-                        unfolding itself, as defined by the combination of relational and
-                        logical-semantical categories, though, is located on a more abstract level,
-                        which is intermediate between the topics<hi rend="subscript">TM</hi> and the
-                        theme of the text. Brinker, Cölfen, and Pappert point out that the theme or
-                        central topic of the text is the shortest possible summary of the textual
-                        content and that only a reader’s interpretation can achieve this reduction: <cit>
+                        of topics<hi rend="subscript">TM</hi> in the documents<hi rend="subscript"
+                           >Out</hi> of a topic model could be interpreted as the result of thematic
+                        unfolding. On the level of the corpus<hi rend="subscript">Out</hi>, the
+                        specific set of topics<hi rend="subscript">TM</hi> can be understood as
+                        resulting from the thematic unfolding across all documents in the text
+                        collection. The thematic unfolding itself, as defined by the combination of
+                        relational and logical-semantical categories, though, is located on a more
+                        abstract level, which is intermediate between the topics<hi rend="subscript"
+                           >TM</hi> and the theme of the text. Brinker, Cölfen, and Pappert point
+                        out that the theme or central topic of the text is the shortest possible
+                        summary of the textual content and that only a reader’s interpretation can
+                        achieve this reduction: <cit>
                            <quote>Man muss sich überhaupt darüber im Klaren sein, dass die
                               textanalytische Bestimmung des Themas primär auf interpretativen
                               Verfahren beruht; es kann hier keine ‘mechanische’ Prozedur geben, die
@@ -23677,14 +23689,13 @@
                            “ojos-años-manos”, and “ojos-hija-años” need a closer look. In the first
                            one, which is visualized in <ref type="crossref" target="#fig55">figure
                               55</ref>, the word “do” sticks out because it is not a regular Spanish
-                              word.<note xml:id="ftn585">The word “do” does not appear in the word
-                              cloud of the topic.</note> The novels in which this topic has the
-                           highest probability were checked, and the “do” is a spelling error
-                           (instead of “de”) that remained unnoticed in some of these novels.<note
-                              xml:id="ftn586">In the novel “Alma de niña” (nh0082), for instance, it
-                              occurs 58 times, and in the novel “Auras de Abril” (nh0233), 20 times.
-                              The spell-checking result files for these novels show that the
-                              spell-checker did not recognize this word as an error. See <ref
+                           word. The novels in which this topic has the highest probability were
+                           checked, and the “do” is a spelling error (instead of “de”) that remained
+                           unnoticed in some of these novels.<note xml:id="ftn585">In the novel
+                              “Alma de niña” (nh0082), for instance, it occurs 58 times, and in the
+                              novel “Auras de Abril” (nh0233), 20 times. The spell-checking result
+                              files for these novels show that the spell-checker did not recognize
+                              this word as an error. See <ref
                                  target="https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0082.csv"
                                  >https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0082.csv</ref>
                               and <ref
@@ -23709,7 +23720,7 @@
                            nature, body, and time. The second one is about looking, also talking,
                            mainly female persons, and emotions. In the first case, the word “años”
                            probably refers to time, and in the second case, it may refer to
-                              age.<note xml:id="ftn587">See the word clouds at <ref
+                              age.<note xml:id="ftn586">See the word clouds at <ref
                                  target="https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/wordles/wordle_tp089.png"
                                  >https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/wordles/wordle_tp089.png</ref>
                               and <ref
@@ -23839,7 +23850,7 @@
                            group, which shows that the classifier focuses on the aspects that are
                            specific for the individual subgenre that is compared to the big group of
                            novels with many different subgenres, which makes complete sense.<note
-                              xml:id="ftn588">The three plots with the feature importances for
+                              xml:id="ftn587">The three plots with the feature importances for
                                  <emph>novela histórica</emph> versus other novels, for <emph>novela
                                  sentimental</emph> versus other novels, and for <emph>novela de
                                  costumbres</emph> versus other novels can be seen at <ref
@@ -23872,7 +23883,7 @@
                            misclassifications can still be used to examine how prototypical the
                            novels are for the subgenres. The chart for <emph>novela histórica</emph>
                            versus other novels is given in <ref type="crossref" target="#fig59"
-                              >figure 59</ref>.<note xml:id="ftn589">The charts about the
+                              >figure 59</ref>.<note xml:id="ftn588">The charts about the
                               classification results for individual novels are available in the
                               “visuals” folder in the data-nh GitHub repository (see the previous
                               footnote). The data was also collected in CSV files (called
@@ -23912,7 +23923,7 @@
                            example of such prototypical historical novels, the probabilities of the
                            topics that are most distinctive for historical versus other novels are
                            visualized for the novel “La cruz y la espada” in <ref type="crossref"
-                              target="#fig60">figure 60</ref>.<note xml:id="ftn590">The
+                              target="#fig60">figure 60</ref>.<note xml:id="ftn589">The
                               probabilities are used in the form they have after the MinMax scaling,
                               which sets the range of the individual features to [0,1]. This form is
                               used here because it was the form of the features that were also used
@@ -24022,7 +24033,7 @@
                                  popular, Payno wrote another essentially <emph>costumbrista</emph>
                                  novel.</quote>
                               <bibl>(<ref type="crossref" target="#Brushwood_1966">Brushwood 1966,
-                                    116</ref>)<note xml:id="ftn591">The publication date in the
+                                    116</ref>)<note xml:id="ftn590">The publication date in the
                                     corpus differs from the one mentioned by Brushwood because it
                                     refers to the year of the first book publication.</note></bibl>
                            </cit>
@@ -24150,7 +24161,7 @@
                            sentimental novels when compared to others, but the other two topics,
                            “año-sociedad-idea” and “cuerpo-amor-ocasión”, are neither distinctive
                            for historical nor for sentimental novels, and also not for the novels of
-                              customs,<note xml:id="ftn592">At least when compared to the “other”
+                              customs,<note xml:id="ftn591">At least when compared to the “other”
                               group.</note> but for other subgenres. As the novel was published in
                            1893, it is possible that it includes elements that are typical for the
                            realist or naturalist novel. The topic “año-sociedad-idea” points in the
@@ -24173,7 +24184,7 @@
                            series of historical novels entitled “Episodios Nacionales”. He also
                            relates Bacardí Moreau’s style to the ones of Alexandre Dumas and Walter
                            Scott (<ref type="crossref" target="#Remos-Rubio_1935">Remos y Rubio
-                              1935, 42–43</ref>).<note xml:id="ftn593">Remos y Rubio mentions 1914
+                              1935, 42–43</ref>).<note xml:id="ftn592">Remos y Rubio mentions 1914
                               as the publication date, but he refers to the second part of the novel
                               (or the novel with both parts).</note> However, Remos y Rubio also
                            remarks that the novel “Vía Crucis” contains accomplished
@@ -24343,7 +24354,7 @@
                            cases, or in part. All constellations are possible on the way from a
                            prototypical core to the edge of a textual genre, but some are more
                            frequent than others, depending on the kind of subgenre that is
-                              analyzed.<note xml:id="ftn594">Here only the plots for the contrast of
+                              analyzed.<note xml:id="ftn593">Here only the plots for the contrast of
                               individual subgenres with the “other” group were shown. Another
                               possibility is to analyze the direct subgenre comparisons to
                               investigate how two selected subgenres relate to each other in terms
@@ -24353,14 +24364,14 @@
                            groups: words, word n-grams, and character n-grams. The results for each
                            group are reported separately. In total, 18,000 classification runs were
                            considered for basic MFW, 54,000 for word n-grams, and 162,000 for
-                           character n-grams.<note xml:id="ftn595">The different numbers of runs are
+                           character n-grams.<note xml:id="ftn594">The different numbers of runs are
                               due to the different amounts of parameter constellations for each
                               feature type. For basic MFW, there is just one token unit (word); for
                               word n-grams, there are three; and for character n-grams, nine. In
                               addition, all of the ten repetitions with the different data samples
                               and ten cross-validation runs per constellation are included.</note>
                            The results for the MFW-based features are summarized in <ref
-                              type="crossref" target="#tab38">table 38</ref>.<note xml:id="ftn596"
+                              type="crossref" target="#tab38">table 38</ref>.<note xml:id="ftn595"
                               >The scores and standard deviations are rounded to two decimal
                               places.</note>
                            <table xml:id="tab38" rend="text-align: left;">
@@ -24579,7 +24590,7 @@
                            the classification results for primary thematic subgenres with MFW-based
                            features further. <ref type="crossref" target="#fig68">Figure
                            68</ref> displays the classification results for different numbers of MFW
-                           and tf-idf versus z-scores.<note xml:id="ftn597">The results for
+                           and tf-idf versus z-scores.<note xml:id="ftn596">The results for
                               tf-scores are not visible here because they are almost identical to
                               those for z-scores because the latter are based on the tf-scores, and
                               the scaling of the features is not decisive for the RF
@@ -24596,13 +24607,13 @@
                            onwards. As was shown in the chapter on the MFW-based features, in the
                            range of 1,000 MFW, there are already verbs, adjectives, adverbs, and
                            nouns, so it can be concluded that these content words are essential for
-                           the classification by thematic subgenre.<note xml:id="ftn598">See <ref
+                           the classification by thematic subgenre.<note xml:id="ftn597">See <ref
                                  type="crossref" target="#ch4.2.1.1">chapter
                               4.2.1.1</ref> above.</note> As to the difference between tf-idf and
                            z-scores, the former are better up to 3,000 MFW and the latter from 4,000
                            MFW onwards. When one rounds to two decimal places, the top mean
                            accuracies of 0.81 are reached with tf-idf and 3,000 or 2,000 MFW.<note
-                              xml:id="ftn599">Hettinger et al. (<ref type="crossref"
+                              xml:id="ftn598">Hettinger et al. (<ref type="crossref"
                                  target="#Hettinger-et-al_2015">2015</ref>) also found out that
                               3,000 MFW worked best for the classification of subgenres of the novel
                               with SVM. This is astonishing because they classified
@@ -24641,7 +24652,7 @@
                            three n-gram subtypes are evaluated. The first subtype are the  “classic”
                            character n-grams containing all characters, punctuation marks, and blank
                            spaces. The classification results for these are summarized in <ref
-                              type="crossref" target="#fig70">figure 70</ref>.<note xml:id="ftn600"
+                              type="crossref" target="#fig70">figure 70</ref>.<note xml:id="ftn599"
                               >The default n-grams are provided by the CountVectorizer of
                               scikit-learn. See <ref type="crossref" target="#ch4.2.1.1">chapter
                                  4.2.1.1</ref>  on the MFW-based features for details.</note>
@@ -24656,14 +24667,14 @@
                            with the combination of tf-idf, 3-gram characters, and 4,000 MFW,
                            reaching 0.80. With values rounded to two decimal points, the same result
                            is achieved with tf-idf, 4-gram characters, and 5,000 MFW.<note
-                              xml:id="ftn601">Hettinger et al. (<ref type="crossref"
+                              xml:id="ftn600">Hettinger et al. (<ref type="crossref"
                                  target="#Hettinger-et-al_2015">2015</ref>) used the top 1,000
                               character 4-grams for the classification of German novels by
                               subgenre.</note> Besides the classic n-gram features, also two special
                            types of n-grams were created. The first of them only uses mid-word and
                            multi-word n-grams and is called “word n-grams” and the second type only
                            uses prefix n-grams as well as n-grams ending with punctuation marks and
-                           is called “affix-punct”.<note xml:id="ftn602">See <ref type="crossref"
+                           is called “affix-punct”.<note xml:id="ftn601">See <ref type="crossref"
                                  target="#ch4.2.1.1">chapter 4.2.1.1</ref> above, in which these
                               special types of n-gram features are explained.</note> In the
                            following, it is checked if they have advantages over the classic
@@ -24712,7 +24723,7 @@
                            results for the different subgenre constellations, with 3,000 MFW and
                            tf-idf. The results for this combination, using the RF classifier, are
                            given in <ref type="crossref" target="#tab39">table 39</ref> below.<note
-                              xml:id="ftn603">The scores and standard deviations are rounded to two
+                              xml:id="ftn602">The scores and standard deviations are rounded to two
                               decimal places.</note>
                            <table xml:id="tab39" rend="text-align: left;">
                               <head>Classification results for primary thematic subgenres (RF, 3,000
@@ -24897,19 +24908,19 @@
                            literary currents because they are not primarily thematically defined,
                            even if ranges of different topics are also characteristic for them. For
                            the literary currents, style in a narrower sense is assumed to play a
-                           more important role.<note xml:id="ftn604">For an overview of the
+                           more important role.<note xml:id="ftn603">For an overview of the
                               characteristics of the romantic, realist, and naturalistic novels, see
                                  <ref type="crossref" target="#ch2.3.2">chapter 2.3.2</ref>.</note>
                            <ref type="crossref" target="#fig73">Figure 73</ref> shows the
                            distribution of primary literary currents in the corpus.<note
-                              xml:id="ftn605">This overview was generated with the function
+                              xml:id="ftn604">This overview was generated with the function
                                  <code>plot_overview_literary_currents_primary()</code> in the
                               script <ref
                                  target="https://github.com/cligs/scripts-nh/blob/master/analysis/classification.py"
                                  >https://github.com/cligs/scripts-nh/blob/master/analysis/classification.py</ref>.
                               The resulting chart is available at <ref
-                                 target="https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.png"
-                                 >https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.png</ref>.
+                                 target="https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.html"
+                                 >https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.html</ref>.
                               Accessed October 29, 2020. For more extensive overviews of the novels
                               by primary literary current, see <ref type="crossref"
                                  target="#ch4.1.5.3.2">chapter 4.1.5.3.2</ref>.</note>
@@ -24919,7 +24930,7 @@
                            </figure>
                         </p>
                         <p xml:id="p725">Of the 256 novels, there are 55 for which the primary
-                           literary current is unknown.<note xml:id="ftn606">A future task for the
+                           literary current is unknown.<note xml:id="ftn605">A future task for the
                               literary currents is to use the classification models to determine the
                               labels of the novels for which no indication of literary current could
                               be found, neither through explicit or implicit paratextual signals nor
@@ -24949,7 +24960,7 @@
                               target="#tab40">table 40</ref>. The results are based on 144,000
                            classification runs for each classifier, including all parameter
                            variations, repetitions of data selection, and cross-validation
-                              steps.<note xml:id="ftn607">The scores and standard deviations in the
+                              steps.<note xml:id="ftn606">The scores and standard deviations in the
                               table are rounded to two decimal places.</note>
                            <table xml:id="tab40" rend="text-align: left;">
                               <head>Classification results for primary literary currents
@@ -25042,7 +25053,7 @@
                            the differences are small between the different parameter constellations.
                            The top mean accuracies are reached with 70 topics and an optimization
                            interval of 1,000 and with 90 topics and an interval of 2,500.<note
-                              xml:id="ftn608">Slight differences in the plot are due to the small
+                              xml:id="ftn607">Slight differences in the plot are due to the small
                               range of the values. Here the scores are rounded to two decimal
                               points.</note> Regarding the developments of different optimization
                            intervals with an increasing number of topics, the curves for intervals
@@ -25511,7 +25522,7 @@
                         <p xml:id="p736">In <ref type="crossref" target="#tab43">table 43</ref>, the
                            classification results for the different constellations of literary
                            currents are given, based on the SVM classifier, 3,000 MFW, and tf-idf
-                              values.<note xml:id="ftn609">The scores are rounded to two decimal
+                              values.<note xml:id="ftn608">The scores are rounded to two decimal
                               points.</note>
                            <table xml:id="tab43" rend="text-align: left;">
                               <head>Classification results for primary literary currents (SVM, 3,000
@@ -25661,7 +25672,7 @@
                            or movement has been discussed, for example, by Schlickers, who confirms
                            that the naturalistic novel was a concept that was consciously applied
                            and communicated by contemporary writers in the nineteenth century.<note
-                              xml:id="ftn610">In the corpus, the novels “¿Inocentes o culpables?”
+                              xml:id="ftn609">In the corpus, the novels “¿Inocentes o culpables?”
                               (1884, AR) by Juan Antonio Argerich and “Los bandidos de Río Frío”
                               (1892, MX) by Manuel Payno carry the label “novela naturalista” in
                               their subtitles. About the discussion to treat the naturalistic novel
@@ -25860,7 +25871,7 @@
                         <head>Method</head>
                         <p xml:id="p745">To create the network for the family resemblance analysis,
                            first, the similarities between all the individual novels were calculated
-                           for the chosen feature set using cosine similarity.<note xml:id="ftn611"
+                           for the chosen feature set using cosine similarity.<note xml:id="ftn610"
                               >Cosine similarity measures the cosine of the angle between two text
                               vectors. See <ref
                                  target="https://en.wikipedia.org/wiki/Cosine_similarity"
@@ -25871,7 +25882,7 @@
                            determined using the three nearest neighbors of each text, which were
                            selected from a ranking of the text similarities. The strength (or
                            weight) of the edges was calculated by summing up the similarity values
-                           of the neighbors.<note xml:id="ftn612">Because the closest neighborship
+                           of the neighbors.<note xml:id="ftn611">Because the closest neighborship
                               depends on the perspective, it was calculated for each node. If two
                               nodes are mutually closest, the strength of the edge
                            increases.</note></p>
@@ -25892,12 +25903,12 @@
                            community detection was used to explore the <emph>families</emph> of
                            novels in the network. Communities are sets of nodes in a network that
                            are more densely connected to each other than to nodes outside.<note
-                              xml:id="ftn613">For general information about community structures in
+                              xml:id="ftn612">For general information about community structures in
                               networks, see <ref
                                  target="https://en.wikipedia.org/wiki/Community_structure"
                                  >https://en.wikipedia.org/wiki/Community_structure</ref>. Accessed
                               April 28, 2020.</note> Different algorithms for the detection of
-                           network communities exist.<note xml:id="ftn614">For a review of different
+                           network communities exist.<note xml:id="ftn613">For a review of different
                               community detection algorithms for networks, see Javed et al. (<ref
                                  type="crossref" target="#Javed-et-al_2018">2018</ref>).</note>
                            Here, the Louvain modularity algorithm was used. It is based on
@@ -25915,7 +25926,7 @@
                            these similarities (or distances) are interpreted in terms of network
                            links. Furthermore, the algorithm is also comparatively efficient and has
                            been implemented in Python, which is used to create and visualize the
-                           network here.<note xml:id="ftn615">See <ref
+                           network here.<note xml:id="ftn614">See <ref
                                  target="https://github.com/taynaud/python-louvain"
                                  >https://github.com/taynaud/python-louvain</ref> for the Python
                               module implementing the Louvain community detection. Accessed April
@@ -25930,7 +25941,7 @@
                            determines the connection between members of a family and the difference
                            to other families, but the numerical strengths of the features in
                            combination and this only between pairs of individual novels.<note
-                              xml:id="ftn616">Of course, zero values are also possible in the
+                              xml:id="ftn615">Of course, zero values are also possible in the
                               feature matrices and could be interpreted as <emph>absent</emph>, but
                               it would not be proportionate to consider all values that are greater
                               than zero as <emph>present</emph>. A possibility to model the features
@@ -25955,7 +25966,7 @@
                            group of dense relationships and another, they cut off the family at a
                            certain point but they do not lever out the basic idea of family
                            resemblance, because the links to other families and family members in
-                           the network can still be explored.<note xml:id="ftn617">From the many
+                           the network can still be explored.<note xml:id="ftn616">From the many
                               decisions taken so far to formalize the family resemblance concept, it
                               becomes clear that variants of this approach are possible. For
                               example, the similarity measure used, the number of nearest neighbors
@@ -25979,7 +25990,7 @@
                            included. There are nine authors with both a historical and a sentimental
                            novel in the subcorpus. <ref type="crossref" target="#fig85">Figure
                               85</ref>  shows the distribution of the novels by decade and
-                              subgenre.<note xml:id="ftn618">The metadata of the subcorpus used for
+                              subgenre.<note xml:id="ftn617">The metadata of the subcorpus used for
                               this analysis is available as “metadata.csv” in the folder
                               “corpus_metadata” at <ref
                                  target="https://github.com/cligs/data-nh/tree/main/analysis/family-resemblance/"
@@ -26002,7 +26013,7 @@
                            the goal of having more stable topics that represent the novel of the
                            time in a better way than if they had been based on the smaller
                            subcorpus. For the network analysis, only the features for the novels in
-                           the subcorpus are used.<note xml:id="ftn619">This topic model was created
+                           the subcorpus are used.<note xml:id="ftn618">This topic model was created
                               separately from the ones used for the classification in the previous
                               chapter because the work on the family resemblance network was done
                               earlier. The topic model used here was built with the tool MALLET
@@ -26046,7 +26057,7 @@
                         <p xml:id="p753">With the approach outlined in the previous section, three
                            kinds of networks were produced, two for the individual subgenres and one
                            for the two subgenres combined, as shown in <ref type="crossref"
-                              target="#tab44">table 44</ref>.<note xml:id="ftn620">The script
+                              target="#tab44">table 44</ref>.<note xml:id="ftn619">The script
                               calling the various functions of the network analysis for the
                               different setups is available at <ref
                                  target="https://github.com/hennyu/papers/blob/master/family_resemblance_dsrom19/analysis/run_scripts.py"
@@ -26095,7 +26106,7 @@
                            doubles when the two subgenres are combined, the number of resulting
                            clusters does not grow proportionally, indicating that there is an
                            overlap between the subgenres. The discussion of the results focuses on
-                           the historical novels.<note xml:id="ftn621">The overall results can be
+                           the historical novels.<note xml:id="ftn620">The overall results can be
                               inspected on GitHub, though.</note>
                            <ref type="crossref" target="#fig87">Figure 87</ref> shows the first
                            network for historical novels and topics (HIST-topics). The communities
@@ -26249,7 +26260,7 @@
                            topics are decisive for the relationships in this cluster of historical
                            novels. The axis on the top shows the absolute value that the topic
                            achieved in each novel, and the axis to the left shows the individual 100
-                              topics.<note xml:id="ftn622">In a strict sense, the topics are
+                              topics.<note xml:id="ftn621">In a strict sense, the topics are
                               categories and not numerical values and should be visualized as bars
                               rather than lines. The line plot was chosen here because it
                               facilitates seeing the differences between the data series.</note> In
@@ -26289,8 +26300,8 @@
                         <p xml:id="p759">A more general overview of the topics that are distinctive
                            for the different clusters in the network of historical novels is given
                            in <ref type="crossref" target="#fig91">figure 91</ref>. In the heatmap,
-                           the yellower the boxes, the more important the topics are for the
-                           cluster, and the bluer, the lesser important they are. The
+                           the brighter the boxes, the more important the topics are for the
+                           cluster, and the darker, the lesser important they are. The
                            distinctiveness was calculated by normalizing the topic values to
                            z-scores. Here, only the top 30 most distinctive topics are shown. The
                            values in parentheses at the end of the topic labels indicate the ranks
@@ -26329,7 +26340,7 @@
                         <p xml:id="p761">The results for the network of sentimental novels and the
                            one containing both types of subgenres are only summarized briefly here.
                            Regarding the metadata, the cluster sizes vary more for the sentimental
-                           novels.The biggest cluster has 14 novels, and the smallest one has only
+                           novels. The biggest cluster has 14 novels, and the smallest one has only
                            two. All the clusters are mixed by country. Among the sentimental novels,
                            there are more with an autodiegetic and a homodiegetic narrator, and the
                            narrative perspective has an influence on the results. The smallest
@@ -28370,7 +28381,7 @@
                      <cell role="data" rows="1" cols="1">Biblioteca Digital Argentina</cell>
                      <cell role="data" rows="1" cols="1"><ref
                            target="http://www.biblioteca.clarin.com/pbda/novela"
-                           >http://www.biblioteca.clarin.com/pbda/novela</ref><note xml:id="ftn623"
+                           >http://www.biblioteca.clarin.com/pbda/novela</ref><note xml:id="ftn622"
                            >This website is not available anymore.</note></cell>
                      <cell rend="text-align: right;" role="data" rows="1" cols="1">11</cell>
                   </row>
@@ -28410,14 +28421,14 @@
                         Bicentenario</cell>
                      <cell role="data" rows="1" cols="1"><ref
                            target="http://www.bicentenario.gob.mx/"
-                           >http://www.bicentenario.gob.mx/</ref><note xml:id="ftn624">This website
+                           >http://www.bicentenario.gob.mx/</ref><note xml:id="ftn623">This website
                            has broken links and does not seem to be supported anymore.</note></cell>
                      <cell rend="text-align: right;" role="data" rows="1" cols="1">1</cell>
                   </row>
                   <row role="data" rows="1" cols="1">
                      <cell role="data" rows="1" cols="1">Biblioteca Digital Trapalanda</cell>
                      <cell role="data" rows="1" cols="1"><ref target="http://trapalanda.bn.gov.ar/"
-                           >http://trapalanda.bn.gov.ar</ref><note xml:id="ftn625">This website is
+                           >http://trapalanda.bn.gov.ar</ref><note xml:id="ftn624">This website is
                            not available anymore.</note></cell>
                      <cell rend="text-align: right;" role="data" rows="1" cols="1">1</cell>
                   </row>
@@ -28449,7 +28460,7 @@
                      <cell role="data" rows="1" cols="1"><ref
                            target="https://mexicana.cultura.gob.mx/es/repositorio"
                            >https://mexicana.cultura.gob.mx/es/repositorio</ref><note
-                           xml:id="ftn626">The digital repository of the Mexican government’s
+                           xml:id="ftn625">The digital repository of the Mexican government’s
                            Secretary of Culture was relaunched during the preparation of this
                            dissertation. The two novels in the corpus were taken from the old
                            version of the repository and could be downloaded at <ref
@@ -28459,7 +28470,7 @@
                               >http://impresosmexicanos.conaculta.gob.mx/libros</ref>. These links
                            are not accessible anymore. The new version of this digital repository
                            whose link is given in the table is called “Mexicana. Repositorio del
-                           Patrimonio Cultural de México”. </note></cell>
+                           Patrimonio Cultural de México”.</note></cell>
                      <cell rend="text-align: right;" role="data" rows="1" cols="1">2</cell>
                   </row>
                   <row role="data" rows="1" cols="1">

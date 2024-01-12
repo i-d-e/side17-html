@@ -4171,9 +4171,9 @@
                            calculated by dividing the absolute number of occurrences of a term
                            <em>t</em> in document <em>d</em> by the frequency of the term
                            <em>t’</em>, which is the term with the maximum frequency in
-                           <em>d</em> (see <span class="w3-tooltip w3-border-bottom w3-border-blue-grey">formula
-                              1<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"></span></span>). 
-                           <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                           <em>d</em> (see <a href="#formula1">formula
+                              1</a>). 
+                           <span style="display: block; margin: 20px 0 20px 0;" id="formula1"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                                  
                                  <mrow>
                                     
@@ -4276,9 +4276,9 @@
                            function words, which are likely to occur in all documents, a weaker weight
                            compared to the more specific content words. Here, the tf-idf-scores were
                            calculated with the Python library scikit-learn, which uses a specific
-                           implementation of this weighting scheme (see formulas <span class="w3-tooltip w3-border-bottom w3-border-blue-grey">2<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"></span></span> and <span class="w3-tooltip w3-border-bottom w3-border-blue-grey">3<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"></span></span>).<sup id="ftn517" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn517-modal').style.display='block'">517</sup>
+                           implementation of this weighting scheme (see formulas <a href="#formula2">2</a> and <a href="#formula3">3</a>).<sup id="ftn517" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn517-modal').style.display='block'">517</sup>
                            
-                           <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                           <span style="display: block; margin: 20px 0 20px 0;" id="formula2"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                                  
                                  <mrow>
                                     
@@ -4326,7 +4326,7 @@
                            
                            
                            
-                           <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                           <span style="display: block; margin: 20px 0 20px 0;" id="formula3"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                                  
                                  <mrow>
                                     
@@ -4411,9 +4411,9 @@
                            are above the mean, zero values for scores that are equal to the mean, and
                            negative values for scores that are below the mean. The population values
                            are calculated by determining the standard deviation and mean for each
-                           feature in the corpus (see <span class="w3-tooltip w3-border-bottom w3-border-blue-grey">formula
-                              4<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"></span></span>). 
-                           <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                           feature in the corpus (see <a href="#formula4">formula
+                              4</a>). 
+                           <span style="display: block; margin: 20px 0 20px 0;" id="formula4"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                                  
                                  <mrow>
                                     
@@ -4628,7 +4628,7 @@
                            normalization strategies reduce the variance of the feature values. For
                            absolute values, the variances range between 6 and 2,976, for tf-scores
                            between 0.001 and 0.150, for tf-idf-scores between 0.0006 and 0.0581, and
-                           for z-scores between 0.999999999999998 and 1.000000000000003, so the
+                           for z-scores between 0.999999999999998 and 1.000000000000002, so the
                            absolute values of variance are smallest for the tf- and tf-idf-scores, but
                            the range of variance is smallest for the z-scores.<sup id="ftn527" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn527-modal').style.display='block'">527</sup> In addition, the
                            distribution of the variances changes from a right-skewed distribution for
@@ -5742,16 +5742,16 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            stylistic intentions can have an influence on the thematic unfolding, or,
                            looked at from another perspective, that the exact thematic unfolding can be
                            interpreted as an intended or unintended stylistic effect. The distribution
-                           of topics<sub>TM</sub> in the documentsOut of a topic model
-                           could be interpreted as the result of thematic unfolding. On the level of
-                           the corpus<sub>Out</sub>, the specific set of topics<sub>TM</sub> can be understood as resulting from the thematic
-                           unfolding across all documents in the text collection. The thematic
-                           unfolding itself, as defined by the combination of relational and
-                           logical-semantical categories, though, is located on a more abstract level,
-                           which is intermediate between the topics<sub>TM</sub> and the
-                           theme of the text. Brinker, Cölfen, and Pappert point out that the theme or
-                           central topic of the text is the shortest possible summary of the textual
-                           content and that only a reader’s interpretation can achieve this reduction: 
+                           of topics<sub>TM</sub> in the documents<sub>Out</sub> of a topic model could be interpreted as the result of thematic
+                           unfolding. On the level of the corpus<sub>Out</sub>, the
+                           specific set of topics<sub>TM</sub> can be understood as
+                           resulting from the thematic unfolding across all documents in the text
+                           collection. The thematic unfolding itself, as defined by the combination of
+                           relational and logical-semantical categories, though, is located on a more
+                           abstract level, which is intermediate between the topics<sub>TM</sub> and the theme of the text. Brinker, Cölfen, and Pappert point
+                           out that the theme or central topic of the text is the shortest possible
+                           summary of the textual content and that only a reader’s interpretation can
+                           achieve this reduction: 
                            <blockquote>
                               Man muss sich überhaupt darüber im Klaren sein, dass die
                               textanalytische Bestimmung des Themas primär auf interpretativen
@@ -7441,9 +7441,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               “ojos-años-manos”, and “ojos-hija-años” need a closer look. In the first
                               one, which is visualized in <a href="#fig55">figure
                                  55</a>, the word “do” sticks out because it is not a regular Spanish
-                              word.<sup id="ftn585" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn585-modal').style.display='block'">585</sup> The novels in which this topic has the
-                              highest probability were checked, and the “do” is a spelling error
-                              (instead of “de”) that remained unnoticed in some of these novels.<sup id="ftn586" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn586-modal').style.display='block'">586</sup> Moreover, the other top words of this topic
+                              word. The novels in which this topic has the highest probability were
+                              checked, and the “do” is a spelling error (instead of “de”) that remained
+                              unnoticed in some of these novels.<sup id="ftn585" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn585-modal').style.display='block'">585</sup> Moreover, the other top words of this topic
                               suggest that it can be interpreted as being about outward appearances and
                               physical encounters because it contains words referring to people
                               (“muchacho”, “hijas”, “mujeres”, “viejita”, “virgen”), body parts
@@ -7459,7 +7459,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               nature, body, and time. The second one is about looking, also talking,
                               mainly female persons, and emotions. In the first case, the word “años”
                               probably refers to time, and in the second case, it may refer to
-                              age.<sup id="ftn587" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn587-modal').style.display='block'">587</sup> Summing up the findings
+                              age.<sup id="ftn586" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn586-modal').style.display='block'">586</sup> Summing up the findings
                               about the topics that are most important for the classifier to
                               distinguish historical from sentimental novels, it can be stated that
                               most topics can be interpreted easily from the top words and some by
@@ -7590,7 +7590,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               there are more top topics for the positive class than for the other
                               group, which shows that the classifier focuses on the aspects that are
                               specific for the individual subgenre that is compared to the big group of
-                              novels with many different subgenres, which makes complete sense.<sup id="ftn588" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn588-modal').style.display='block'">588</sup></p>
+                              novels with many different subgenres, which makes complete sense.<sup id="ftn587" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn587-modal').style.display='block'">587</sup></p>
                            
                            <p id="p697"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p697">697</a></span>Besides the feature importances, also the cases of correct
                               and false classifications of individual novels were analyzed for each
@@ -7612,7 +7612,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               often than others. The relative numbers of correct classifications and
                               misclassifications can still be used to examine how prototypical the
                               novels are for the subgenres. The chart for <em>novela histórica</em>
-                              versus other novels is given in <a href="#fig59">figure 59</a>.<sup id="ftn589" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn589-modal').style.display='block'">589</sup>
+                              versus other novels is given in <a href="#fig59">figure 59</a>.<sup id="ftn588" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn588-modal').style.display='block'">588</sup>
                               
                               <figure class="w3-btn" id="fig59" onclick="document.getElementById('fig59-modal').style.display='block'">
                                  <img src="fig/fig59.png" class="w3-border w3-padding w3-image" alt="Predictions for novela histórica versus other&#xA;                                 novels (topics)." style="width: 870px;">
@@ -7648,7 +7648,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               among literary historians to classify them as historical novels. As an
                               example of such prototypical historical novels, the probabilities of the
                               topics that are most distinctive for historical versus other novels are
-                              visualized for the novel “La cruz y la espada” in <a href="#fig60">figure 60</a>.<sup id="ftn590" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn590-modal').style.display='block'">590</sup>
+                              visualized for the novel “La cruz y la espada” in <a href="#fig60">figure 60</a>.<sup id="ftn589" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn589-modal').style.display='block'">589</sup>
                               
                               <figure class="w3-btn" id="fig60" onclick="document.getElementById('fig60-modal').style.display='block'">
                                  <img src="fig/fig60.png" class="w3-border w3-padding w3-image" alt="Top topics for novela histórica versus other novels&#xA;                                 in the novel “La cruz y la espada”." style="width: 870px;">
@@ -7763,7 +7763,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                                  novel.
                                  (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">Brushwood 1966,
                                     116<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Brushwood, John S. 1966. <em>Mexico in its Novel. A
-                                          Nation’s Search for Identity.</em> Austin: University of Texas Press.</span></span>)<sup id="ftn591" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn591-modal').style.display='block'">591</sup>
+                                          Nation’s Search for Identity.</em> Austin: University of Texas Press.</span></span>)<sup id="ftn590" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn590-modal').style.display='block'">590</sup>
                                  </blockquote>
                               </p>
                            
@@ -7898,7 +7898,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               sentimental novels when compared to others, but the other two topics,
                               “año-sociedad-idea” and “cuerpo-amor-ocasión”, are neither distinctive
                               for historical nor for sentimental novels, and also not for the novels of
-                              customs,<sup id="ftn592" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn592-modal').style.display='block'">592</sup> but for other subgenres. As the novel was published in
+                              customs,<sup id="ftn591" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn591-modal').style.display='block'">591</sup> but for other subgenres. As the novel was published in
                               1893, it is possible that it includes elements that are typical for the
                               realist or naturalist novel. The topic “año-sociedad-idea” points in the
                               first direction and “cuerpo-amor-ocasión” in the second one. 
@@ -7924,7 +7924,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               relates Bacardí Moreau’s style to the ones of Alexandre Dumas and Walter
                               Scott (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">Remos y Rubio
                                  1935, 42–43<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Remos y Rubio, Juan J. 1935. <em>Tendencias de la
-                                       narración imaginativa en Cuba.</em> La Habana: Casa Montalvo-Cárdenas. <a href="https://dloc.com/UF00078289/00001/images">https://dloc.com/UF00078289/00001/images</a>.</span></span>).<sup id="ftn593" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn593-modal').style.display='block'">593</sup> However, Remos y Rubio also
+                                       narración imaginativa en Cuba.</em> La Habana: Casa Montalvo-Cárdenas. <a href="https://dloc.com/UF00078289/00001/images">https://dloc.com/UF00078289/00001/images</a>.</span></span>).<sup id="ftn592" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn592-modal').style.display='block'">592</sup> However, Remos y Rubio also
                               remarks that the novel “Vía Crucis” contains accomplished
                               <em>costumbrista</em> passages: “Por el alto valor costumbrista
                               que hay en ella, por lo admirable de las descripciones locales, como
@@ -8108,15 +8108,15 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               cases, or in part. All constellations are possible on the way from a
                               prototypical core to the edge of a textual genre, but some are more
                               frequent than others, depending on the kind of subgenre that is
-                              analyzed.<sup id="ftn594" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn594-modal').style.display='block'">594</sup></p>
+                              analyzed.<sup id="ftn593" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn593-modal').style.display='block'">593</sup></p>
                            
                            <p id="p713"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p713">713</a></span>In what follows, the classification results for the
                               MFW-based features are presented. These features consist of three main
                               groups: words, word n-grams, and character n-grams. The results for each
                               group are reported separately. In total, 18,000 classification runs were
                               considered for basic MFW, 54,000 for word n-grams, and 162,000 for
-                              character n-grams.<sup id="ftn595" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn595-modal').style.display='block'">595</sup>
-                              The results for the MFW-based features are summarized in <a href="#tab38">table 38</a>.<sup id="ftn596" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn596-modal').style.display='block'">596</sup>
+                              character n-grams.<sup id="ftn594" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn594-modal').style.display='block'">594</sup>
+                              The results for the MFW-based features are summarized in <a href="#tab38">table 38</a>.<sup id="ftn595" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn595-modal').style.display='block'">595</sup>
                               
                               <div class="w3-responsive">
                                  <table id="tab38" class="w3-table w3-border w3-bordered" style="text-align: left;">
@@ -8372,7 +8372,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               the classification results for primary thematic subgenres with MFW-based
                               features further. <a href="#fig68">Figure
                                  68</a>&nbsp;displays the classification results for different numbers of MFW
-                              and tf-idf versus z-scores.<sup id="ftn597" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn597-modal').style.display='block'">597</sup>
+                              and tf-idf versus z-scores.<sup id="ftn596" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn596-modal').style.display='block'">596</sup>
                               
                               <figure class="w3-btn" id="fig68" onclick="document.getElementById('fig68-modal').style.display='block'">
                                  <img src="fig/fig68.png" class="w3-border w3-padding w3-image" alt="Classification results for MFW feature sets (RF, varying number&#xA;                                 of MFW and normalization technique)." style="width: 870px;">
@@ -8389,10 +8389,10 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               onwards. As was shown in the chapter on the MFW-based features, in the
                               range of 1,000 MFW, there are already verbs, adjectives, adverbs, and
                               nouns, so it can be concluded that these content words are essential for
-                              the classification by thematic subgenre.<sup id="ftn598" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn598-modal').style.display='block'">598</sup> As to the difference between tf-idf and
+                              the classification by thematic subgenre.<sup id="ftn597" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn597-modal').style.display='block'">597</sup> As to the difference between tf-idf and
                               z-scores, the former are better up to 3,000 MFW and the latter from 4,000
                               MFW onwards. When one rounds to two decimal places, the top mean
-                              accuracies of 0.81 are reached with tf-idf and 3,000 or 2,000 MFW.<sup id="ftn599" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn599-modal').style.display='block'">599</sup>
+                              accuracies of 0.81 are reached with tf-idf and 3,000 or 2,000 MFW.<sup id="ftn598" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn598-modal').style.display='block'">598</sup>
                               Because of the above results, tf-idf and 3,000 MFW are chosen to analyze
                               the classification results further. Next, word n-gram features are
                               examined. The classification results relying on these feature sets are
@@ -8425,7 +8425,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               are the character n-grams. Here, different parameter constellations for
                               three n-gram subtypes are evaluated. The first subtype are the &nbsp;“classic”
                               character n-grams containing all characters, punctuation marks, and blank
-                              spaces. The classification results for these are summarized in <a href="#fig70">figure 70</a>.<sup id="ftn600" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn600-modal').style.display='block'">600</sup>
+                              spaces. The classification results for these are summarized in <a href="#fig70">figure 70</a>.<sup id="ftn599" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn599-modal').style.display='block'">599</sup>
                               
                               <figure class="w3-btn" id="fig70" onclick="document.getElementById('fig70-modal').style.display='block'">
                                  <img src="fig/fig70.png" class="w3-border w3-padding w3-image" alt="Classification results for classic character n-gram feature sets&#xA;                                 (RF, varying number of MFW, grams, and normalization&#xA;                                 technique)." style="width: 870px;">
@@ -8440,11 +8440,11 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            <p id="p718"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p718">718</a></span>With character n-grams, the best mean accuracy is achieved
                               with the combination of tf-idf, 3-gram characters, and 4,000 MFW,
                               reaching 0.80. With values rounded to two decimal points, the same result
-                              is achieved with tf-idf, 4-gram characters, and 5,000 MFW.<sup id="ftn601" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn601-modal').style.display='block'">601</sup> Besides the classic n-gram features, also two special
+                              is achieved with tf-idf, 4-gram characters, and 5,000 MFW.<sup id="ftn600" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn600-modal').style.display='block'">600</sup> Besides the classic n-gram features, also two special
                               types of n-grams were created. The first of them only uses mid-word and
                               multi-word n-grams and is called “word n-grams” and the second type only
                               uses prefix n-grams as well as n-grams ending with punctuation marks and
-                              is called “affix-punct”.<sup id="ftn602" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn602-modal').style.display='block'">602</sup> In the
+                              is called “affix-punct”.<sup id="ftn601" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn601-modal').style.display='block'">601</sup> In the
                               following, it is checked if they have advantages over the classic
                               n-grams. <a href="#fig71">Figure 71</a> visualizes
                               the results for the “word” character n-grams. 
@@ -8497,7 +8497,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               standard MFW features are chosen here to inspect the classification
                               results for the different subgenre constellations, with 3,000 MFW and
                               tf-idf. The results for this combination, using the RF classifier, are
-                              given in <a href="#tab39">table 39</a>&nbsp;below.<sup id="ftn603" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn603-modal').style.display='block'">603</sup>
+                              given in <a href="#tab39">table 39</a>&nbsp;below.<sup id="ftn602" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn602-modal').style.display='block'">602</sup>
                               
                               <div class="w3-responsive">
                                  <table id="tab39" class="w3-table w3-border w3-bordered" style="text-align: left;">
@@ -8717,9 +8717,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               literary currents because they are not primarily thematically defined,
                               even if ranges of different topics are also characteristic for them. For
                               the literary currents, style in a narrower sense is assumed to play a
-                              more important role.<sup id="ftn604" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn604-modal').style.display='block'">604</sup>
+                              more important role.<sup id="ftn603" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn603-modal').style.display='block'">603</sup>
                               <a href="#fig73">Figure 73</a>&nbsp;shows the
-                              distribution of primary literary currents in the corpus.<sup id="ftn605" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn605-modal').style.display='block'">605</sup>
+                              distribution of primary literary currents in the corpus.<sup id="ftn604" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn604-modal').style.display='block'">604</sup>
                               
                               <figure class="w3-btn" id="fig73" onclick="document.getElementById('fig73-modal').style.display='block'">
                                  <img src="fig/fig73.png" class="w3-border w3-padding w3-image" alt="Primary literary currents in the corpus." style="width: 870px;">
@@ -8730,7 +8730,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               </p>
                            
                            <p id="p725"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p725">725</a></span>Of the 256 novels, there are 55 for which the primary
-                              literary current is unknown.<sup id="ftn606" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn606-modal').style.display='block'">606</sup> Romantic novels are most
+                              literary current is unknown.<sup id="ftn605" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn605-modal').style.display='block'">605</sup> Romantic novels are most
                               frequent with 116 instances, followed by 45 naturalistic, 35 realist, and
                               5 modernist novels. The following subgenre constellations are selected
                               for the classification of primary literary currents: 
@@ -8762,7 +8762,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               literary current with topic features are shown in <a href="#tab40">table 40</a>. The results are based on 144,000
                               classification runs for each classifier, including all parameter
                               variations, repetitions of data selection, and cross-validation
-                              steps.<sup id="ftn607" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn607-modal').style.display='block'">607</sup>
+                              steps.<sup id="ftn606" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn606-modal').style.display='block'">606</sup>
                               
                               <div class="w3-responsive">
                                  <table id="tab40" class="w3-table w3-border w3-bordered" style="text-align: left;">
@@ -8879,7 +8879,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            <p id="p728"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p728">728</a></span>The range of the mean accuracies goes from 0.83 to 0.86, so
                               the differences are small between the different parameter constellations.
                               The top mean accuracies are reached with 70 topics and an optimization
-                              interval of 1,000 and with 90 topics and an interval of 2,500.<sup id="ftn608" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn608-modal').style.display='block'">608</sup> Regarding the developments of different optimization
+                              interval of 1,000 and with 90 topics and an interval of 2,500.<sup id="ftn607" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn607-modal').style.display='block'">607</sup> Regarding the developments of different optimization
                               intervals with an increasing number of topics, the curves for intervals
                               of 50, 100, and 250 first fluctuate and then rise from 80 topics onwards.
                               Intervals of 500 and 5,000 have downward trends, the curves of 1,000 and
@@ -9435,7 +9435,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            <p id="p736"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p736">736</a></span>In <a href="#tab43">table 43</a>, the
                               classification results for the different constellations of literary
                               currents are given, based on the SVM classifier, 3,000 MFW, and tf-idf
-                              values.<sup id="ftn609" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn609-modal').style.display='block'">609</sup>
+                              values.<sup id="ftn608" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn608-modal').style.display='block'">608</sup>
                               
                               <div class="w3-responsive">
                                  <table id="tab43" class="w3-table w3-border w3-bordered" style="text-align: left;">
@@ -9615,7 +9615,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               addition, its status as a (thematic) subgenre versus a literary current
                               or movement has been discussed, for example, by Schlickers, who confirms
                               that the naturalistic novel was a concept that was consciously applied
-                              and communicated by contemporary writers in the nineteenth century.<sup id="ftn610" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn610-modal').style.display='block'">610</sup></p>
+                              and communicated by contemporary writers in the nineteenth century.<sup id="ftn609" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn609-modal').style.display='block'">609</sup></p>
                            
                            <p id="p738"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p738">738</a></span>To get an insight into the kind of MFW features that are
                               relevant for the classification by literary current, the two contrasts of
@@ -9831,13 +9831,13 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            
                            <p id="p745"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p745">745</a></span>To create the network for the family resemblance analysis,
                               first, the similarities between all the individual novels were calculated
-                              for the chosen feature set using cosine similarity.<sup id="ftn611" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn611-modal').style.display='block'">611</sup> After that, the resulting textual similarities
+                              for the chosen feature set using cosine similarity.<sup id="ftn610" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn610-modal').style.display='block'">610</sup> After that, the resulting textual similarities
                               were mapped onto a network structure. The novels themselves constitute
                               the nodes in the network. The network relationships (or edges) were
                               determined using the three nearest neighbors of each text, which were
                               selected from a ranking of the text similarities. The strength (or
                               weight) of the edges was calculated by summing up the similarity values
-                              of the neighbors.<sup id="ftn612" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn612-modal').style.display='block'">612</sup></p>
+                              of the neighbors.<sup id="ftn611" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn611-modal').style.display='block'">611</sup></p>
                            
                            <p id="p746"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p746">746</a></span>In the overall similarity matrix, there are relationships
                               between all the texts. Reducing the number of connections for the network
@@ -9857,8 +9857,8 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            <p id="p747"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p747">747</a></span>In addition to the creation of the basic network structure,
                               community detection was used to explore the <em>families</em> of
                               novels in the network. Communities are sets of nodes in a network that
-                              are more densely connected to each other than to nodes outside.<sup id="ftn613" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn613-modal').style.display='block'">613</sup> Different algorithms for the detection of
-                              network communities exist.<sup id="ftn614" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn614-modal').style.display='block'">614</sup>
+                              are more densely connected to each other than to nodes outside.<sup id="ftn612" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn612-modal').style.display='block'">612</sup> Different algorithms for the detection of
+                              network communities exist.<sup id="ftn613" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn613-modal').style.display='block'">613</sup>
                               Here, the Louvain modularity algorithm was used. It is based on
                               modularity optimization, which means that possible divisions of the
                               network are checked and optimized to reach high modularity so that the
@@ -9874,7 +9874,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               these similarities (or distances) are interpreted in terms of network
                               links. Furthermore, the algorithm is also comparatively efficient and has
                               been implemented in Python, which is used to create and visualize the
-                              network here.<sup id="ftn615" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn615-modal').style.display='block'">615</sup></p>
+                              network here.<sup id="ftn614" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn614-modal').style.display='block'">614</sup></p>
                            
                            <p id="p748"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p748">748</a></span>Reflecting on how the concept of family resemblance is
                               formulated by Wittgenstein and in literary genre theory and how it is
@@ -9883,7 +9883,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               means that not the presence or absence of a trait or a set of traits
                               determines the connection between members of a family and the difference
                               to other families, but the numerical strengths of the features in
-                              combination and this only between pairs of individual novels.<sup id="ftn616" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn616-modal').style.display='block'">616</sup> The similarities of the various
+                              combination and this only between pairs of individual novels.<sup id="ftn615" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn615-modal').style.display='block'">615</sup> The similarities of the various
                               pairs are summed up and interpreted in terms of neighbor rankings to
                               build the families. This transfers the idea of partial and overlapping
                               similarities to a quantitative approach because nearest neighborship
@@ -9902,7 +9902,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               group of dense relationships and another, they cut off the family at a
                               certain point but they do not lever out the basic idea of family
                               resemblance, because the links to other families and family members in
-                              the network can still be explored.<sup id="ftn617" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn617-modal').style.display='block'">617</sup></p>
+                              the network can still be explored.<sup id="ftn616" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn616-modal').style.display='block'">616</sup></p>
                            </div>
                         
                         <div id="ch4.2.2.2.2">
@@ -9920,7 +9920,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               included. There are nine authors with both a historical and a sentimental
                               novel in the subcorpus. <a href="#fig85">Figure
                                  85</a> &nbsp;shows the distribution of the novels by decade and
-                              subgenre.<sup id="ftn618" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn618-modal').style.display='block'">618</sup>
+                              subgenre.<sup id="ftn617" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn617-modal').style.display='block'">617</sup>
                               
                               <figure class="w3-btn" id="fig85" onclick="document.getElementById('fig85-modal').style.display='block'">
                                  <img src="fig/fig85.png" class="w3-border w3-padding w3-image" alt="Subcorpus for the family resemblance analysis." style="width: 870px;">
@@ -9937,7 +9937,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               the goal of having more stable topics that represent the novel of the
                               time in a better way than if they had been based on the smaller
                               subcorpus. For the network analysis, only the features for the novels in
-                              the subcorpus are used.<sup id="ftn619" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn619-modal').style.display='block'">619</sup>
+                              the subcorpus are used.<sup id="ftn618" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn618-modal').style.display='block'">618</sup>
                               
                               <figure class="w3-btn" id="fig86" onclick="document.getElementById('fig86-modal').style.display='block'">
                                  <img src="fig/fig86.png" class="w3-border w3-padding w3-image" alt="Examples of topics for the family resemblance analysis." style="width: 870px;">
@@ -9969,7 +9969,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            
                            <p id="p753"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p753">753</a></span>With the approach outlined in the previous section, three
                               kinds of networks were produced, two for the individual subgenres and one
-                              for the two subgenres combined, as shown in <a href="#tab44">table 44</a>.<sup id="ftn620" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn620-modal').style.display='block'">620</sup>
+                              for the two subgenres combined, as shown in <a href="#tab44">table 44</a>.<sup id="ftn619" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn619-modal').style.display='block'">619</sup>
                               
                               <div class="w3-responsive">
                                  <table id="tab44" class="w3-table w3-border w3-bordered" style="text-align: left;">
@@ -10032,7 +10032,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               doubles when the two subgenres are combined, the number of resulting
                               clusters does not grow proportionally, indicating that there is an
                               overlap between the subgenres. The discussion of the results focuses on
-                              the historical novels.<sup id="ftn621" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn621-modal').style.display='block'">621</sup>
+                              the historical novels.<sup id="ftn620" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn620-modal').style.display='block'">620</sup>
                               <a href="#fig87">Figure 87</a>&nbsp;shows the first
                               network for historical novels and topics (HIST-topics). The communities
                               detected are indicated by the different colors of the nodes. 
@@ -10231,7 +10231,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               topics are decisive for the relationships in this cluster of historical
                               novels. The axis on the top shows the absolute value that the topic
                               achieved in each novel, and the axis to the left shows the individual 100
-                              topics.<sup id="ftn622" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn622-modal').style.display='block'">622</sup> In
+                              topics.<sup id="ftn621" class="w3-btn w3-theme-l3 w3-circle" onclick="document.getElementById('ftn621-modal').style.display='block'">621</sup> In
                               addition to the lines for the five novels in the cluster, a black dashed
                               line indicating the mean topic values for all the historical novels in
                               the network is added. The topics are ordered by importance in the whole
@@ -10271,8 +10271,8 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            <p id="p759"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p759">759</a></span>A more general overview of the topics that are distinctive
                               for the different clusters in the network of historical novels is given
                               in <a href="#fig91">figure 91</a>. In the heatmap,
-                              the yellower the boxes, the more important the topics are for the
-                              cluster, and the bluer, the lesser important they are. The
+                              the brighter the boxes, the more important the topics are for the
+                              cluster, and the darker, the lesser important they are. The
                               distinctiveness was calculated by normalizing the topic values to
                               z-scores. Here, only the top 30 most distinctive topics are shown. The
                               values in parentheses at the end of the topic labels indicate the ranks
@@ -10316,7 +10316,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            <p id="p761"><span class="paracount w3-blue-grey w3-margin-right"><a href="#p761">761</a></span>The results for the network of sentimental novels and the
                               one containing both types of subgenres are only summarized briefly here.
                               Regarding the metadata, the cluster sizes vary more for the sentimental
-                              novels.The biggest cluster has 14 novels, and the smallest one has only
+                              novels. The biggest cluster has 14 novels, and the smallest one has only
                               two. All the clusters are mixed by country. Among the sentimental novels,
                               there are more with an autodiegetic and a homodiegetic narrator, and the
                               narrative perspective has an influence on the results. The smallest
@@ -11985,7 +11985,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn522-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The special subtypes of character n-gram
                      units were created with a Python approach designed specifically for this
-                     purpose (see the link to the script in <span class="w3-tooltip w3-border-bottom w3-border-blue-grey">footnote 518<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"></span></span>) because the CountVectorizer only
+                     purpose (see the link to the script in <a href="#ftn518">footnote 518</a>) because the CountVectorizer only
                      supports the general character n-grams that include all types of
                      characters.</div>
                </div>
@@ -12018,7 +12018,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                   <div class="w3-container w3-padding-large">This chart only shows
                      the feature sets based on single words. Charts displaying the proportions
                      of zero values in the feature sets based on other token units (word
-                     ngrams and character ngrams) are available on GitHub. See <span class="w3-tooltip w3-border-bottom w3-border-blue-grey">footnote 523<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"></span></span> above.</div>
+                     ngrams and character ngrams) are available on GitHub. See <a href="#ftn523">footnote 523</a> above.</div>
                </div>
             </div>
             <div id="ftn526-modal" class="w3-modal">
@@ -12201,7 +12201,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
             <div id="ftn540-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn540-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">See <span class="w3-tooltip w3-border-bottom w3-border-blue-grey">footnote 536<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"></span></span> above for information about the underlying topic
+                  <div class="w3-container w3-padding-large">See <a href="#ftn536">footnote 536</a> above for information about the underlying topic
                      model. In the table, the topic probability values are rounded.</div>
                </div>
             </div>
@@ -12751,33 +12751,27 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
             <div id="ftn585-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn585-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">The word “do” does not appear in the word
-                     cloud of the topic.</div>
-               </div>
-            </div>
-            <div id="ftn586-modal" class="w3-modal">
-               <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn586-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">In the novel “Alma de niña” (nh0082), for instance, it
-                     occurs 58 times, and in the novel “Auras de Abril” (nh0233), 20 times.
-                     The spell-checking result files for these novels show that the
-                     spell-checker did not recognize this word as an error. See <a href="https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0082.csv">https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0082.csv</a>
+                  <div class="w3-container w3-padding-large">In the novel
+                     “Alma de niña” (nh0082), for instance, it occurs 58 times, and in the
+                     novel “Auras de Abril” (nh0233), 20 times. The spell-checking result
+                     files for these novels show that the spell-checker did not recognize
+                     this word as an error. See <a href="https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0082.csv">https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0082.csv</a>
                      and <a href="https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0233.csv">https://github.com/cligs/conha19/blob/main/spellcheck/results/spellcheck_nh0233.csv</a>.
                      A plot showing the top 20 novels for this topic is available at <a href="https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/topItems/idno/tI_by-idno-028.png">https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/topItems/idno/tI_by-idno-028.png</a>.
                      A January 7, 2021.</div>
                </div>
             </div>
-            <div id="ftn587-modal" class="w3-modal">
+            <div id="ftn586-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn587-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn586-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">See the word clouds at <a href="https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/wordles/wordle_tp089.png">https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/wordles/wordle_tp089.png</a>
                      and <a href="https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/wordles/wordle_tp035.png">https://github.com/cligs/data-nh/blob/main/analysis/features/topics/5_visuals/90tp-5000it-250in-0/wordles/wordle_tp035.png</a>,
                      respectively. Accessed January 7, 2020.</div>
                </div>
             </div>
-            <div id="ftn588-modal" class="w3-modal">
+            <div id="ftn587-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn588-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn587-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The three plots with the feature importances for
                      <em>novela histórica</em> versus other novels, for <em>novela
                         sentimental</em> versus other novels, and for <em>novela de
@@ -12790,9 +12784,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      respectively. Accessed January 7, 2020.</div>
                </div>
             </div>
-            <div id="ftn589-modal" class="w3-modal">
+            <div id="ftn588-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn589-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn588-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The charts about the
                      classification results for individual novels are available in the
                      “visuals” folder in the data-nh GitHub repository (see the previous
@@ -12801,9 +12795,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      Accessed January 7, 2020.</div>
                </div>
             </div>
-            <div id="ftn590-modal" class="w3-modal">
+            <div id="ftn589-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn590-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn589-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The
                      probabilities are used in the form they have after the MinMax scaling,
                      which sets the range of the individual features to [0,1]. This form is
@@ -12811,32 +12805,32 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      by the classifier.</div>
                </div>
             </div>
-            <div id="ftn591-modal" class="w3-modal">
+            <div id="ftn590-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn591-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn590-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The publication date in the
                      corpus differs from the one mentioned by Brushwood because it
                      refers to the year of the first book publication.</div>
                </div>
             </div>
-            <div id="ftn592-modal" class="w3-modal">
+            <div id="ftn591-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn592-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn591-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">At least when compared to the “other”
                      group.</div>
                </div>
             </div>
-            <div id="ftn593-modal" class="w3-modal">
+            <div id="ftn592-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn593-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn592-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">Remos y Rubio mentions 1914
                      as the publication date, but he refers to the second part of the novel
                      (or the novel with both parts).</div>
                </div>
             </div>
-            <div id="ftn594-modal" class="w3-modal">
+            <div id="ftn593-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn594-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn593-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">Here only the plots for the contrast of
                      individual subgenres with the “other” group were shown. Another
                      possibility is to analyze the direct subgenre comparisons to
@@ -12844,9 +12838,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      of prototypicality.</div>
                </div>
             </div>
-            <div id="ftn595-modal" class="w3-modal">
+            <div id="ftn594-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn595-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn594-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The different numbers of runs are
                      due to the different amounts of parameter constellations for each
                      feature type. For basic MFW, there is just one token unit (word); for
@@ -12855,16 +12849,16 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      and ten cross-validation runs per constellation are included.</div>
                </div>
             </div>
-            <div id="ftn596-modal" class="w3-modal">
+            <div id="ftn595-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn596-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn595-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The scores and standard deviations are rounded to two decimal
                      places.</div>
                </div>
             </div>
-            <div id="ftn597-modal" class="w3-modal">
+            <div id="ftn596-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn597-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn596-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The results for
                      tf-scores are not visible here because they are almost identical to
                      those for z-scores because the latter are based on the tf-scores, and
@@ -12872,16 +12866,16 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      classifier.</div>
                </div>
             </div>
-            <div id="ftn598-modal" class="w3-modal">
+            <div id="ftn597-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn598-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn597-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">See <a href="ch4.html#ch4.2.1.1">chapter
                         4.2.1.1</a>&nbsp;above.</div>
                </div>
             </div>
-            <div id="ftn599-modal" class="w3-modal">
+            <div id="ftn598-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn599-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn598-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">Hettinger et al. (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">2015<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"> Hettinger, Lena, Martin Becker, Isabella Reger,
                            Fotis Jannidis, and Andreas Hotho. 2015. “Genre Classification on German Novels.”
                            In <em>Proceedings of the 26th International Workshop on Database and Expert
@@ -12897,17 +12891,17 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      subgenres, independently of the language and classifier. </div>
                </div>
             </div>
-            <div id="ftn600-modal" class="w3-modal">
+            <div id="ftn599-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn600-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn599-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The default n-grams are provided by the CountVectorizer of
                      scikit-learn. See <a href="ch4.html#ch4.2.1.1">chapter
                         4.2.1.1</a>&nbsp; on the MFW-based features for details.</div>
                </div>
             </div>
-            <div id="ftn601-modal" class="w3-modal">
+            <div id="ftn600-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn601-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn600-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">Hettinger et al. (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">2015<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px"> Hettinger, Lena, Martin Becker, Isabella Reger,
                            Fotis Jannidis, and Andreas Hotho. 2015. “Genre Classification on German Novels.”
                            In <em>Proceedings of the 26th International Workshop on Database and Expert
@@ -12916,42 +12910,42 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      subgenre.</div>
                </div>
             </div>
+            <div id="ftn601-modal" class="w3-modal">
+               <div class="w3-modal-content w3-round w3-display-middle">
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn601-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <div class="w3-container w3-padding-large">See <a href="ch4.html#ch4.2.1.1">chapter 4.2.1.1</a>&nbsp;above, in which these
+                     special types of n-gram features are explained.</div>
+               </div>
+            </div>
             <div id="ftn602-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn602-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">See <a href="ch4.html#ch4.2.1.1">chapter 4.2.1.1</a>&nbsp;above, in which these
-                     special types of n-gram features are explained.</div>
+                  <div class="w3-container w3-padding-large">The scores and standard deviations are rounded to two
+                     decimal places.</div>
                </div>
             </div>
             <div id="ftn603-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn603-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">The scores and standard deviations are rounded to two
-                     decimal places.</div>
-               </div>
-            </div>
-            <div id="ftn604-modal" class="w3-modal">
-               <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn604-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">For an overview of the
                      characteristics of the romantic, realist, and naturalistic novels, see
                      <a href="ch2.html#ch2.3.2">chapter 2.3.2</a>.</div>
                </div>
             </div>
-            <div id="ftn605-modal" class="w3-modal">
+            <div id="ftn604-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn605-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn604-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">This overview was generated with the function
                      <code>plot_overview_literary_currents_primary()</code> in the
                      script <a href="https://github.com/cligs/scripts-nh/blob/master/analysis/classification.py">https://github.com/cligs/scripts-nh/blob/master/analysis/classification.py</a>.
-                     The resulting chart is available at <a href="https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.png">https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.png</a>.
+                     The resulting chart is available at <a href="https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.html">https://github.com/cligs/data-nh/blob/main/analysis/classification/literary-currents/visuals/overview-primary-currents-corp.html</a>.
                      Accessed October 29, 2020. For more extensive overviews of the novels
                      by primary literary current, see <a href="ch4.html#ch4.1.5.3.2">chapter 4.1.5.3.2</a>.</div>
                </div>
             </div>
-            <div id="ftn606-modal" class="w3-modal">
+            <div id="ftn605-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn606-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn605-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">A future task for the
                      literary currents is to use the classification models to determine the
                      labels of the novels for which no indication of literary current could
@@ -12959,31 +12953,31 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      via literary-historical publications.</div>
                </div>
             </div>
+            <div id="ftn606-modal" class="w3-modal">
+               <div class="w3-modal-content w3-round w3-display-middle">
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn606-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <div class="w3-container w3-padding-large">The scores and standard deviations in the
+                     table are rounded to two decimal places.</div>
+               </div>
+            </div>
             <div id="ftn607-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn607-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">The scores and standard deviations in the
-                     table are rounded to two decimal places.</div>
+                  <div class="w3-container w3-padding-large">Slight differences in the plot are due to the small
+                     range of the values. Here the scores are rounded to two decimal
+                     points.</div>
                </div>
             </div>
             <div id="ftn608-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn608-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">Slight differences in the plot are due to the small
-                     range of the values. Here the scores are rounded to two decimal
+                  <div class="w3-container w3-padding-large">The scores are rounded to two decimal
                      points.</div>
                </div>
             </div>
             <div id="ftn609-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn609-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
-                  <div class="w3-container w3-padding-large">The scores are rounded to two decimal
-                     points.</div>
-               </div>
-            </div>
-            <div id="ftn610-modal" class="w3-modal">
-               <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn610-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">In the corpus, the novels “¿Inocentes o culpables?”
                      (1884, AR) by Juan Antonio Argerich and “Los bandidos de Río Frío”
                      (1892, MX) by Manuel Payno carry the label “novela naturalista” in
@@ -12993,34 +12987,34 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            Madrid, Frankfurt: Iberoamericana/Vervuert.</span></span>).</div>
                </div>
             </div>
-            <div id="ftn611-modal" class="w3-modal">
+            <div id="ftn610-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn611-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn610-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">Cosine similarity measures the cosine of the angle between two text
                      vectors. See <a href="https://en.wikipedia.org/wiki/Cosine_similarity">https://en.wikipedia.org/wiki/Cosine_similarity</a>. Accessed
                      April 28, 2020.</div>
                </div>
             </div>
-            <div id="ftn612-modal" class="w3-modal">
+            <div id="ftn611-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn612-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn611-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">Because the closest neighborship
                      depends on the perspective, it was calculated for each node. If two
                      nodes are mutually closest, the strength of the edge
                      increases.</div>
                </div>
             </div>
-            <div id="ftn613-modal" class="w3-modal">
+            <div id="ftn612-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn613-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn612-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">For general information about community structures in
                      networks, see <a href="https://en.wikipedia.org/wiki/Community_structure">https://en.wikipedia.org/wiki/Community_structure</a>. Accessed
                      April 28, 2020.</div>
                </div>
             </div>
-            <div id="ftn614-modal" class="w3-modal">
+            <div id="ftn613-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn614-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn613-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">For a review of different
                      community detection algorithms for networks, see Javed et al. (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">2018<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Javed, Muhammad Aqib, Muhammad Shahzad Younis,
                            Siddique Latif, Junaid Qadir, and Adeel Baig. 2018. “Community detection in
@@ -13028,9 +13022,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                               Applications</em> 108: 87–111. <a href="https://doi.org/10.1016/j.jnca.2018.02.011">https://doi.org/10.1016/j.jnca.2018.02.011</a>.</span></span>).</div>
                </div>
             </div>
-            <div id="ftn615-modal" class="w3-modal">
+            <div id="ftn614-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn615-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn614-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">See <a href="https://github.com/taynaud/python-louvain">https://github.com/taynaud/python-louvain</a> for the Python
                      module implementing the Louvain community detection. Accessed April
                      28, 2020. The algorithm itself is presented in Blondel et al. (<span class="w3-tooltip w3-border-bottom w3-border-blue-grey">2008<span class="w3-text w3-tag w3-round w3-blue-grey w3-left-align w3-padding w3-large" style="position:absolute;left:0;bottom:25px">Blondel, Vincent D., Jean-Loup Guillaume, Renaud
@@ -13039,9 +13033,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                            10: 155–168. <a href="https://10.1088/1742-5468/2008/10/P10008">https://10.1088/1742-5468/2008/10/P10008</a>.</span></span>).</div>
                </div>
             </div>
-            <div id="ftn616-modal" class="w3-modal">
+            <div id="ftn615-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn616-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn615-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">Of course, zero values are also possible in the
                      feature matrices and could be interpreted as <em>absent</em>, but
                      it would not be proportionate to consider all values that are greater
@@ -13052,9 +13046,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      at which to set the threshold.</div>
                </div>
             </div>
-            <div id="ftn617-modal" class="w3-modal">
+            <div id="ftn616-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn617-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn616-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">From the many
                      decisions taken so far to formalize the family resemblance concept, it
                      becomes clear that variants of this approach are possible. For
@@ -13067,9 +13061,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      effects that such variation has on the results.</div>
                </div>
             </div>
-            <div id="ftn618-modal" class="w3-modal">
+            <div id="ftn617-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn618-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn617-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The metadata of the subcorpus used for
                      this analysis is available as “metadata.csv” in the folder
                      “corpus_metadata” at <a href="https://github.com/cligs/data-nh/tree/main/analysis/family-resemblance/">https://github.com/cligs/data-nh/tree/main/analysis/family-resemblance/</a>.
@@ -13079,9 +13073,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      Accessed January 8, 2021.</div>
                </div>
             </div>
-            <div id="ftn619-modal" class="w3-modal">
+            <div id="ftn618-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn619-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn618-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">This topic model was created
                      separately from the ones used for the classification in the previous
                      chapter because the work on the family resemblance network was done
@@ -13106,25 +13100,25 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                      footnote).</div>
                </div>
             </div>
-            <div id="ftn620-modal" class="w3-modal">
+            <div id="ftn619-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn620-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn619-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The script
                      calling the various functions of the network analysis for the
                      different setups is available at <a href="https://github.com/hennyu/papers/blob/master/family_resemblance_dsrom19/analysis/run_scripts.py">https://github.com/hennyu/papers/blob/master/family_resemblance_dsrom19/analysis/run_scripts.py</a>.
                      Accessed May 6, 2020.</div>
                </div>
             </div>
-            <div id="ftn621-modal" class="w3-modal">
+            <div id="ftn620-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn621-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn620-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">The overall results can be
                      inspected on GitHub, though.</div>
                </div>
             </div>
-            <div id="ftn622-modal" class="w3-modal">
+            <div id="ftn621-modal" class="w3-modal">
                <div class="w3-modal-content w3-round w3-display-middle">
-                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn622-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
+                  <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('ftn621-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Note</span></header>
                   <div class="w3-container w3-padding-large">In a strict sense, the topics are
                      categories and not numerical values and should be visualized as bars
                      rather than lines. The line plot was chosen here because it
@@ -13151,7 +13145,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('formula1-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Figure</span></header>
                   <div class="w3-container w3-padding-large">
                      <figure>
-                        <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                        <span style="display: block; margin: 20px 0 20px 0;" id="formula1"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                               
                               <mrow>
                                  
@@ -13253,7 +13247,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('formula2-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Figure</span></header>
                   <div class="w3-container w3-padding-large">
                      <figure>
-                        <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                        <span style="display: block; margin: 20px 0 20px 0;" id="formula2"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                               
                               <mrow>
                                  
@@ -13310,7 +13304,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('formula3-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Figure</span></header>
                   <div class="w3-container w3-padding-large">
                      <figure>
-                        <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                        <span style="display: block; margin: 20px 0 20px 0;" id="formula3"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                               
                               <mrow>
                                  
@@ -13395,7 +13389,7 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
                   <header class="w3-container w3-theme-d2 w3-padding"><span onclick="document.getElementById('formula4-modal').style.display='none'" class="w3-button w3-display-topright w3-padding">x</span><span class="w3-padding-small">Figure</span></header>
                   <div class="w3-container w3-padding-large">
                      <figure>
-                        <span style="display: block; margin: 20px 0 20px 0;"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
+                        <span style="display: block; margin: 20px 0 20px 0;" id="formula4"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll">
                               
                               <mrow>
                                  
@@ -14297,8 +14291,9 @@ Belgrano, en la ciudad de Buenos Aires.</code></pre>
          <footer id="myFooter">
             <div class="w3-container w3-theme-l2 w3-padding-32">
                <p>Henny-Krahmer, Ulrike. 2023. <em>Genre Analysis and Corpus Design.
-                     Nineteenth-Century Spanish-American Novels (1830–1910).</em> HTML version, v1.0.0.
-                  Schriften des Instituts für Dokumentologie und Editorik 17. Berlin: IDE.</p>
+                     Nineteenth-Century Spanish-American Novels (1830–1910).</em> HTML version, v1.0.1.
+                  Schriften des Instituts für Dokumentologie und Editorik 17. Berlin: IDE. 
+                  DOI: <a href="https://doi.org/10.5281/zenodo.8169081">10.5281/zenodo.8169081</a></p>
             </div>
             <div class="w3-container w3-theme-l1">
                <p><span style="display: inline-block; padding-right: 10px;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://ride.i-d-e.de/wp-content/uploads/cc-by.png" width="55"></a></span><a href="imprint.html">Publishing Policy, Imprint and Privacy</a></p>
